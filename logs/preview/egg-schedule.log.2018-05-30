@@ -1,0 +1,14 @@
+2018-05-30 08:43:39,454 INFO 10836 [Timer] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-05-31 00:00:00.000
+2018-05-30 08:43:39,455 INFO 10836 [Timer] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-05-31 00:00:01.000
+2018-05-30 17:36:55,832 INFO 14160 [Timer] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-05-31 00:00:00.000
+2018-05-30 17:36:55,832 INFO 14160 [Timer] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-05-31 00:00:01.000
+2018-05-31 00:00:00,897 INFO 14160 [152769600089733422158642090] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js triggered, send random by agent
+2018-05-31 00:00:00,901 INFO 14160 [Timer] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-01 00:00:00.000
+2018-05-31 00:00:00,898 INFO 13232 [152769600089733422158642090] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js task received by app
+2018-05-31 00:00:00,899 INFO 13232 [152769600089733422158642090] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2018-05-31 00:00:00,906 INFO 13232 [152769600089733422158642090] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 6ms
+2018-05-31 00:00:01,896 INFO 14160 [152769600189633423157213740] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js triggered, send random by agent
+2018-05-31 00:00:01,899 INFO 14160 [Timer] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-01 00:00:01.000
+2018-05-31 00:00:01,896 INFO 13232 [152769600189633423157213740] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js task received by app
+2018-05-31 00:00:01,896 INFO 13232 [152769600189633423157213740] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2018-05-31 00:00:01,909 INFO 13232 [152769600189633423157213740] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 13ms

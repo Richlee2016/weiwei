@@ -1,0 +1,456 @@
+2018-05-31 10:02:28,413 ERROR 4168 [-/127.0.0.1/-/29ms GET /] nodejs.Template render error: parseBlock: expected endblock, got end of file
+    at Object._prettifyError (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:35:11)
+    at Template.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:526:21)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:350:27
+    at createTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:311:11)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:323:9
+    at next (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:281:7)
+    at Object.asyncIter (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:287:3)
+    at NunjucksEnvironment.getTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:305:9)
+    at NunjucksEnvironment.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:344:10)
+    at Promise (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:13:25)
+    at Promise (<anonymous>)
+    at NunjucksView.render (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (E:\AAA2018\project\weiwei\node_modules\egg-view\lib\context_view.js:70:23)
+    at <anonymous>
+name: 'Template render error'
+pid: 4168
+hostname: DELL-PC
+
+2018-05-31 10:02:48,740 ERROR 4168 [-/127.0.0.1/-/4ms GET /] nodejs.Template render error: parseBlock: expected endblock, got end of file
+    at Object._prettifyError (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:35:11)
+    at Template.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:526:21)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:350:27
+    at createTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:311:11)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:323:9
+    at next (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:281:7)
+    at Object.asyncIter (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:287:3)
+    at NunjucksEnvironment.getTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:305:9)
+    at NunjucksEnvironment.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:344:10)
+    at Promise (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:13:25)
+    at Promise (<anonymous>)
+    at NunjucksView.render (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (E:\AAA2018\project\weiwei\node_modules\egg-view\lib\context_view.js:70:23)
+    at <anonymous>
+name: 'Template render error'
+pid: 4168
+hostname: DELL-PC
+
+2018-05-31 10:02:49,568 ERROR 4168 [-/127.0.0.1/-/6ms GET /] nodejs.Template render error: parseBlock: expected endblock, got end of file
+    at Object._prettifyError (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:35:11)
+    at Template.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:526:21)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:350:27
+    at createTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:311:11)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:323:9
+    at next (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:281:7)
+    at Object.asyncIter (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:287:3)
+    at NunjucksEnvironment.getTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:305:9)
+    at NunjucksEnvironment.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:344:10)
+    at Promise (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:13:25)
+    at Promise (<anonymous>)
+    at NunjucksView.render (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (E:\AAA2018\project\weiwei\node_modules\egg-view\lib\context_view.js:70:23)
+    at <anonymous>
+name: 'Template render error'
+pid: 4168
+hostname: DELL-PC
+
+2018-05-31 10:02:50,080 ERROR 4168 [-/127.0.0.1/-/5ms GET /] nodejs.Template render error: parseBlock: expected endblock, got end of file
+    at Object._prettifyError (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:35:11)
+    at Template.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:526:21)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:350:27
+    at createTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:311:11)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:323:9
+    at next (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:281:7)
+    at Object.asyncIter (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:287:3)
+    at NunjucksEnvironment.getTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:305:9)
+    at NunjucksEnvironment.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:344:10)
+    at Promise (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:13:25)
+    at Promise (<anonymous>)
+    at NunjucksView.render (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (E:\AAA2018\project\weiwei\node_modules\egg-view\lib\context_view.js:70:23)
+    at <anonymous>
+name: 'Template render error'
+pid: 4168
+hostname: DELL-PC
+
+2018-05-31 10:02:50,288 ERROR 4168 [-/127.0.0.1/-/3ms GET /] nodejs.Template render error: parseBlock: expected endblock, got end of file
+    at Object._prettifyError (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:35:11)
+    at Template.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:526:21)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:350:27
+    at createTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:311:11)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:323:9
+    at next (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:281:7)
+    at Object.asyncIter (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:287:3)
+    at NunjucksEnvironment.getTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:305:9)
+    at NunjucksEnvironment.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:344:10)
+    at Promise (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:13:25)
+    at Promise (<anonymous>)
+    at NunjucksView.render (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (E:\AAA2018\project\weiwei\node_modules\egg-view\lib\context_view.js:70:23)
+    at <anonymous>
+name: 'Template render error'
+pid: 4168
+hostname: DELL-PC
+
+2018-05-31 10:02:50,447 ERROR 4168 [-/127.0.0.1/-/2ms GET /] nodejs.Template render error: parseBlock: expected endblock, got end of file
+    at Object._prettifyError (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:35:11)
+    at Template.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:526:21)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:350:27
+    at createTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:311:11)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:323:9
+    at next (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:281:7)
+    at Object.asyncIter (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:287:3)
+    at NunjucksEnvironment.getTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:305:9)
+    at NunjucksEnvironment.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:344:10)
+    at Promise (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:13:25)
+    at Promise (<anonymous>)
+    at NunjucksView.render (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (E:\AAA2018\project\weiwei\node_modules\egg-view\lib\context_view.js:70:23)
+    at <anonymous>
+name: 'Template render error'
+pid: 4168
+hostname: DELL-PC
+
+2018-05-31 10:02:50,604 ERROR 4168 [-/127.0.0.1/-/1ms GET /] nodejs.Template render error: parseBlock: expected endblock, got end of file
+    at Object._prettifyError (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:35:11)
+    at Template.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:526:21)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:350:27
+    at createTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:311:11)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:323:9
+    at next (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:281:7)
+    at Object.asyncIter (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:287:3)
+    at NunjucksEnvironment.getTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:305:9)
+    at NunjucksEnvironment.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:344:10)
+    at Promise (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:13:25)
+    at Promise (<anonymous>)
+    at NunjucksView.render (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (E:\AAA2018\project\weiwei\node_modules\egg-view\lib\context_view.js:70:23)
+    at <anonymous>
+name: 'Template render error'
+pid: 4168
+hostname: DELL-PC
+
+2018-05-31 10:02:50,789 ERROR 4168 [-/127.0.0.1/-/3ms GET /] nodejs.Template render error: parseBlock: expected endblock, got end of file
+    at Object._prettifyError (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:35:11)
+    at Template.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:526:21)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:350:27
+    at createTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:311:11)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:323:9
+    at next (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:281:7)
+    at Object.asyncIter (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:287:3)
+    at NunjucksEnvironment.getTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:305:9)
+    at NunjucksEnvironment.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:344:10)
+    at Promise (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:13:25)
+    at Promise (<anonymous>)
+    at NunjucksView.render (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (E:\AAA2018\project\weiwei\node_modules\egg-view\lib\context_view.js:70:23)
+    at <anonymous>
+name: 'Template render error'
+pid: 4168
+hostname: DELL-PC
+
+2018-05-31 10:02:50,945 ERROR 4168 [-/127.0.0.1/-/1ms GET /] nodejs.Template render error: parseBlock: expected endblock, got end of file
+    at Object._prettifyError (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:35:11)
+    at Template.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:526:21)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:350:27
+    at createTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:311:11)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:323:9
+    at next (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:281:7)
+    at Object.asyncIter (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:287:3)
+    at NunjucksEnvironment.getTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:305:9)
+    at NunjucksEnvironment.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:344:10)
+    at Promise (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:13:25)
+    at Promise (<anonymous>)
+    at NunjucksView.render (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (E:\AAA2018\project\weiwei\node_modules\egg-view\lib\context_view.js:70:23)
+    at <anonymous>
+name: 'Template render error'
+pid: 4168
+hostname: DELL-PC
+
+2018-05-31 10:02:51,132 ERROR 4168 [-/127.0.0.1/-/3ms GET /] nodejs.Template render error: parseBlock: expected endblock, got end of file
+    at Object._prettifyError (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:35:11)
+    at Template.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:526:21)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:350:27
+    at createTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:311:11)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:323:9
+    at next (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:281:7)
+    at Object.asyncIter (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:287:3)
+    at NunjucksEnvironment.getTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:305:9)
+    at NunjucksEnvironment.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:344:10)
+    at Promise (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:13:25)
+    at Promise (<anonymous>)
+    at NunjucksView.render (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (E:\AAA2018\project\weiwei\node_modules\egg-view\lib\context_view.js:70:23)
+    at <anonymous>
+name: 'Template render error'
+pid: 4168
+hostname: DELL-PC
+
+2018-05-31 10:14:46,344 ERROR 10964 [-/127.0.0.1/-/7ms GET /list] nodejs.ReferenceError: fetchPage is not defined
+    at HomeController.list (E:\AAA2018\project\weiwei\app\controller\home.js:10:23)
+    at Object.callFn (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\AAA2018\project\weiwei\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:43:18)
+    at errorHandler (E:\AAA2018\project\weiwei\app\middleware\error_handler.js:4:13)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:43:18)
+
+pid: 10964
+hostname: DELL-PC
+
+2018-06-07 15:06:31,772 ERROR 6932 [egg-mongoose] mongodb://localhost:27017/weiwei disconnected
+2018-06-07 15:06:31,776 ERROR 6932 nodejs.MongoError: [egg-mongoose]failed to connect to server [localhost:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (E:\AAA2018\project\weiwei\node_modules\mongodb-core\lib\topologies\server.js:336:35)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (E:\AAA2018\project\weiwei\node_modules\mongodb-core\lib\connection\pool.js:280:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (E:\AAA2018\project\weiwei\node_modules\mongodb-core\lib\connection\connection.js:189:49)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [localhost:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 6932
+hostname: DELL-PC
+
+2018-06-07 16:02:11,067 ERROR 5944 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 5944
+hostname: DELL-PC
+
+2018-06-07 16:03:07,341 ERROR 7876 [-/127.0.0.1/-/24ms GET /list] nodejs.ReferenceError: res is not defined
+    at HomeService.fetchPage (E:\AAA2018\project\weiwei\app\service\home.js:68:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 7876
+hostname: DELL-PC
+
+2018-06-07 16:03:15,418 ERROR 10520 [-/127.0.0.1/-/21ms GET /list] nodejs.ReferenceError: res is not defined
+    at HomeService.fetchPage (E:\AAA2018\project\weiwei\app\service\home.js:68:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10520
+hostname: DELL-PC
+
+2018-06-07 16:31:49,314 ERROR 6220 [-/127.0.0.1/-/10ms GET /vod/1528359694766] nodejs.TypeError: Cannot match against 'undefined' or 'null'.
+    at HomeController.vod (E:\AAA2018\project\weiwei\app\controller\home.js:14:21)
+    at Object.callFn (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\AAA2018\project\weiwei\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:43:18)
+    at errorHandler (E:\AAA2018\project\weiwei\app\middleware\error_handler.js:4:13)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:43:18)
+
+pid: 6220
+hostname: DELL-PC
+
+2018-06-07 16:32:21,781 ERROR 12980 [-/127.0.0.1/-/7ms GET /vod/1528359694766] nodejs.TypeError: Cannot match against 'undefined' or 'null'.
+    at HomeController.vod (E:\AAA2018\project\weiwei\app\controller\home.js:14:21)
+    at Object.callFn (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\AAA2018\project\weiwei\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:43:18)
+    at errorHandler (E:\AAA2018\project\weiwei\app\middleware\error_handler.js:4:13)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:43:18)
+
+pid: 12980
+hostname: DELL-PC
+
+2018-06-07 16:32:57,406 ERROR 11912 [-/127.0.0.1/-/5ms GET /vod/1528359694766] nodejs.TypeError: Cannot match against 'undefined' or 'null'.
+    at HomeController.vod (E:\AAA2018\project\weiwei\app\controller\home.js:14:21)
+    at Object.callFn (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\AAA2018\project\weiwei\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:43:18)
+    at errorHandler (E:\AAA2018\project\weiwei\app\middleware\error_handler.js:4:13)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:43:18)
+
+pid: 11912
+hostname: DELL-PC
+
+2018-06-07 16:33:13,299 ERROR 4680 [-/127.0.0.1/-/7ms GET /vod/1528359694766] nodejs.TypeError: Cannot match against 'undefined' or 'null'.
+    at HomeController.vod (E:\AAA2018\project\weiwei\app\controller\home.js:14:21)
+    at Object.callFn (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\AAA2018\project\weiwei\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:43:18)
+    at errorHandler (E:\AAA2018\project\weiwei\app\middleware\error_handler.js:4:13)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:43:18)
+
+pid: 4680
+hostname: DELL-PC
+
+2018-06-07 16:35:45,098 ERROR 12584 [-/127.0.0.1/-/12ms GET /vod/1528359694766] nodejs.TypeError: Cannot match against 'undefined' or 'null'.
+    at HomeController.vod (E:\AAA2018\project\weiwei\app\controller\home.js:14:21)
+    at Object.callFn (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\AAA2018\project\weiwei\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:43:18)
+    at errorHandler (E:\AAA2018\project\weiwei\app\middleware\error_handler.js:4:13)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:43:18)
+
+pid: 12584
+hostname: DELL-PC
+
+2018-06-07 16:36:36,040 ERROR 11724 [-/127.0.0.1/-/6ms GET /vod/1528359694766] nodejs.TypeError: Cannot match against 'undefined' or 'null'.
+    at HomeController.vod (E:\AAA2018\project\weiwei\app\controller\home.js:14:21)
+    at Object.callFn (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\AAA2018\project\weiwei\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:43:18)
+    at errorHandler (E:\AAA2018\project\weiwei\app\middleware\error_handler.js:4:13)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:43:18)
+
+pid: 11724
+hostname: DELL-PC
+
+2018-06-07 16:36:37,069 ERROR 11724 [-/127.0.0.1/-/1ms GET /vod/1528359694766] nodejs.TypeError: Cannot match against 'undefined' or 'null'.
+    at HomeController.vod (E:\AAA2018\project\weiwei\app\controller\home.js:14:21)
+    at Object.callFn (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\AAA2018\project\weiwei\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:43:18)
+    at errorHandler (E:\AAA2018\project\weiwei\app\middleware\error_handler.js:4:13)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:43:18)
+
+pid: 11724
+hostname: DELL-PC
+
+2018-06-07 16:36:38,220 ERROR 11724 [-/127.0.0.1/-/0ms GET /vod/1528359694766] nodejs.TypeError: Cannot match against 'undefined' or 'null'.
+    at HomeController.vod (E:\AAA2018\project\weiwei\app\controller\home.js:14:21)
+    at Object.callFn (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\AAA2018\project\weiwei\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\AAA2018\project\weiwei\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\AAA2018\project\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:43:18)
+    at errorHandler (E:\AAA2018\project\weiwei\app\middleware\error_handler.js:4:13)
+    at dispatch (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\project\weiwei\node_modules\koa-compose\index.js:43:18)
+
+pid: 11724
+hostname: DELL-PC
+
+2018-06-07 17:11:34,284 ERROR 10612 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 10612
+hostname: DELL-PC
+
+2018-06-07 17:12:13,044 ERROR 10612 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 10612
+hostname: DELL-PC
+

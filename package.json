@@ -1,0 +1,54 @@
+{
+  "name": "preview",
+  "version": "1.0.0",
+  "description": "douban preview",
+  "private": true,
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "egg": "^2.2.1",
+    "egg-cors": "^2.0.0",
+    "egg-scripts": "^2.5.0",
+    "koa-formidable": "^1.1.0",
+    "lodash": "^4.17.10",
+    "puppeteer": "^1.2.0",
+    "qiniu": "^7.1.7",
+    "request": "^2.85.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.0.0",
+    "egg-bin": "^4.3.5",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.14.0",
+    "egg-mongoose": "^2.2.0",
+    "egg-view-nunjucks": "^2.1.6",
+    "eslint": "^4.11.0",
+    "eslint-config-egg": "^6.0.0",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --port=3002 --daemon --title=egg-server-weiwei",
+    "stop": "egg-scripts stop --title=egg-server-weiwei",
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "rich",
+  "license": "MIT"
+}

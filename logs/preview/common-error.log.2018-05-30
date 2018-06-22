@@ -1,0 +1,41 @@
+2018-05-30 16:50:46,615 ERROR 9604 [egg-mongoose] mongodb://localhost:27017/weiwei disconnected
+2018-05-30 16:50:46,618 ERROR 9604 nodejs.MongoError: [egg-mongoose]failed to connect to server [localhost:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (E:\AAA2018\project\weiwei\node_modules\mongodb-core\lib\topologies\server.js:336:35)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (E:\AAA2018\project\weiwei\node_modules\mongodb-core\lib\connection\pool.js:280:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (E:\AAA2018\project\weiwei\node_modules\mongodb-core\lib\connection\connection.js:189:49)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [localhost:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 9604
+hostname: DELL-PC
+
+2018-05-30 17:47:09,012 ERROR 13232 [-/127.0.0.1/-/3ms GET /vod/1] nodejs.Template render error: unknown block tag: emdblock
+    at Object._prettifyError (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:35:11)
+    at Template.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:526:21)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:350:27
+    at createTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:311:11)
+    at E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:323:9
+    at next (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:281:7)
+    at Object.asyncIter (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\lib.js:287:3)
+    at NunjucksEnvironment.getTemplate (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:305:9)
+    at NunjucksEnvironment.render (E:\AAA2018\project\weiwei\node_modules\nunjucks\src\environment.js:344:10)
+    at Promise (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:13:25)
+    at Promise (<anonymous>)
+    at NunjucksView.render (E:\AAA2018\project\weiwei\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (E:\AAA2018\project\weiwei\node_modules\egg-view\lib\context_view.js:70:23)
+    at <anonymous>
+name: 'Template render error'
+pid: 13232
+hostname: DELL-PC
+

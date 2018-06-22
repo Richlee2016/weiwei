@@ -1,0 +1,12 @@
+2018-05-29 10:45:42,509 INFO 9664 [Timer] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-05-30 00:00:00.000
+2018-05-29 10:45:42,510 INFO 9664 [Timer] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-05-30 00:00:01.000
+2018-05-30 00:00:01,161 INFO 9664 [1527609601160141268942449619] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js triggered, send random by agent
+2018-05-30 00:00:01,183 INFO 9664 [Timer] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-05-31 00:00:00.000
+2018-05-30 00:00:01,194 INFO 13124 [1527609601160141268942449619] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js task received by app
+2018-05-30 00:00:01,194 INFO 13124 [1527609601160141268942449619] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2018-05-30 00:00:01,201 INFO 13124 [1527609601160141268942449619] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 7ms
+2018-05-30 00:00:02,152 INFO 13124 [1527609602150141269932680116] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js task received by app
+2018-05-30 00:00:02,152 INFO 13124 [1527609602150141269932680116] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2018-05-30 00:00:02,193 INFO 13124 [1527609602150141269932680116] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 41ms
+2018-05-30 00:00:02,151 INFO 9664 [1527609602150141269932680116] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js triggered, send random by agent
+2018-05-30 00:00:02,154 INFO 9664 [Timer] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-05-31 00:00:01.000

@@ -1,0 +1,2 @@
+2018-06-11 00:00:06,741 INFO 10612 [egg-logrotator] agent logger reload: got log-reload message
+2018-06-11 08:49:14,297 WARN 10612 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer

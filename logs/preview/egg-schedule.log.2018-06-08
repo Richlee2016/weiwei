@@ -1,0 +1,10 @@
+2018-06-09 00:00:05,718 INFO 10612 [1528473605718122920774179037] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js triggered, send random by agent
+2018-06-09 00:00:05,720 INFO 10612 [Timer] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-10 00:00:00.000
+2018-06-09 00:00:05,718 INFO 2672 [1528473605718122920774179037] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js task received by app
+2018-06-09 00:00:05,718 INFO 2672 [1528473605718122920774179037] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2018-06-09 00:00:05,719 INFO 2672 [1528473605718122920774179037] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 1ms
+2018-06-09 00:00:06,718 INFO 10612 [1528473606718122921774163579] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js triggered, send random by agent
+2018-06-09 00:00:06,722 INFO 10612 [Timer] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-10 00:00:01.000
+2018-06-09 00:00:06,718 INFO 2672 [1528473606718122921774163579] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js task received by app
+2018-06-09 00:00:06,718 INFO 2672 [1528473606718122921774163579] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2018-06-09 00:00:06,726 INFO 2672 [1528473606718122921774163579] E:\AAA2018\project\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 8ms

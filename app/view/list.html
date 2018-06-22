@@ -1,0 +1,38 @@
+{% extends './Layout/Layout.html' %} 
+{% block submenu %}
+<div class="submenu menuIn">
+	<div class="container subbox">
+		<h1 class="font-base">
+			WORK
+		</h1>
+		<div id="work-hd" class="sub-sort">
+			<a class="active" data-classify="all">全部</a>
+			<a data-classify="brand">品牌</a>
+			<a data-classify="ui">UI</a>
+			<a data-classify="web">网页</a>
+			<a data-classify="h5">H5</a>
+			<a data-classify="face">平面</a>
+		</div>
+	</div>
+</div>
+{% endblock %}
+{% block body %}
+<div class="submenuTop"></div>
+<div id="pagewarp">
+	<div id="work-bd" class="workWrap clearfix">
+		{% for item in res %}
+		<div class="item myani fadeInUp" data-classify="ui" style="visibility: visible; animation-name: fadeInUp;">
+			<a href="/vod/{{item.id}}" class="changea" data-page="special">
+				<div class="ani-mask"></div>
+				<div class="work-text">
+					<h2>{{item.title}}</h2>
+				</div>
+				<div class="work-img">
+					<img class="img-responsive" src="http://go.richfly.cn/{{item.images[0]}}" alt="">
+				</div>
+			</a>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+{% endblock %}

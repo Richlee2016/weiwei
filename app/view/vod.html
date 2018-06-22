@@ -1,0 +1,107 @@
+{% extends './Layout/Layout.html' %} {% block script %}
+<script src="/public/js/share.js"></script>
+<link rel="stylesheet" href="/public/css/share_style0_16.css">
+<script src="/public/js/share.js"></script>
+{% endblock %} {% block body %}
+
+<div class="menutop"></div>
+<div id="pagewarp">
+    <div id="banner-full" class="banner-full bg-cover">
+        <div class="banner-title">
+            <div class="dis-table">
+                <div class="dis-tablecell">
+                    <h3 class="font-lg-xxl font-letter myani fadeInUp font-eng-bold" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">为他写字</h3>
+                    <h4 class="font-eng-light font-lg-xl font-letter myani fadeInUp" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">Write for ta</h4>
+                </div>
+            </div>
+            <div id="banner-next" class="banner-next myani fadeInUp" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                <span class="banner-arrow"></span>
+            </div>
+        </div>
+
+        <div class="banenr-img bg-cover" style="background-image: url(%E4%BC%98%E9%85%B7%E4%B8%BATa%E5%86%99%E5%AD%97-%E7%BD%91%E7%AB%99%E8%AE%BE%E8%AE%A1_%E5%93%81%E7%89%8C%E5%AE%98%E7%BD%91%E8%AE%BE%E8%AE%A1_%E5%85%A8%E5%B1%8F%E5%93%8D%E5%BA%94%E5%BC%8F-MemoryDesign%E6%9B%BC%E5%A6%99%E8%AE%BE%E8%AE%A1_files/writefor_01.jpg);"></div>
+    </div>
+    <section id="workwrap" class="space-t-mmd">
+        <div class="container">
+            <div class="article-title">
+                <h1 class="font-lg-s">{{data.title}}</h1>
+                <h2 class="font-sm space-t-md color-light">
+                    <strong>网站视觉</strong> ·
+                    <strong>全屏响应式</strong>
+                </h2>
+            </div>
+            <div class="article-con font-base-sm lh-base space-t-xs">
+                {% for item in data.txt %}
+                <p>
+                    {% for t in item %}
+                    {{t}}<br/>
+                    {% endfor %}
+                </p>    
+                    <p>&nbsp;</p>
+                {% endfor %}
+                <div class="space-t-md text-center" style="line-height: 0;">
+                    {% for item in data.images %}
+                    <img class="lazy img-responsive center-block" width="1200"
+                        height="568" alt="优酷为他写字,H5,web,响应式" src="http://go.richfly.cn/{{item}}" style="display: block;">
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+    <div>
+        <div class="container">
+            <div class="work-foot flex-warp space-tb-lg">
+                <div class="work-foot-l">
+                    <a class="changea" data-page="work" href="http://www.m-studio.cc/work.html">
+                        <i class="iconfont icon-list"></i>返回作品列表</a>
+                </div>
+                <div class="work-foot-r text-right">
+                    <div class="bdsharebuttonbox" id="share-weixin">
+                        <a class="bds_tsina iconfont sina" data-cmd="tsina" href="http://www.m-studio.cc/work/work09.html#" title="分享到新浪微博"></a>
+                        <a class="bds_weixin iconfont weixin" data-cmd="weixin" href="http://www.m-studio.cc/work/work09.html#" title="分享到微信"></a>
+                        <a class="bds_qzone iconfont qzone" data-cmd="qzone" href="http://www.m-studio.cc/work/work09.html#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="work-next">
+        <a class="changea" data-page="special" data-work="true" href="http://www.m-studio.cc/work/work08.html">
+            <div class="banner-title">
+                <div class="dis-table">
+                    <div class="dis-tablecell">
+                        <span class="font-lg-s">下一个项目</span>
+                        <h3 class="font-lg-xl banner-title-name">进击的巨人</h3>
+                        <h4 class="font-lg-s">GUI/WEB 品牌视觉&amp;网站设计</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="work-next-img">
+                <img class="lazy" data-original="//www.m-studio.cc/work/work08/attack_full_banner.jpg" src="/public/images/attack_full_banner.jpg"
+                    style="display: inline;">
+            </div>
+        </a>
+    </div>
+    <script>
+        window._bd_share_config = {
+            "common": {
+                "bdSnsKey": {},
+                "bdText": "",
+                "bdMini": "1",
+                "bdMiniList": false,
+                "bdPic": "",
+                "bdStyle": "0",
+                "bdSize": "16"
+            },
+            "share": {}
+        };
+        with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src =
+            'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)
+        ];
+    </script>
+
+</div>
+<footer class="container myani fadeIn maskOut" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+
+</footer>
+{% endblock %}

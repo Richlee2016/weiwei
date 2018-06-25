@@ -56,6 +56,32 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/power",
+    "regexp": "/^\\/power(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/exp",
+    "regexp": "/^\\/exp(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/weiwei/add",
     "regexp": "/^\\/weiwei\\/add(?:\\/(?=$))?$/",
     "stack": [
@@ -71,6 +97,32 @@
     "paramNames": [],
     "path": "/weiwei/admin",
     "regexp": "/^\\/weiwei\\/admin(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/weiwei/imgbox",
+    "regexp": "/^\\/weiwei\\/imgbox(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/weiwei/addimg",
+    "regexp": "/^\\/weiwei\\/addimg(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

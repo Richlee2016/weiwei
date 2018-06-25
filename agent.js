@@ -5,6 +5,6 @@ module.exports = agent => {
     });
 
     agent.messenger.on('test', data => {
-        console.log(data);
+        // console.log(data);
     });
 };

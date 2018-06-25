@@ -23,11 +23,23 @@ class HomeController extends Controller {
       ctx.redirect('/')
     }
   }
+  async power(ctx) {
+    await ctx.render('power.html');
+  }
+  async exp(ctx) {
+    await ctx.render('exp.html');
+  }
   async add(ctx) {
-    await ctx.render('add.html');
+    await ctx.render('admin/add.html');
   }
   async admin(ctx) {
-    await ctx.render('admin.html');
+    await ctx.render('admin/admin.html');
+  }
+  async imgbox(ctx) {
+    await ctx.render('admin/imgbox.html');
+  }
+  async addimg(ctx) {
+    await ctx.render('admin/addimg.html');
   }
 
   // 添加产品

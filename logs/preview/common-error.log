@@ -1,0 +1,101 @@
+2018-06-22 09:33:52,238 ERROR 10596 [egg-mongoose] mongodb://localhost:27017/weiwei disconnected
+2018-06-22 09:33:52,240 ERROR 10596 nodejs.MongoError: [egg-mongoose]failed to connect to server [localhost:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\mongodb-core\lib\topologies\server.js:336:35)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\mongodb-core\lib\connection\pool.js:280:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\mongodb-core\lib\connection\connection.js:189:49)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [localhost:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 10596
+hostname: DELL-PC
+
+2018-06-22 11:05:39,522 ERROR 6076 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-06-22 11:05:39,526 ERROR 6076 [-/undefined/-/13639ms GET /public/images/power.jpg] nodejs.ECONNRESETError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 6076
+hostname: DELL-PC
+
+2018-06-25 17:32:54,602 ERROR 14448 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 14448
+hostname: DELL-PC
+
+2018-06-25 17:32:55,849 ERROR 14448 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 14448
+hostname: DELL-PC
+
+2018-06-25 17:32:57,129 ERROR 14448 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 14448
+hostname: DELL-PC
+
+2018-06-25 17:32:58,393 ERROR 14448 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 14448
+hostname: DELL-PC
+
+2018-06-25 17:34:26,940 ERROR 13716 [-/127.0.0.1/-/7ms GET /vod/1529653464801] nodejs.TypeError: Cannot read property 'split' of undefined
+    at HomeService.fetchVod (E:\AAA2018\Now\weiwei\app\service\home.js:79:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 13716
+hostname: DELL-PC
+
+2018-06-25 17:47:16,798 ERROR 14448 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 14448
+hostname: DELL-PC
+
+2018-06-25 17:47:20,521 ERROR 14448 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 14448
+hostname: DELL-PC
+

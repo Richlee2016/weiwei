@@ -26,8 +26,9 @@
             <div class="article-title">
                 <h1 class="font-lg-s">{{data.title}}</h1>
                 <h2 class="font-sm space-t-md color-light">
-                    <strong>网站视觉</strong> ·
-                    <strong>全屏响应式</strong>
+                    {% for item in keyval %}
+                    <strong>{{item}}</strong> ·
+                    {% endfor %}
                 </h2>
             </div>
             <div class="article-con font-base-sm lh-base space-t-xs">
@@ -52,16 +53,18 @@
         <div class="container">
             <div class="work-foot flex-warp space-tb-lg">
                 <div class="work-foot-l">
-                    <a class="changea" data-page="work" href="http://www.m-studio.cc/work.html">
-                        <i class="iconfont icon-list"></i>返回作品列表</a>
+                    <a class="changea" data-page="work" href="/list">
+                        <!-- <i class="iconfont icon-list"> -->
+
+                        </i>返回作品列表</a>
                 </div>
-                <div class="work-foot-r text-right">
+                <!-- <div class="work-foot-r text-right">
                     <div class="bdsharebuttonbox" id="share-weixin">
                         <a class="bds_tsina iconfont sina" data-cmd="tsina" href="http://www.m-studio.cc/work/work09.html#" title="分享到新浪微博"></a>
                         <a class="bds_weixin iconfont weixin" data-cmd="weixin" href="http://www.m-studio.cc/work/work09.html#" title="分享到微信"></a>
                         <a class="bds_qzone iconfont qzone" data-cmd="qzone" href="http://www.m-studio.cc/work/work09.html#"></a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

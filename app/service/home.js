@@ -4,6 +4,7 @@ class HomeService extends Service {
   constructor(ctx) {
     super(ctx);
     this.Page = this.ctx.model.Page;
+    this.Img = this.ctx.model.Img;
   }
 /**
  * 获取首页列表
@@ -19,7 +20,7 @@ class HomeService extends Service {
    * @return {Object} 已保存的产品信息
    */
   async addPage(page) {
-    console.log(page);
+    // console.log(page);
     try {
       const res = await this.Page.addPage(page);
       return res;
@@ -38,12 +39,12 @@ class HomeService extends Service {
         res,
         fields
       } = await this.service.qiniu.addImg(form);
-      console.log(res,fields);
+      // console.log(res,fields);
       const vod = await this.Page.findOne({
         id: Number(fields.uuid)
       }).exec();
       if(vod){
-        console.log(res.key);
+        // console.log(res.key);
         vod.images = vod.images?vod.images:[];
         vod.images.push(res.key)
         await vod.save();
@@ -66,7 +67,7 @@ class HomeService extends Service {
       query ={$where:`this.images.length > 0 && this.type === ${type}`};
     };
     const res =await this.Page.find(query).limit(size).skip(skip).exec();
-    console.log(res);
+    // console.log(res);
     return res;
   }
   async fetchVod(id){
@@ -76,6 +77,7 @@ class HomeService extends Service {
     if(data){
       data.images = _.drop(data.images);
       data.txt = data.content.split("|").map(o => o.split("&"));
+      data.keyval = data.keywords?data.keywords.split("|") : [];
     }
     return data?data : null;
   }

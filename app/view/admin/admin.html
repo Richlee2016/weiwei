@@ -30,7 +30,10 @@
 <body>
   <div id="app">
     <a href="/weiwei/add">
-      <el-button type="primary">添加</el-button>
+      <el-button type="primary">添加项目</el-button>
+    </a>
+    <a href="/weiwei/addimg">
+      <el-button type="primary">添加图片</el-button>
     </a>
     <span class="type-select">
       <el-select v-model="value" placeholder="请选择" @change="selectChange">
@@ -38,6 +41,9 @@
         </el-option>
       </el-select>
     </span>
+    <a href="/weiwei/imgbox">
+      <el-button type="primary">图片库</el-button>
+    </a>
     <div class="my-table">
       <el-table :data="tableData" border style="width: 100%">
         <el-table-column prop="id" label="ID" width="180">

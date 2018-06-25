@@ -26,8 +26,14 @@
         <el-input v-model="form.author"></el-input>
       </el-form-item>
       <el-form-item label="类型">
-        <el-radio v-model="form.type" label="1">备选项</el-radio>
-        <el-radio v-model="form.type" label="2">备选项</el-radio>
+        <el-radio v-model="form.type" label="1">品牌</el-radio>
+        <el-radio v-model="form.type" label="2">UI</el-radio>
+        <el-radio v-model="form.type" label="3">网页</el-radio>
+        <el-radio v-model="form.type" label="4">H5</el-radio>
+        <el-radio v-model="form.type" label="5">平板</el-radio>
+      </el-form-item>
+      <el-form-item label="关键字">
+        <el-input placeholder="请输入内容" v-model="form.keywords"></el-input>
       </el-form-item>
       <el-form-item label="内容">
         <el-input type="textarea" :rows="2" placeholder="请输入内容" v-model="form.content"></el-input>
@@ -74,6 +80,7 @@
         title: '',
         author: '',
         type: '1',
+        keywords:"",
         content: '',
         images: []
       },

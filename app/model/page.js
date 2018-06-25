@@ -8,7 +8,8 @@ module.exports = app => {
     author:String,
     content:String,
     images:[String],
-    type:Number,
+    type:Number, //1.品牌 2.UI 3.网页 4.H5 5.平面
+    keywords:String,
     link:String,
     meta: {
       createAt: {
@@ -33,7 +34,7 @@ module.exports = app => {
 
   PageSchema.statics = {
     async addPage(page){
-      console.log(page);
+      // console.log(page);
       try {
         page.id = Date.now();
         const _page = new Page(page);

@@ -1,101 +1,107 @@
-2018-06-22 09:33:52,238 ERROR 10596 [egg-mongoose] mongodb://localhost:27017/weiwei disconnected
-2018-06-22 09:33:52,240 ERROR 10596 nodejs.MongoError: [egg-mongoose]failed to connect to server [localhost:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
-    at Pool.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\mongodb-core\lib\topologies\server.js:336:35)
-    at emitOne (events.js:115:13)
-    at Pool.emit (events.js:210:7)
-    at Connection.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\mongodb-core\lib\connection\pool.js:280:12)
-    at Object.onceWrapper (events.js:318:30)
-    at emitTwo (events.js:125:13)
-    at Connection.emit (events.js:213:7)
-    at Socket.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\mongodb-core\lib\connection\connection.js:189:49)
-    at Object.onceWrapper (events.js:316:30)
-    at emitOne (events.js:115:13)
-    at Socket.emit (events.js:210:7)
-    at emitErrorNT (internal/streams/destroy.js:64:8)
-    at _combinedTickCallback (internal/process/next_tick.js:138:11)
-    at process._tickCallback (internal/process/next_tick.js:180:9)
-name: 'MongoError'
-message: '[egg-mongoose]failed to connect to server [localhost:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
-pid: 10596
+2018-06-29 03:34:59,529 ERROR 4224 nodejs.ClusterClientNoResponseError: client no response in 108666ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (E:\AAA2018\Now\weiwei\node_modules\cluster-client\lib\leader.js:74:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 4224
 hostname: DELL-PC
 
-2018-06-22 11:05:39,522 ERROR 6076 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
-2018-06-22 11:05:39,526 ERROR 6076 [-/undefined/-/13639ms GET /public/images/power.jpg] nodejs.ECONNRESETError: read ECONNRESET
-    at _errnoException (util.js:1026:11)
-    at TCP.onread (net.js:606:25)
-code: 'ECONNRESET'
-errno: 'ECONNRESET'
-syscall: 'read'
-headerSent: true
-name: 'ECONNRESETError'
-pid: 6076
-hostname: DELL-PC
-
-2018-06-25 17:32:54,602 ERROR 14448 nodejs.unhandledExceptionError: read ECONNRESET
+2018-06-29 08:32:35,842 ERROR 4224 nodejs.unhandledExceptionError: read ECONNRESET
     at _errnoException (util.js:1026:11)
     at TCP.onread (net.js:606:25)
 code: 'ECONNRESET'
 errno: 'ECONNRESET'
 syscall: 'read'
 name: 'unhandledExceptionError'
-pid: 14448
+pid: 4224
 hostname: DELL-PC
 
-2018-06-25 17:32:55,849 ERROR 14448 nodejs.unhandledExceptionError: read ECONNRESET
-    at _errnoException (util.js:1026:11)
-    at TCP.onread (net.js:606:25)
-code: 'ECONNRESET'
-errno: 'ECONNRESET'
-syscall: 'read'
-name: 'unhandledExceptionError'
-pid: 14448
-hostname: DELL-PC
-
-2018-06-25 17:32:57,129 ERROR 14448 nodejs.unhandledExceptionError: read ECONNRESET
-    at _errnoException (util.js:1026:11)
-    at TCP.onread (net.js:606:25)
-code: 'ECONNRESET'
-errno: 'ECONNRESET'
-syscall: 'read'
-name: 'unhandledExceptionError'
-pid: 14448
-hostname: DELL-PC
-
-2018-06-25 17:32:58,393 ERROR 14448 nodejs.unhandledExceptionError: read ECONNRESET
-    at _errnoException (util.js:1026:11)
-    at TCP.onread (net.js:606:25)
-code: 'ECONNRESET'
-errno: 'ECONNRESET'
-syscall: 'read'
-name: 'unhandledExceptionError'
-pid: 14448
-hostname: DELL-PC
-
-2018-06-25 17:34:26,940 ERROR 13716 [-/127.0.0.1/-/7ms GET /vod/1529653464801] nodejs.TypeError: Cannot read property 'split' of undefined
-    at HomeService.fetchVod (E:\AAA2018\Now\weiwei\app\service\home.js:79:34)
+2018-06-29 08:32:37,957 ERROR 13864 [-/::1/-/26ms GET /vod/1529996219012] nodejs.TypeError: Cannot match against 'undefined' or 'null'.
+    at HomeController.vod (E:\AAA2018\Now\weiwei\app\controller\home.js:28:3)
     at <anonymous>
     at process._tickCallback (internal/process/next_tick.js:188:7)
 
-pid: 13716
+pid: 13864
 hostname: DELL-PC
 
-2018-06-25 17:47:16,798 ERROR 14448 nodejs.unhandledExceptionError: read ECONNRESET
+2018-06-29 08:33:42,340 ERROR 4224 nodejs.unhandledExceptionError: read ECONNRESET
     at _errnoException (util.js:1026:11)
     at TCP.onread (net.js:606:25)
 code: 'ECONNRESET'
 errno: 'ECONNRESET'
 syscall: 'read'
 name: 'unhandledExceptionError'
-pid: 14448
+pid: 4224
 hostname: DELL-PC
 
-2018-06-25 17:47:20,521 ERROR 14448 nodejs.unhandledExceptionError: read ECONNRESET
+2018-06-29 08:49:19,133 ERROR 4224 nodejs.unhandledExceptionError: read ECONNRESET
     at _errnoException (util.js:1026:11)
     at TCP.onread (net.js:606:25)
 code: 'ECONNRESET'
 errno: 'ECONNRESET'
 syscall: 'read'
 name: 'unhandledExceptionError'
-pid: 14448
+pid: 4224
+hostname: DELL-PC
+
+2018-06-29 08:49:20,673 ERROR 4224 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4224
+hostname: DELL-PC
+
+2018-06-29 08:49:25,870 ERROR 15848 [-/::1/-/19ms GET /vod/1529996219012] nodejs.ReferenceError: proType is not defined
+    at HomeService.fetchVod (E:\AAA2018\Now\weiwei\app\service\home.js:83:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 15848
+hostname: DELL-PC
+
+2018-06-29 09:00:14,995 ERROR 4224 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4224
+hostname: DELL-PC
+
+2018-06-29 10:06:31,287 ERROR 4224 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4224
+hostname: DELL-PC
+
+2018-06-29 10:27:45,732 ERROR 9396 A client (undefined:NaN) error [ECONNRESET] occurred: write ECONNRESET
+2018-06-29 10:27:45,736 ERROR 9396 [-/undefined/-/7845ms GET /public/images/power.jpg] nodejs.Error: write after end
+    at writeAfterEnd (_stream_writable.js:236:12)
+    at Socket.Writable.write (_stream_writable.js:287:5)
+    at Socket.write (net.js:695:40)
+    at Socket.Writable.end (_stream_writable.js:552:10)
+    at Socket.end (net.js:487:31)
+    at Application.onClientError (E:\AAA2018\Now\weiwei\node_modules\egg\lib\application.js:85:12)
+    at Server.server.on (E:\AAA2018\Now\weiwei\node_modules\egg\lib\application.js:103:52)
+    at emitTwo (events.js:125:13)
+    at Server.emit (events.js:213:7)
+    at Socket.socketOnError (_http_server.js:456:20)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at onwriteError (_stream_writable.js:408:12)
+    at onwrite (_stream_writable.js:430:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at Socket._destroy (net.js:552:3)
+headerSent: true
+pid: 9396
 hostname: DELL-PC
 

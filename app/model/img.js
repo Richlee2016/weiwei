@@ -2,7 +2,7 @@ module.exports = app => {
   const mongoose = app.mongoose;
   const { Schema } = mongoose;
   const ImgSchema = new mongoose.Schema({
-    key:String,
+    keyword:String,
     src:String,
     meta: {
       createAt: {

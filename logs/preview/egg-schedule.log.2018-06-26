@@ -1,0 +1,24 @@
+2018-06-22 09:34:23,518 INFO 10888 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-23 00:00:00.000
+2018-06-22 09:34:23,518 INFO 10888 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-23 00:00:01.000
+2018-06-22 11:07:16,505 INFO 14052 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-23 00:00:00.000
+2018-06-22 11:07:16,506 INFO 14052 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-23 00:00:01.000
+2018-06-25 17:22:25,555 INFO 14448 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-26 00:00:00.000
+2018-06-25 17:22:25,556 INFO 14448 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-26 00:00:01.000
+2018-06-25 17:52:06,111 INFO 9892 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-26 00:00:00.000
+2018-06-25 17:52:06,111 INFO 9892 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-26 00:00:01.000
+2018-06-26 09:14:53,444 INFO 7820 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-27 00:00:00.000
+2018-06-26 09:14:53,444 INFO 7820 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-27 00:00:01.000
+2018-06-26 09:36:34,470 INFO 5280 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-27 00:00:00.000
+2018-06-26 09:36:34,471 INFO 5280 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-27 00:00:01.000
+2018-06-26 09:55:01,025 INFO 7420 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-27 00:00:00.000
+2018-06-26 09:55:01,025 INFO 7420 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-27 00:00:01.000
+2018-06-27 08:42:58,172 INFO 7420 [153006017815985675901706672] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js triggered, send random by agent
+2018-06-27 08:42:58,200 INFO 7420 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-28 00:00:00.000
+2018-06-27 08:42:58,200 INFO 7420 [153006017820085675929875015] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js triggered, send random by agent
+2018-06-27 08:42:58,206 INFO 7420 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-28 00:00:01.000
+2018-06-27 08:42:59,052 INFO 7484 [153006017815985675901706672] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js task received by app
+2018-06-27 08:42:59,052 INFO 7484 [153006017815985675901706672] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2018-06-27 08:42:59,054 INFO 7484 [153006017820085675929875015] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js task received by app
+2018-06-27 08:42:59,054 INFO 7484 [153006017820085675929875015] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2018-06-27 08:42:59,108 INFO 7484 [153006017815985675901706672] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 54ms
+2018-06-27 08:42:59,169 INFO 7484 [153006017820085675929875015] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 115ms

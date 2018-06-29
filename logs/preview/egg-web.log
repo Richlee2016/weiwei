@@ -1,573 +1,591 @@
-2018-06-11 00:00:06,742 INFO 2672 [egg-logrotator] app logger reload: got log-reload message
-2018-06-22 09:33:50,897 INFO 10596 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-22 09:33:50,931 INFO 10596 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-22 09:33:50,931 INFO 10596 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-22 09:33:51,130 INFO 10596 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-22 09:33:51,218 INFO 10596 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-22 09:33:51,220 INFO 10596 [egg-security] use methodnoallow middleware
-2018-06-22 09:33:51,221 INFO 10596 [egg-security] use noopen middleware
-2018-06-22 09:33:51,221 INFO 10596 [egg-security] use nosniff middleware
-2018-06-22 09:33:51,221 INFO 10596 [egg-security] use xssProtection middleware
-2018-06-22 09:33:51,222 INFO 10596 [egg-security] use xframe middleware
-2018-06-22 09:33:51,222 INFO 10596 [egg-security] use dta middleware
-2018-06-22 09:33:51,222 INFO 10596 [egg-security] compose 6 middlewares into one security middleware
-2018-06-22 09:33:51,235 INFO 10596 [egg-mongoose] starting...
-2018-06-22 09:33:51,254 INFO 10596 [egg-watcher:app] watcher start success
-2018-06-22 09:34:23,153 INFO 12236 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-22 09:34:23,187 INFO 12236 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-22 09:34:23,187 INFO 12236 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-22 09:34:23,381 INFO 12236 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-22 09:34:23,465 INFO 12236 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-22 09:34:23,467 INFO 12236 [egg-security] use methodnoallow middleware
-2018-06-22 09:34:23,468 INFO 12236 [egg-security] use noopen middleware
-2018-06-22 09:34:23,468 INFO 12236 [egg-security] use nosniff middleware
-2018-06-22 09:34:23,469 INFO 12236 [egg-security] use xssProtection middleware
-2018-06-22 09:34:23,469 INFO 12236 [egg-security] use xframe middleware
-2018-06-22 09:34:23,469 INFO 12236 [egg-security] use dta middleware
-2018-06-22 09:34:23,469 INFO 12236 [egg-security] compose 6 middlewares into one security middleware
-2018-06-22 09:34:23,483 INFO 12236 [egg-mongoose] starting...
-2018-06-22 09:34:23,503 INFO 12236 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-22 09:34:23,505 INFO 12236 [egg-mongoose] instance[0] start successfully
-2018-06-22 09:34:23,507 INFO 12236 [egg-watcher:app] watcher start success
-2018-06-22 09:35:17,297 INFO 12236 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
-2018-06-22 09:57:22,908 INFO 12176 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-22 09:57:22,950 INFO 12176 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-22 09:57:22,950 INFO 12176 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-22 09:57:23,212 INFO 12176 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-22 09:57:23,305 INFO 12176 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-22 09:57:23,310 INFO 12176 [egg-security] use methodnoallow middleware
-2018-06-22 09:57:23,310 INFO 12176 [egg-security] use noopen middleware
-2018-06-22 09:57:23,311 INFO 12176 [egg-security] use nosniff middleware
-2018-06-22 09:57:23,311 INFO 12176 [egg-security] use xssProtection middleware
-2018-06-22 09:57:23,311 INFO 12176 [egg-security] use xframe middleware
-2018-06-22 09:57:23,312 INFO 12176 [egg-security] use dta middleware
-2018-06-22 09:57:23,312 INFO 12176 [egg-security] compose 6 middlewares into one security middleware
-2018-06-22 09:57:23,327 INFO 12176 [egg-mongoose] starting...
-2018-06-22 09:57:23,348 INFO 12176 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-22 09:57:23,349 INFO 12176 [egg-mongoose] instance[0] start successfully
-2018-06-22 09:57:23,351 INFO 12176 [egg-watcher:app] watcher start success
-2018-06-22 09:57:24,356 INFO 9408 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-22 09:57:24,394 INFO 9408 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-22 09:57:24,394 INFO 9408 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-22 09:57:24,656 INFO 9408 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-22 09:57:24,741 INFO 9408 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-22 09:57:24,744 INFO 9408 [egg-security] use methodnoallow middleware
-2018-06-22 09:57:24,744 INFO 9408 [egg-security] use noopen middleware
-2018-06-22 09:57:24,744 INFO 9408 [egg-security] use nosniff middleware
-2018-06-22 09:57:24,745 INFO 9408 [egg-security] use xssProtection middleware
-2018-06-22 09:57:24,745 INFO 9408 [egg-security] use xframe middleware
-2018-06-22 09:57:24,745 INFO 9408 [egg-security] use dta middleware
-2018-06-22 09:57:24,745 INFO 9408 [egg-security] compose 6 middlewares into one security middleware
-2018-06-22 09:57:24,772 INFO 9408 [egg-mongoose] starting...
-2018-06-22 09:57:24,796 INFO 9408 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-22 09:57:24,797 INFO 9408 [egg-mongoose] instance[0] start successfully
-2018-06-22 09:57:24,799 INFO 9408 [egg-watcher:app] watcher start success
-2018-06-22 09:57:25,766 INFO 10808 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-22 09:57:25,806 INFO 10808 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-22 09:57:25,806 INFO 10808 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-22 09:57:26,104 INFO 10808 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-22 09:57:26,247 INFO 10808 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-22 09:57:26,250 INFO 10808 [egg-security] use methodnoallow middleware
-2018-06-22 09:57:26,250 INFO 10808 [egg-security] use noopen middleware
-2018-06-22 09:57:26,251 INFO 10808 [egg-security] use nosniff middleware
-2018-06-22 09:57:26,251 INFO 10808 [egg-security] use xssProtection middleware
-2018-06-22 09:57:26,251 INFO 10808 [egg-security] use xframe middleware
-2018-06-22 09:57:26,253 INFO 10808 [egg-security] use dta middleware
-2018-06-22 09:57:26,253 INFO 10808 [egg-security] compose 6 middlewares into one security middleware
-2018-06-22 09:57:26,280 INFO 10808 [egg-mongoose] starting...
-2018-06-22 09:57:26,316 INFO 10808 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-22 09:57:26,319 INFO 10808 [egg-mongoose] instance[0] start successfully
-2018-06-22 09:57:26,324 INFO 10808 [egg-watcher:app] watcher start success
-2018-06-22 10:20:04,224 INFO 10808 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
-2018-06-22 10:56:39,753 INFO 13680 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-22 10:56:39,797 INFO 13680 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-22 10:56:39,797 INFO 13680 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-22 10:56:40,059 INFO 13680 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-22 10:56:40,158 INFO 13680 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-22 10:56:40,160 INFO 13680 [egg-security] use methodnoallow middleware
-2018-06-22 10:56:40,161 INFO 13680 [egg-security] use noopen middleware
-2018-06-22 10:56:40,161 INFO 13680 [egg-security] use nosniff middleware
-2018-06-22 10:56:40,161 INFO 13680 [egg-security] use xssProtection middleware
-2018-06-22 10:56:40,162 INFO 13680 [egg-security] use xframe middleware
-2018-06-22 10:56:40,162 INFO 13680 [egg-security] use dta middleware
-2018-06-22 10:56:40,162 INFO 13680 [egg-security] compose 6 middlewares into one security middleware
-2018-06-22 10:56:40,180 INFO 13680 [egg-mongoose] starting...
-2018-06-22 10:56:40,203 INFO 13680 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-22 10:56:40,204 INFO 13680 [egg-mongoose] instance[0] start successfully
-2018-06-22 10:56:40,206 INFO 13680 [egg-watcher:app] watcher start success
-2018-06-22 10:56:54,958 INFO 6076 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-22 10:56:54,992 INFO 6076 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-22 10:56:54,992 INFO 6076 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-22 10:56:55,211 INFO 6076 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-22 10:56:55,304 INFO 6076 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-22 10:56:55,306 INFO 6076 [egg-security] use methodnoallow middleware
-2018-06-22 10:56:55,307 INFO 6076 [egg-security] use noopen middleware
-2018-06-22 10:56:55,307 INFO 6076 [egg-security] use nosniff middleware
-2018-06-22 10:56:55,307 INFO 6076 [egg-security] use xssProtection middleware
-2018-06-22 10:56:55,308 INFO 6076 [egg-security] use xframe middleware
-2018-06-22 10:56:55,308 INFO 6076 [egg-security] use dta middleware
-2018-06-22 10:56:55,308 INFO 6076 [egg-security] compose 6 middlewares into one security middleware
-2018-06-22 10:56:55,323 INFO 6076 [egg-mongoose] starting...
-2018-06-22 10:56:55,345 INFO 6076 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-22 10:56:55,345 INFO 6076 [egg-mongoose] instance[0] start successfully
-2018-06-22 10:56:55,347 INFO 6076 [egg-watcher:app] watcher start success
-2018-06-22 10:57:10,297 INFO 6076 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
-2018-06-22 11:07:16,118 INFO 14160 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-22 11:07:16,154 INFO 14160 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-22 11:07:16,154 INFO 14160 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-22 11:07:16,357 INFO 14160 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-22 11:07:16,448 INFO 14160 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-22 11:07:16,450 INFO 14160 [egg-security] use methodnoallow middleware
-2018-06-22 11:07:16,450 INFO 14160 [egg-security] use noopen middleware
-2018-06-22 11:07:16,450 INFO 14160 [egg-security] use nosniff middleware
-2018-06-22 11:07:16,451 INFO 14160 [egg-security] use xssProtection middleware
-2018-06-22 11:07:16,452 INFO 14160 [egg-security] use xframe middleware
-2018-06-22 11:07:16,452 INFO 14160 [egg-security] use dta middleware
-2018-06-22 11:07:16,452 INFO 14160 [egg-security] compose 6 middlewares into one security middleware
-2018-06-22 11:07:16,467 INFO 14160 [egg-mongoose] starting...
-2018-06-22 11:07:16,489 INFO 14160 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-22 11:07:16,489 INFO 14160 [egg-mongoose] instance[0] start successfully
-2018-06-22 11:07:16,491 INFO 14160 [egg-watcher:app] watcher start success
-2018-06-22 11:07:39,203 INFO 14160 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
-2018-06-22 14:22:13,365 INFO 6072 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-22 14:22:13,401 INFO 6072 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-22 14:22:13,401 INFO 6072 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-22 14:22:13,604 INFO 6072 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-22 14:22:13,695 INFO 6072 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-22 14:22:13,697 INFO 6072 [egg-security] use methodnoallow middleware
-2018-06-22 14:22:13,697 INFO 6072 [egg-security] use noopen middleware
-2018-06-22 14:22:13,697 INFO 6072 [egg-security] use nosniff middleware
-2018-06-22 14:22:13,698 INFO 6072 [egg-security] use xssProtection middleware
-2018-06-22 14:22:13,698 INFO 6072 [egg-security] use xframe middleware
-2018-06-22 14:22:13,699 INFO 6072 [egg-security] use dta middleware
-2018-06-22 14:22:13,699 INFO 6072 [egg-security] compose 6 middlewares into one security middleware
-2018-06-22 14:22:13,717 INFO 6072 [egg-mongoose] starting...
-2018-06-22 14:22:13,739 INFO 6072 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-22 14:22:13,740 INFO 6072 [egg-mongoose] instance[0] start successfully
-2018-06-22 14:22:13,742 INFO 6072 [egg-watcher:app] watcher start success
-2018-06-22 14:22:20,592 INFO 6108 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-22 14:22:20,628 INFO 6108 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-22 14:22:20,628 INFO 6108 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-22 14:22:20,836 INFO 6108 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-22 14:22:20,924 INFO 6108 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-22 14:22:20,926 INFO 6108 [egg-security] use methodnoallow middleware
-2018-06-22 14:22:20,926 INFO 6108 [egg-security] use noopen middleware
-2018-06-22 14:22:20,926 INFO 6108 [egg-security] use nosniff middleware
-2018-06-22 14:22:20,927 INFO 6108 [egg-security] use xssProtection middleware
-2018-06-22 14:22:20,927 INFO 6108 [egg-security] use xframe middleware
-2018-06-22 14:22:20,927 INFO 6108 [egg-security] use dta middleware
-2018-06-22 14:22:20,927 INFO 6108 [egg-security] compose 6 middlewares into one security middleware
-2018-06-22 14:22:20,944 INFO 6108 [egg-mongoose] starting...
-2018-06-22 14:22:20,965 INFO 6108 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-22 14:22:20,966 INFO 6108 [egg-mongoose] instance[0] start successfully
-2018-06-22 14:22:20,968 INFO 6108 [egg-watcher:app] watcher start success
-2018-06-22 14:23:32,519 INFO 6108 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
-2018-06-25 17:22:24,953 INFO 10056 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:22:24,993 INFO 10056 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:22:24,993 INFO 10056 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:22:25,350 INFO 10056 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:22:25,491 INFO 10056 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:22:25,494 INFO 10056 [egg-security] use methodnoallow middleware
-2018-06-25 17:22:25,494 INFO 10056 [egg-security] use noopen middleware
-2018-06-25 17:22:25,495 INFO 10056 [egg-security] use nosniff middleware
-2018-06-25 17:22:25,496 INFO 10056 [egg-security] use xssProtection middleware
-2018-06-25 17:22:25,496 INFO 10056 [egg-security] use xframe middleware
-2018-06-25 17:22:25,497 INFO 10056 [egg-security] use dta middleware
-2018-06-25 17:22:25,497 INFO 10056 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:22:25,519 INFO 10056 [egg-mongoose] starting...
-2018-06-25 17:22:25,542 INFO 10056 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:22:25,543 INFO 10056 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:22:25,544 INFO 10056 [egg-watcher:app] watcher start success
-2018-06-25 17:22:33,120 INFO 10056 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
-2018-06-25 17:26:26,425 INFO 12776 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:26:26,461 INFO 12776 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:26:26,461 INFO 12776 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:26:26,673 INFO 12776 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:26:26,767 INFO 12776 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:26:26,770 INFO 12776 [egg-security] use methodnoallow middleware
-2018-06-25 17:26:26,771 INFO 12776 [egg-security] use noopen middleware
-2018-06-25 17:26:26,771 INFO 12776 [egg-security] use nosniff middleware
-2018-06-25 17:26:26,771 INFO 12776 [egg-security] use xssProtection middleware
-2018-06-25 17:26:26,772 INFO 12776 [egg-security] use xframe middleware
-2018-06-25 17:26:26,772 INFO 12776 [egg-security] use dta middleware
-2018-06-25 17:26:26,772 INFO 12776 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:26:26,788 INFO 12776 [egg-mongoose] starting...
-2018-06-25 17:26:26,810 INFO 12776 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:26:26,811 INFO 12776 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:26:26,813 INFO 12776 [egg-watcher:app] watcher start success
-2018-06-25 17:26:27,746 INFO 12332 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:26:27,783 INFO 12332 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:26:27,783 INFO 12332 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:26:27,999 INFO 12332 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:26:28,093 INFO 12332 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:26:28,095 INFO 12332 [egg-security] use methodnoallow middleware
-2018-06-25 17:26:28,096 INFO 12332 [egg-security] use noopen middleware
-2018-06-25 17:26:28,096 INFO 12332 [egg-security] use nosniff middleware
-2018-06-25 17:26:28,096 INFO 12332 [egg-security] use xssProtection middleware
-2018-06-25 17:26:28,097 INFO 12332 [egg-security] use xframe middleware
-2018-06-25 17:26:28,097 INFO 12332 [egg-security] use dta middleware
-2018-06-25 17:26:28,097 INFO 12332 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:26:28,112 INFO 12332 [egg-mongoose] starting...
-2018-06-25 17:26:28,135 INFO 12332 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:26:28,136 INFO 12332 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:26:28,138 INFO 12332 [egg-watcher:app] watcher start success
-2018-06-25 17:26:35,841 INFO 5760 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:26:35,875 INFO 5760 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:26:35,875 INFO 5760 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:26:36,089 INFO 5760 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:26:36,191 INFO 5760 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:26:36,194 INFO 5760 [egg-security] use methodnoallow middleware
-2018-06-25 17:26:36,194 INFO 5760 [egg-security] use noopen middleware
-2018-06-25 17:26:36,195 INFO 5760 [egg-security] use nosniff middleware
-2018-06-25 17:26:36,195 INFO 5760 [egg-security] use xssProtection middleware
-2018-06-25 17:26:36,196 INFO 5760 [egg-security] use xframe middleware
-2018-06-25 17:26:36,196 INFO 5760 [egg-security] use dta middleware
-2018-06-25 17:26:36,197 INFO 5760 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:26:36,223 INFO 5760 [egg-mongoose] starting...
-2018-06-25 17:26:36,251 INFO 5760 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:26:36,251 INFO 5760 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:26:36,253 INFO 5760 [egg-watcher:app] watcher start success
-2018-06-25 17:26:37,158 INFO 7804 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:26:37,196 INFO 7804 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:26:37,196 INFO 7804 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:26:37,405 INFO 7804 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:26:37,496 INFO 7804 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:26:37,499 INFO 7804 [egg-security] use methodnoallow middleware
-2018-06-25 17:26:37,500 INFO 7804 [egg-security] use noopen middleware
-2018-06-25 17:26:37,500 INFO 7804 [egg-security] use nosniff middleware
-2018-06-25 17:26:37,500 INFO 7804 [egg-security] use xssProtection middleware
-2018-06-25 17:26:37,501 INFO 7804 [egg-security] use xframe middleware
-2018-06-25 17:26:37,501 INFO 7804 [egg-security] use dta middleware
-2018-06-25 17:26:37,501 INFO 7804 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:26:37,516 INFO 7804 [egg-mongoose] starting...
-2018-06-25 17:26:37,539 INFO 7804 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:26:37,540 INFO 7804 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:26:37,542 INFO 7804 [egg-watcher:app] watcher start success
-2018-06-25 17:27:02,723 INFO 7804 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
-2018-06-25 17:31:18,289 INFO 12448 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:31:18,326 INFO 12448 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:31:18,326 INFO 12448 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:31:18,528 INFO 12448 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:31:18,628 INFO 12448 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:31:18,630 INFO 12448 [egg-security] use methodnoallow middleware
-2018-06-25 17:31:18,630 INFO 12448 [egg-security] use noopen middleware
-2018-06-25 17:31:18,631 INFO 12448 [egg-security] use nosniff middleware
-2018-06-25 17:31:18,631 INFO 12448 [egg-security] use xssProtection middleware
-2018-06-25 17:31:18,632 INFO 12448 [egg-security] use xframe middleware
-2018-06-25 17:31:18,632 INFO 12448 [egg-security] use dta middleware
-2018-06-25 17:31:18,632 INFO 12448 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:31:18,648 INFO 12448 [egg-mongoose] starting...
-2018-06-25 17:31:18,670 INFO 12448 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:31:18,671 INFO 12448 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:31:18,673 INFO 12448 [egg-watcher:app] watcher start success
-2018-06-25 17:31:19,596 INFO 10740 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:31:19,635 INFO 10740 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:31:19,635 INFO 10740 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:31:19,837 INFO 10740 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:31:19,928 INFO 10740 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:31:19,930 INFO 10740 [egg-security] use methodnoallow middleware
-2018-06-25 17:31:19,930 INFO 10740 [egg-security] use noopen middleware
-2018-06-25 17:31:19,931 INFO 10740 [egg-security] use nosniff middleware
-2018-06-25 17:31:19,931 INFO 10740 [egg-security] use xssProtection middleware
-2018-06-25 17:31:19,931 INFO 10740 [egg-security] use xframe middleware
-2018-06-25 17:31:19,932 INFO 10740 [egg-security] use dta middleware
-2018-06-25 17:31:19,932 INFO 10740 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:31:19,947 INFO 10740 [egg-mongoose] starting...
-2018-06-25 17:31:19,969 INFO 10740 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:31:19,969 INFO 10740 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:31:19,971 INFO 10740 [egg-watcher:app] watcher start success
-2018-06-25 17:31:54,658 INFO 10740 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
-2018-06-25 17:32:48,275 INFO 12424 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:32:48,310 INFO 12424 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:32:48,310 INFO 12424 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:32:48,514 INFO 12424 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:32:48,600 INFO 12424 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:32:48,602 INFO 12424 [egg-security] use methodnoallow middleware
-2018-06-25 17:32:48,602 INFO 12424 [egg-security] use noopen middleware
-2018-06-25 17:32:48,602 INFO 12424 [egg-security] use nosniff middleware
-2018-06-25 17:32:48,603 INFO 12424 [egg-security] use xssProtection middleware
-2018-06-25 17:32:48,603 INFO 12424 [egg-security] use xframe middleware
-2018-06-25 17:32:48,603 INFO 12424 [egg-security] use dta middleware
-2018-06-25 17:32:48,603 INFO 12424 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:32:48,617 INFO 12424 [egg-mongoose] starting...
-2018-06-25 17:32:48,641 INFO 12424 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:32:48,642 INFO 12424 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:32:48,643 INFO 12424 [egg-watcher:app] watcher start success
-2018-06-25 17:32:49,606 INFO 8580 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:32:49,644 INFO 8580 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:32:49,644 INFO 8580 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:32:49,847 INFO 8580 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:32:49,933 INFO 8580 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:32:49,935 INFO 8580 [egg-security] use methodnoallow middleware
-2018-06-25 17:32:49,935 INFO 8580 [egg-security] use noopen middleware
-2018-06-25 17:32:49,936 INFO 8580 [egg-security] use nosniff middleware
-2018-06-25 17:32:49,936 INFO 8580 [egg-security] use xssProtection middleware
-2018-06-25 17:32:49,936 INFO 8580 [egg-security] use xframe middleware
-2018-06-25 17:32:49,937 INFO 8580 [egg-security] use dta middleware
-2018-06-25 17:32:49,937 INFO 8580 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:32:49,951 INFO 8580 [egg-mongoose] starting...
-2018-06-25 17:32:49,973 INFO 8580 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:32:49,974 INFO 8580 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:32:49,976 INFO 8580 [egg-watcher:app] watcher start success
-2018-06-25 17:32:52,998 INFO 12580 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:32:53,033 INFO 12580 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:32:53,033 INFO 12580 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:32:53,230 INFO 12580 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:32:53,324 INFO 12580 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:32:53,326 INFO 12580 [egg-security] use methodnoallow middleware
-2018-06-25 17:32:53,327 INFO 12580 [egg-security] use noopen middleware
-2018-06-25 17:32:53,327 INFO 12580 [egg-security] use nosniff middleware
-2018-06-25 17:32:53,327 INFO 12580 [egg-security] use xssProtection middleware
-2018-06-25 17:32:53,328 INFO 12580 [egg-security] use xframe middleware
-2018-06-25 17:32:53,328 INFO 12580 [egg-security] use dta middleware
-2018-06-25 17:32:53,328 INFO 12580 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:32:53,343 INFO 12580 [egg-mongoose] starting...
-2018-06-25 17:32:53,364 INFO 12580 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:32:53,364 INFO 12580 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:32:53,366 INFO 12580 [egg-watcher:app] watcher start success
-2018-06-25 17:32:54,387 INFO 3124 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:32:54,422 INFO 3124 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:32:54,422 INFO 3124 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:32:54,621 INFO 3124 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:32:54,710 INFO 3124 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:32:54,712 INFO 3124 [egg-security] use methodnoallow middleware
-2018-06-25 17:32:54,712 INFO 3124 [egg-security] use noopen middleware
-2018-06-25 17:32:54,713 INFO 3124 [egg-security] use nosniff middleware
-2018-06-25 17:32:54,713 INFO 3124 [egg-security] use xssProtection middleware
-2018-06-25 17:32:54,713 INFO 3124 [egg-security] use xframe middleware
-2018-06-25 17:32:54,714 INFO 3124 [egg-security] use dta middleware
-2018-06-25 17:32:54,714 INFO 3124 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:32:54,727 INFO 3124 [egg-mongoose] starting...
-2018-06-25 17:32:54,747 INFO 3124 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:32:54,748 INFO 3124 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:32:54,750 INFO 3124 [egg-watcher:app] watcher start success
-2018-06-25 17:32:55,630 INFO 7208 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:32:55,667 INFO 7208 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:32:55,667 INFO 7208 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:32:55,890 INFO 7208 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:32:55,999 INFO 7208 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:32:56,001 INFO 7208 [egg-security] use methodnoallow middleware
-2018-06-25 17:32:56,002 INFO 7208 [egg-security] use noopen middleware
-2018-06-25 17:32:56,002 INFO 7208 [egg-security] use nosniff middleware
-2018-06-25 17:32:56,002 INFO 7208 [egg-security] use xssProtection middleware
-2018-06-25 17:32:56,003 INFO 7208 [egg-security] use xframe middleware
-2018-06-25 17:32:56,003 INFO 7208 [egg-security] use dta middleware
-2018-06-25 17:32:56,003 INFO 7208 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:32:56,020 INFO 7208 [egg-mongoose] starting...
-2018-06-25 17:32:56,046 INFO 7208 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:32:56,046 INFO 7208 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:32:56,049 INFO 7208 [egg-watcher:app] watcher start success
-2018-06-25 17:32:56,968 INFO 14948 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:32:57,002 INFO 14948 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:32:57,002 INFO 14948 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:32:57,209 INFO 14948 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:32:57,296 INFO 14948 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:32:57,298 INFO 14948 [egg-security] use methodnoallow middleware
-2018-06-25 17:32:57,299 INFO 14948 [egg-security] use noopen middleware
-2018-06-25 17:32:57,299 INFO 14948 [egg-security] use nosniff middleware
-2018-06-25 17:32:57,299 INFO 14948 [egg-security] use xssProtection middleware
-2018-06-25 17:32:57,300 INFO 14948 [egg-security] use xframe middleware
-2018-06-25 17:32:57,300 INFO 14948 [egg-security] use dta middleware
-2018-06-25 17:32:57,300 INFO 14948 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:32:57,320 INFO 14948 [egg-mongoose] starting...
-2018-06-25 17:32:57,346 INFO 14948 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:32:57,348 INFO 14948 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:32:57,353 INFO 14948 [egg-watcher:app] watcher start success
-2018-06-25 17:32:58,665 INFO 13716 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:32:58,701 INFO 13716 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:32:58,701 INFO 13716 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:32:58,905 INFO 13716 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:32:58,998 INFO 13716 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:32:59,001 INFO 13716 [egg-security] use methodnoallow middleware
-2018-06-25 17:32:59,001 INFO 13716 [egg-security] use noopen middleware
-2018-06-25 17:32:59,001 INFO 13716 [egg-security] use nosniff middleware
-2018-06-25 17:32:59,002 INFO 13716 [egg-security] use xssProtection middleware
-2018-06-25 17:32:59,002 INFO 13716 [egg-security] use xframe middleware
-2018-06-25 17:32:59,002 INFO 13716 [egg-security] use dta middleware
-2018-06-25 17:32:59,002 INFO 13716 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:32:59,016 INFO 13716 [egg-mongoose] starting...
-2018-06-25 17:32:59,036 INFO 13716 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:32:59,037 INFO 13716 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:32:59,038 INFO 13716 [egg-watcher:app] watcher start success
-2018-06-25 17:34:26,072 INFO 13716 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
-2018-06-25 17:34:48,642 INFO 10680 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:34:48,678 INFO 10680 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:34:48,678 INFO 10680 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:34:48,884 INFO 10680 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:34:48,979 INFO 10680 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:34:48,981 INFO 10680 [egg-security] use methodnoallow middleware
-2018-06-25 17:34:48,981 INFO 10680 [egg-security] use noopen middleware
-2018-06-25 17:34:48,982 INFO 10680 [egg-security] use nosniff middleware
-2018-06-25 17:34:48,982 INFO 10680 [egg-security] use xssProtection middleware
-2018-06-25 17:34:48,982 INFO 10680 [egg-security] use xframe middleware
-2018-06-25 17:34:48,983 INFO 10680 [egg-security] use dta middleware
-2018-06-25 17:34:48,983 INFO 10680 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:34:48,996 INFO 10680 [egg-mongoose] starting...
-2018-06-25 17:34:49,018 INFO 10680 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:34:49,019 INFO 10680 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:34:49,020 INFO 10680 [egg-watcher:app] watcher start success
-2018-06-25 17:34:49,905 INFO 3812 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:34:49,941 INFO 3812 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:34:49,941 INFO 3812 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:34:50,137 INFO 3812 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:34:50,225 INFO 3812 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:34:50,228 INFO 3812 [egg-security] use methodnoallow middleware
-2018-06-25 17:34:50,228 INFO 3812 [egg-security] use noopen middleware
-2018-06-25 17:34:50,229 INFO 3812 [egg-security] use nosniff middleware
-2018-06-25 17:34:50,229 INFO 3812 [egg-security] use xssProtection middleware
-2018-06-25 17:34:50,229 INFO 3812 [egg-security] use xframe middleware
-2018-06-25 17:34:50,230 INFO 3812 [egg-security] use dta middleware
-2018-06-25 17:34:50,230 INFO 3812 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:34:50,245 INFO 3812 [egg-mongoose] starting...
-2018-06-25 17:34:50,267 INFO 3812 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:34:50,268 INFO 3812 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:34:50,270 INFO 3812 [egg-watcher:app] watcher start success
-2018-06-25 17:34:50,427 INFO 3812 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
-2018-06-25 17:45:49,208 INFO 13556 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:45:49,242 INFO 13556 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:45:49,242 INFO 13556 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:45:49,444 INFO 13556 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:45:49,538 INFO 13556 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:45:49,541 INFO 13556 [egg-security] use methodnoallow middleware
-2018-06-25 17:45:49,541 INFO 13556 [egg-security] use noopen middleware
-2018-06-25 17:45:49,541 INFO 13556 [egg-security] use nosniff middleware
-2018-06-25 17:45:49,542 INFO 13556 [egg-security] use xssProtection middleware
-2018-06-25 17:45:49,542 INFO 13556 [egg-security] use xframe middleware
-2018-06-25 17:45:49,542 INFO 13556 [egg-security] use dta middleware
-2018-06-25 17:45:49,542 INFO 13556 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:45:49,557 INFO 13556 [egg-mongoose] starting...
-2018-06-25 17:45:49,577 INFO 13556 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:45:49,578 INFO 13556 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:45:49,580 INFO 13556 [egg-watcher:app] watcher start success
-2018-06-25 17:46:08,422 INFO 14208 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:46:08,459 INFO 14208 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:46:08,459 INFO 14208 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:46:08,656 INFO 14208 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:46:08,744 INFO 14208 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:46:08,746 INFO 14208 [egg-security] use methodnoallow middleware
-2018-06-25 17:46:08,747 INFO 14208 [egg-security] use noopen middleware
-2018-06-25 17:46:08,747 INFO 14208 [egg-security] use nosniff middleware
-2018-06-25 17:46:08,747 INFO 14208 [egg-security] use xssProtection middleware
-2018-06-25 17:46:08,748 INFO 14208 [egg-security] use xframe middleware
-2018-06-25 17:46:08,749 INFO 14208 [egg-security] use dta middleware
-2018-06-25 17:46:08,749 INFO 14208 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:46:08,763 INFO 14208 [egg-mongoose] starting...
-2018-06-25 17:46:08,784 INFO 14208 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:46:08,785 INFO 14208 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:46:08,787 INFO 14208 [egg-watcher:app] watcher start success
-2018-06-25 17:46:09,767 INFO 10472 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:46:09,802 INFO 10472 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:46:09,802 INFO 10472 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:46:10,025 INFO 10472 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:46:10,116 INFO 10472 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:46:10,119 INFO 10472 [egg-security] use methodnoallow middleware
-2018-06-25 17:46:10,119 INFO 10472 [egg-security] use noopen middleware
-2018-06-25 17:46:10,120 INFO 10472 [egg-security] use nosniff middleware
-2018-06-25 17:46:10,120 INFO 10472 [egg-security] use xssProtection middleware
-2018-06-25 17:46:10,120 INFO 10472 [egg-security] use xframe middleware
-2018-06-25 17:46:10,121 INFO 10472 [egg-security] use dta middleware
-2018-06-25 17:46:10,121 INFO 10472 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:46:10,140 INFO 10472 [egg-mongoose] starting...
-2018-06-25 17:46:10,163 INFO 10472 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:46:10,163 INFO 10472 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:46:10,165 INFO 10472 [egg-watcher:app] watcher start success
-2018-06-25 17:47:06,593 INFO 10472 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
-2018-06-25 17:52:05,672 INFO 7724 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:52:05,740 INFO 7724 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:52:05,740 INFO 7724 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:52:05,960 INFO 7724 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:52:06,055 INFO 7724 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:52:06,057 INFO 7724 [egg-security] use methodnoallow middleware
-2018-06-25 17:52:06,057 INFO 7724 [egg-security] use noopen middleware
-2018-06-25 17:52:06,057 INFO 7724 [egg-security] use nosniff middleware
-2018-06-25 17:52:06,058 INFO 7724 [egg-security] use xssProtection middleware
-2018-06-25 17:52:06,058 INFO 7724 [egg-security] use xframe middleware
-2018-06-25 17:52:06,058 INFO 7724 [egg-security] use dta middleware
-2018-06-25 17:52:06,058 INFO 7724 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:52:06,073 INFO 7724 [egg-mongoose] starting...
-2018-06-25 17:52:06,097 INFO 7724 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:52:06,097 INFO 7724 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:52:06,099 INFO 7724 [egg-watcher:app] watcher start success
-2018-06-25 17:52:08,128 INFO 7724 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
-2018-06-25 17:55:14,188 INFO 13864 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:55:14,228 INFO 13864 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:55:14,228 INFO 13864 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:55:14,548 INFO 13864 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:55:14,640 INFO 13864 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:55:14,642 INFO 13864 [egg-security] use methodnoallow middleware
-2018-06-25 17:55:14,642 INFO 13864 [egg-security] use noopen middleware
-2018-06-25 17:55:14,643 INFO 13864 [egg-security] use nosniff middleware
-2018-06-25 17:55:14,643 INFO 13864 [egg-security] use xssProtection middleware
-2018-06-25 17:55:14,643 INFO 13864 [egg-security] use xframe middleware
-2018-06-25 17:55:14,644 INFO 13864 [egg-security] use dta middleware
-2018-06-25 17:55:14,644 INFO 13864 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:55:14,659 INFO 13864 [egg-mongoose] starting...
-2018-06-25 17:55:14,682 INFO 13864 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:55:14,683 INFO 13864 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:55:14,684 INFO 13864 [egg-watcher:app] watcher start success
-2018-06-25 17:55:15,624 INFO 13864 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
-2018-06-25 17:55:26,398 INFO 14004 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:55:26,432 INFO 14004 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:55:26,432 INFO 14004 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:55:26,672 INFO 14004 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:55:26,759 INFO 14004 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:55:26,762 INFO 14004 [egg-security] use methodnoallow middleware
-2018-06-25 17:55:26,763 INFO 14004 [egg-security] use noopen middleware
-2018-06-25 17:55:26,763 INFO 14004 [egg-security] use nosniff middleware
-2018-06-25 17:55:26,763 INFO 14004 [egg-security] use xssProtection middleware
-2018-06-25 17:55:26,764 INFO 14004 [egg-security] use xframe middleware
-2018-06-25 17:55:26,764 INFO 14004 [egg-security] use dta middleware
-2018-06-25 17:55:26,764 INFO 14004 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:55:26,779 INFO 14004 [egg-mongoose] starting...
-2018-06-25 17:55:26,803 INFO 14004 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:55:26,804 INFO 14004 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:55:26,806 INFO 14004 [egg-watcher:app] watcher start success
-2018-06-25 17:55:27,194 INFO 14004 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
-2018-06-25 17:59:36,072 INFO 14588 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:59:36,108 INFO 14588 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:59:36,108 INFO 14588 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:59:36,365 INFO 14588 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:59:36,478 INFO 14588 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:59:36,480 INFO 14588 [egg-security] use methodnoallow middleware
-2018-06-25 17:59:36,480 INFO 14588 [egg-security] use noopen middleware
-2018-06-25 17:59:36,480 INFO 14588 [egg-security] use nosniff middleware
-2018-06-25 17:59:36,481 INFO 14588 [egg-security] use xssProtection middleware
-2018-06-25 17:59:36,481 INFO 14588 [egg-security] use xframe middleware
-2018-06-25 17:59:36,481 INFO 14588 [egg-security] use dta middleware
-2018-06-25 17:59:36,481 INFO 14588 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:59:36,506 INFO 14588 [egg-mongoose] starting...
-2018-06-25 17:59:36,536 INFO 14588 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:59:36,537 INFO 14588 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:59:36,540 INFO 14588 [egg-watcher:app] watcher start success
-2018-06-25 17:59:53,479 INFO 7396 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:59:53,517 INFO 7396 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:59:53,517 INFO 7396 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:59:53,744 INFO 7396 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:59:53,838 INFO 7396 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:59:53,841 INFO 7396 [egg-security] use methodnoallow middleware
-2018-06-25 17:59:53,841 INFO 7396 [egg-security] use noopen middleware
-2018-06-25 17:59:53,841 INFO 7396 [egg-security] use nosniff middleware
-2018-06-25 17:59:53,842 INFO 7396 [egg-security] use xssProtection middleware
-2018-06-25 17:59:53,842 INFO 7396 [egg-security] use xframe middleware
-2018-06-25 17:59:53,842 INFO 7396 [egg-security] use dta middleware
-2018-06-25 17:59:53,842 INFO 7396 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:59:53,863 INFO 7396 [egg-mongoose] starting...
-2018-06-25 17:59:53,887 INFO 7396 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:59:53,888 INFO 7396 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:59:53,890 INFO 7396 [egg-watcher:app] watcher start success
-2018-06-25 17:59:54,802 INFO 13156 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
-2018-06-25 17:59:54,838 INFO 13156 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
-2018-06-25 17:59:54,838 INFO 13156 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
-2018-06-25 17:59:55,041 INFO 13156 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
-2018-06-25 17:59:55,136 INFO 13156 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
-2018-06-25 17:59:55,139 INFO 13156 [egg-security] use methodnoallow middleware
-2018-06-25 17:59:55,140 INFO 13156 [egg-security] use noopen middleware
-2018-06-25 17:59:55,140 INFO 13156 [egg-security] use nosniff middleware
-2018-06-25 17:59:55,140 INFO 13156 [egg-security] use xssProtection middleware
-2018-06-25 17:59:55,141 INFO 13156 [egg-security] use xframe middleware
-2018-06-25 17:59:55,141 INFO 13156 [egg-security] use dta middleware
-2018-06-25 17:59:55,141 INFO 13156 [egg-security] compose 6 middlewares into one security middleware
-2018-06-25 17:59:55,155 INFO 13156 [egg-mongoose] starting...
-2018-06-25 17:59:55,179 INFO 13156 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
-2018-06-25 17:59:55,180 INFO 13156 [egg-mongoose] instance[0] start successfully
-2018-06-25 17:59:55,182 INFO 13156 [egg-watcher:app] watcher start success
+2018-06-29 00:00:01,497 INFO 3096 [egg-logrotator] app logger reload: got log-reload message
+2018-06-29 03:34:59,532 WARN 3096 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-06-29 03:35:00,470 WARN 3096 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-06-29 08:29:05,855 INFO 160 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 08:29:05,895 INFO 160 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 08:29:05,895 INFO 160 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 08:29:06,117 INFO 160 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 08:29:06,228 INFO 160 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 08:29:06,232 INFO 160 [egg-security] use methodnoallow middleware
+2018-06-29 08:29:06,233 INFO 160 [egg-security] use noopen middleware
+2018-06-29 08:29:06,233 INFO 160 [egg-security] use nosniff middleware
+2018-06-29 08:29:06,234 INFO 160 [egg-security] use xssProtection middleware
+2018-06-29 08:29:06,235 INFO 160 [egg-security] use xframe middleware
+2018-06-29 08:29:06,236 INFO 160 [egg-security] use dta middleware
+2018-06-29 08:29:06,236 INFO 160 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 08:29:06,257 INFO 160 [egg-mongoose] starting...
+2018-06-29 08:29:06,280 INFO 160 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 08:29:06,281 INFO 160 [egg-mongoose] instance[0] start successfully
+2018-06-29 08:29:06,285 INFO 160 [egg-watcher:app] watcher start success
+2018-06-29 08:29:06,467 INFO 160 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
+2018-06-29 08:32:33,825 INFO 15804 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 08:32:33,863 INFO 15804 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 08:32:33,863 INFO 15804 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 08:32:34,079 INFO 15804 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 08:32:34,180 INFO 15804 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 08:32:34,182 INFO 15804 [egg-security] use methodnoallow middleware
+2018-06-29 08:32:34,183 INFO 15804 [egg-security] use noopen middleware
+2018-06-29 08:32:34,183 INFO 15804 [egg-security] use nosniff middleware
+2018-06-29 08:32:34,183 INFO 15804 [egg-security] use xssProtection middleware
+2018-06-29 08:32:34,184 INFO 15804 [egg-security] use xframe middleware
+2018-06-29 08:32:34,184 INFO 15804 [egg-security] use dta middleware
+2018-06-29 08:32:34,184 INFO 15804 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 08:32:34,201 INFO 15804 [egg-mongoose] starting...
+2018-06-29 08:32:34,226 INFO 15804 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 08:32:34,227 INFO 15804 [egg-mongoose] instance[0] start successfully
+2018-06-29 08:32:34,229 INFO 15804 [egg-watcher:app] watcher start success
+2018-06-29 08:32:35,610 INFO 13864 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 08:32:35,656 INFO 13864 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 08:32:35,656 INFO 13864 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 08:32:35,865 INFO 13864 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 08:32:35,962 INFO 13864 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 08:32:35,965 INFO 13864 [egg-security] use methodnoallow middleware
+2018-06-29 08:32:35,966 INFO 13864 [egg-security] use noopen middleware
+2018-06-29 08:32:35,966 INFO 13864 [egg-security] use nosniff middleware
+2018-06-29 08:32:35,967 INFO 13864 [egg-security] use xssProtection middleware
+2018-06-29 08:32:35,967 INFO 13864 [egg-security] use xframe middleware
+2018-06-29 08:32:35,967 INFO 13864 [egg-security] use dta middleware
+2018-06-29 08:32:35,967 INFO 13864 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 08:32:35,989 INFO 13864 [egg-mongoose] starting...
+2018-06-29 08:32:36,017 INFO 13864 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 08:32:36,018 INFO 13864 [egg-mongoose] instance[0] start successfully
+2018-06-29 08:32:36,021 INFO 13864 [egg-watcher:app] watcher start success
+2018-06-29 08:32:51,014 INFO 17128 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 08:32:51,057 INFO 17128 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 08:32:51,057 INFO 17128 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 08:32:51,344 INFO 17128 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 08:32:51,453 INFO 17128 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 08:32:51,455 INFO 17128 [egg-security] use methodnoallow middleware
+2018-06-29 08:32:51,456 INFO 17128 [egg-security] use noopen middleware
+2018-06-29 08:32:51,457 INFO 17128 [egg-security] use nosniff middleware
+2018-06-29 08:32:51,457 INFO 17128 [egg-security] use xssProtection middleware
+2018-06-29 08:32:51,458 INFO 17128 [egg-security] use xframe middleware
+2018-06-29 08:32:51,458 INFO 17128 [egg-security] use dta middleware
+2018-06-29 08:32:51,458 INFO 17128 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 08:32:51,475 INFO 17128 [egg-mongoose] starting...
+2018-06-29 08:32:51,500 INFO 17128 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 08:32:51,501 INFO 17128 [egg-mongoose] instance[0] start successfully
+2018-06-29 08:32:51,503 INFO 17128 [egg-watcher:app] watcher start success
+2018-06-29 08:32:51,979 INFO 17128 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
+2018-06-29 08:32:52,763 INFO 8720 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 08:32:52,819 INFO 8720 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 08:32:52,819 INFO 8720 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 08:32:53,172 INFO 8720 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 08:32:53,312 INFO 8720 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 08:32:53,315 INFO 8720 [egg-security] use methodnoallow middleware
+2018-06-29 08:32:53,316 INFO 8720 [egg-security] use noopen middleware
+2018-06-29 08:32:53,316 INFO 8720 [egg-security] use nosniff middleware
+2018-06-29 08:32:53,317 INFO 8720 [egg-security] use xssProtection middleware
+2018-06-29 08:32:53,318 INFO 8720 [egg-security] use xframe middleware
+2018-06-29 08:32:53,318 INFO 8720 [egg-security] use dta middleware
+2018-06-29 08:32:53,318 INFO 8720 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 08:32:53,335 INFO 8720 [egg-mongoose] starting...
+2018-06-29 08:32:53,363 INFO 8720 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 08:32:53,365 INFO 8720 [egg-mongoose] instance[0] start successfully
+2018-06-29 08:32:53,368 INFO 8720 [egg-watcher:app] watcher start success
+2018-06-29 08:33:00,404 INFO 8720 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
+2018-06-29 08:33:40,550 INFO 10312 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 08:33:40,588 INFO 10312 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 08:33:40,588 INFO 10312 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 08:33:40,802 INFO 10312 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 08:33:40,893 INFO 10312 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 08:33:40,895 INFO 10312 [egg-security] use methodnoallow middleware
+2018-06-29 08:33:40,895 INFO 10312 [egg-security] use noopen middleware
+2018-06-29 08:33:40,895 INFO 10312 [egg-security] use nosniff middleware
+2018-06-29 08:33:40,896 INFO 10312 [egg-security] use xssProtection middleware
+2018-06-29 08:33:40,896 INFO 10312 [egg-security] use xframe middleware
+2018-06-29 08:33:40,896 INFO 10312 [egg-security] use dta middleware
+2018-06-29 08:33:40,896 INFO 10312 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 08:33:40,913 INFO 10312 [egg-mongoose] starting...
+2018-06-29 08:33:40,937 INFO 10312 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 08:33:40,938 INFO 10312 [egg-mongoose] instance[0] start successfully
+2018-06-29 08:33:40,940 INFO 10312 [egg-watcher:app] watcher start success
+2018-06-29 08:33:42,407 INFO 15984 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 08:33:42,441 INFO 15984 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 08:33:42,441 INFO 15984 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 08:33:42,662 INFO 15984 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 08:33:42,761 INFO 15984 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 08:33:42,763 INFO 15984 [egg-security] use methodnoallow middleware
+2018-06-29 08:33:42,764 INFO 15984 [egg-security] use noopen middleware
+2018-06-29 08:33:42,764 INFO 15984 [egg-security] use nosniff middleware
+2018-06-29 08:33:42,765 INFO 15984 [egg-security] use xssProtection middleware
+2018-06-29 08:33:42,765 INFO 15984 [egg-security] use xframe middleware
+2018-06-29 08:33:42,766 INFO 15984 [egg-security] use dta middleware
+2018-06-29 08:33:42,766 INFO 15984 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 08:33:42,788 INFO 15984 [egg-mongoose] starting...
+2018-06-29 08:33:42,811 INFO 15984 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 08:33:42,812 INFO 15984 [egg-mongoose] instance[0] start successfully
+2018-06-29 08:33:42,814 INFO 15984 [egg-watcher:app] watcher start success
+2018-06-29 08:48:26,993 INFO 16612 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 08:48:27,028 INFO 16612 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 08:48:27,028 INFO 16612 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 08:48:27,264 INFO 16612 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 08:48:27,354 INFO 16612 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 08:48:27,356 INFO 16612 [egg-security] use methodnoallow middleware
+2018-06-29 08:48:27,357 INFO 16612 [egg-security] use noopen middleware
+2018-06-29 08:48:27,357 INFO 16612 [egg-security] use nosniff middleware
+2018-06-29 08:48:27,357 INFO 16612 [egg-security] use xssProtection middleware
+2018-06-29 08:48:27,358 INFO 16612 [egg-security] use xframe middleware
+2018-06-29 08:48:27,358 INFO 16612 [egg-security] use dta middleware
+2018-06-29 08:48:27,358 INFO 16612 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 08:48:27,372 INFO 16612 [egg-mongoose] starting...
+2018-06-29 08:48:27,395 INFO 16612 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 08:48:27,395 INFO 16612 [egg-mongoose] instance[0] start successfully
+2018-06-29 08:48:27,397 INFO 16612 [egg-watcher:app] watcher start success
+2018-06-29 08:48:55,932 INFO 14072 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 08:48:55,968 INFO 14072 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 08:48:55,968 INFO 14072 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 08:48:56,176 INFO 14072 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 08:48:56,267 INFO 14072 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 08:48:56,270 INFO 14072 [egg-security] use methodnoallow middleware
+2018-06-29 08:48:56,270 INFO 14072 [egg-security] use noopen middleware
+2018-06-29 08:48:56,271 INFO 14072 [egg-security] use nosniff middleware
+2018-06-29 08:48:56,271 INFO 14072 [egg-security] use xssProtection middleware
+2018-06-29 08:48:56,271 INFO 14072 [egg-security] use xframe middleware
+2018-06-29 08:48:56,272 INFO 14072 [egg-security] use dta middleware
+2018-06-29 08:48:56,272 INFO 14072 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 08:48:56,290 INFO 14072 [egg-mongoose] starting...
+2018-06-29 08:48:56,312 INFO 14072 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 08:48:56,313 INFO 14072 [egg-mongoose] instance[0] start successfully
+2018-06-29 08:48:56,315 INFO 14072 [egg-watcher:app] watcher start success
+2018-06-29 08:49:17,460 INFO 14808 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 08:49:17,496 INFO 14808 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 08:49:17,496 INFO 14808 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 08:49:17,706 INFO 14808 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 08:49:17,797 INFO 14808 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 08:49:17,799 INFO 14808 [egg-security] use methodnoallow middleware
+2018-06-29 08:49:17,800 INFO 14808 [egg-security] use noopen middleware
+2018-06-29 08:49:17,800 INFO 14808 [egg-security] use nosniff middleware
+2018-06-29 08:49:17,800 INFO 14808 [egg-security] use xssProtection middleware
+2018-06-29 08:49:17,801 INFO 14808 [egg-security] use xframe middleware
+2018-06-29 08:49:17,801 INFO 14808 [egg-security] use dta middleware
+2018-06-29 08:49:17,801 INFO 14808 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 08:49:17,817 INFO 14808 [egg-mongoose] starting...
+2018-06-29 08:49:17,841 INFO 14808 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 08:49:17,842 INFO 14808 [egg-mongoose] instance[0] start successfully
+2018-06-29 08:49:17,844 INFO 14808 [egg-watcher:app] watcher start success
+2018-06-29 08:49:19,500 INFO 3788 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 08:49:19,545 INFO 3788 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 08:49:19,545 INFO 3788 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 08:49:19,859 INFO 3788 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 08:49:19,955 INFO 3788 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 08:49:19,958 INFO 3788 [egg-security] use methodnoallow middleware
+2018-06-29 08:49:19,958 INFO 3788 [egg-security] use noopen middleware
+2018-06-29 08:49:19,958 INFO 3788 [egg-security] use nosniff middleware
+2018-06-29 08:49:19,959 INFO 3788 [egg-security] use xssProtection middleware
+2018-06-29 08:49:19,959 INFO 3788 [egg-security] use xframe middleware
+2018-06-29 08:49:19,959 INFO 3788 [egg-security] use dta middleware
+2018-06-29 08:49:19,959 INFO 3788 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 08:49:19,980 INFO 3788 [egg-mongoose] starting...
+2018-06-29 08:49:20,004 INFO 3788 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 08:49:20,005 INFO 3788 [egg-mongoose] instance[0] start successfully
+2018-06-29 08:49:20,008 INFO 3788 [egg-watcher:app] watcher start success
+2018-06-29 08:49:20,517 INFO 15848 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 08:49:20,552 INFO 15848 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 08:49:20,552 INFO 15848 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 08:49:20,778 INFO 15848 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 08:49:20,867 INFO 15848 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 08:49:20,870 INFO 15848 [egg-security] use methodnoallow middleware
+2018-06-29 08:49:20,870 INFO 15848 [egg-security] use noopen middleware
+2018-06-29 08:49:20,871 INFO 15848 [egg-security] use nosniff middleware
+2018-06-29 08:49:20,871 INFO 15848 [egg-security] use xssProtection middleware
+2018-06-29 08:49:20,871 INFO 15848 [egg-security] use xframe middleware
+2018-06-29 08:49:20,872 INFO 15848 [egg-security] use dta middleware
+2018-06-29 08:49:20,872 INFO 15848 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 08:49:20,889 INFO 15848 [egg-mongoose] starting...
+2018-06-29 08:49:20,913 INFO 15848 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 08:49:20,914 INFO 15848 [egg-mongoose] instance[0] start successfully
+2018-06-29 08:49:20,916 INFO 15848 [egg-watcher:app] watcher start success
+2018-06-29 08:49:35,822 INFO 15984 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 08:49:35,879 INFO 15984 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 08:49:35,879 INFO 15984 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 08:49:36,174 INFO 15984 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 08:49:36,268 INFO 15984 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 08:49:36,271 INFO 15984 [egg-security] use methodnoallow middleware
+2018-06-29 08:49:36,271 INFO 15984 [egg-security] use noopen middleware
+2018-06-29 08:49:36,272 INFO 15984 [egg-security] use nosniff middleware
+2018-06-29 08:49:36,272 INFO 15984 [egg-security] use xssProtection middleware
+2018-06-29 08:49:36,273 INFO 15984 [egg-security] use xframe middleware
+2018-06-29 08:49:36,273 INFO 15984 [egg-security] use dta middleware
+2018-06-29 08:49:36,273 INFO 15984 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 08:49:36,291 INFO 15984 [egg-mongoose] starting...
+2018-06-29 08:49:36,315 INFO 15984 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 08:49:36,316 INFO 15984 [egg-mongoose] instance[0] start successfully
+2018-06-29 08:49:36,318 INFO 15984 [egg-watcher:app] watcher start success
+2018-06-29 08:49:37,291 INFO 14384 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 08:49:37,332 INFO 14384 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 08:49:37,332 INFO 14384 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 08:49:37,549 INFO 14384 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 08:49:37,643 INFO 14384 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 08:49:37,646 INFO 14384 [egg-security] use methodnoallow middleware
+2018-06-29 08:49:37,646 INFO 14384 [egg-security] use noopen middleware
+2018-06-29 08:49:37,646 INFO 14384 [egg-security] use nosniff middleware
+2018-06-29 08:49:37,647 INFO 14384 [egg-security] use xssProtection middleware
+2018-06-29 08:49:37,647 INFO 14384 [egg-security] use xframe middleware
+2018-06-29 08:49:37,648 INFO 14384 [egg-security] use dta middleware
+2018-06-29 08:49:37,648 INFO 14384 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 08:49:37,663 INFO 14384 [egg-mongoose] starting...
+2018-06-29 08:49:37,689 INFO 14384 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 08:49:37,689 INFO 14384 [egg-mongoose] instance[0] start successfully
+2018-06-29 08:49:37,692 INFO 14384 [egg-watcher:app] watcher start success
+2018-06-29 08:49:37,761 INFO 14384 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
+2018-06-29 08:50:35,946 INFO 15156 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 08:50:35,984 INFO 15156 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 08:50:35,984 INFO 15156 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 08:50:36,195 INFO 15156 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 08:50:36,292 INFO 15156 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 08:50:36,295 INFO 15156 [egg-security] use methodnoallow middleware
+2018-06-29 08:50:36,295 INFO 15156 [egg-security] use noopen middleware
+2018-06-29 08:50:36,296 INFO 15156 [egg-security] use nosniff middleware
+2018-06-29 08:50:36,296 INFO 15156 [egg-security] use xssProtection middleware
+2018-06-29 08:50:36,297 INFO 15156 [egg-security] use xframe middleware
+2018-06-29 08:50:36,297 INFO 15156 [egg-security] use dta middleware
+2018-06-29 08:50:36,297 INFO 15156 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 08:50:36,323 INFO 15156 [egg-mongoose] starting...
+2018-06-29 08:50:36,349 INFO 15156 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 08:50:36,350 INFO 15156 [egg-mongoose] instance[0] start successfully
+2018-06-29 08:50:36,352 INFO 15156 [egg-watcher:app] watcher start success
+2018-06-29 08:50:39,341 INFO 14912 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 08:50:39,397 INFO 14912 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 08:50:39,397 INFO 14912 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 08:50:39,753 INFO 14912 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 08:50:39,855 INFO 14912 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 08:50:39,857 INFO 14912 [egg-security] use methodnoallow middleware
+2018-06-29 08:50:39,857 INFO 14912 [egg-security] use noopen middleware
+2018-06-29 08:50:39,857 INFO 14912 [egg-security] use nosniff middleware
+2018-06-29 08:50:39,858 INFO 14912 [egg-security] use xssProtection middleware
+2018-06-29 08:50:39,858 INFO 14912 [egg-security] use xframe middleware
+2018-06-29 08:50:39,858 INFO 14912 [egg-security] use dta middleware
+2018-06-29 08:50:39,858 INFO 14912 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 08:50:39,873 INFO 14912 [egg-mongoose] starting...
+2018-06-29 08:50:39,894 INFO 14912 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 08:50:39,895 INFO 14912 [egg-mongoose] instance[0] start successfully
+2018-06-29 08:50:39,897 INFO 14912 [egg-watcher:app] watcher start success
+2018-06-29 08:51:45,939 INFO 7792 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 08:51:45,982 INFO 7792 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 08:51:45,982 INFO 7792 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 08:51:46,231 INFO 7792 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 08:51:46,335 INFO 7792 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 08:51:46,338 INFO 7792 [egg-security] use methodnoallow middleware
+2018-06-29 08:51:46,339 INFO 7792 [egg-security] use noopen middleware
+2018-06-29 08:51:46,339 INFO 7792 [egg-security] use nosniff middleware
+2018-06-29 08:51:46,340 INFO 7792 [egg-security] use xssProtection middleware
+2018-06-29 08:51:46,340 INFO 7792 [egg-security] use xframe middleware
+2018-06-29 08:51:46,340 INFO 7792 [egg-security] use dta middleware
+2018-06-29 08:51:46,340 INFO 7792 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 08:51:46,362 INFO 7792 [egg-mongoose] starting...
+2018-06-29 08:51:46,387 INFO 7792 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 08:51:46,389 INFO 7792 [egg-mongoose] instance[0] start successfully
+2018-06-29 08:51:46,391 INFO 7792 [egg-watcher:app] watcher start success
+2018-06-29 08:51:47,317 INFO 12940 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 08:51:47,357 INFO 12940 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 08:51:47,357 INFO 12940 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 08:51:47,580 INFO 12940 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 08:51:47,664 INFO 12940 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 08:51:47,666 INFO 12940 [egg-security] use methodnoallow middleware
+2018-06-29 08:51:47,667 INFO 12940 [egg-security] use noopen middleware
+2018-06-29 08:51:47,667 INFO 12940 [egg-security] use nosniff middleware
+2018-06-29 08:51:47,667 INFO 12940 [egg-security] use xssProtection middleware
+2018-06-29 08:51:47,668 INFO 12940 [egg-security] use xframe middleware
+2018-06-29 08:51:47,668 INFO 12940 [egg-security] use dta middleware
+2018-06-29 08:51:47,668 INFO 12940 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 08:51:47,685 INFO 12940 [egg-mongoose] starting...
+2018-06-29 08:51:47,708 INFO 12940 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 08:51:47,709 INFO 12940 [egg-mongoose] instance[0] start successfully
+2018-06-29 08:51:47,710 INFO 12940 [egg-watcher:app] watcher start success
+2018-06-29 08:51:52,634 INFO 12940 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
+2018-06-29 08:57:59,645 INFO 3772 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 08:57:59,684 INFO 3772 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 08:57:59,684 INFO 3772 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 08:57:59,896 INFO 3772 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 08:57:59,991 INFO 3772 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 08:57:59,993 INFO 3772 [egg-security] use methodnoallow middleware
+2018-06-29 08:57:59,994 INFO 3772 [egg-security] use noopen middleware
+2018-06-29 08:57:59,994 INFO 3772 [egg-security] use nosniff middleware
+2018-06-29 08:57:59,994 INFO 3772 [egg-security] use xssProtection middleware
+2018-06-29 08:57:59,995 INFO 3772 [egg-security] use xframe middleware
+2018-06-29 08:57:59,996 INFO 3772 [egg-security] use dta middleware
+2018-06-29 08:57:59,996 INFO 3772 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 08:58:00,013 INFO 3772 [egg-mongoose] starting...
+2018-06-29 08:58:00,038 INFO 3772 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 08:58:00,039 INFO 3772 [egg-mongoose] instance[0] start successfully
+2018-06-29 08:58:00,041 INFO 3772 [egg-watcher:app] watcher start success
+2018-06-29 08:58:50,748 INFO 3772 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
+2018-06-29 09:00:13,325 INFO 13780 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 09:00:13,361 INFO 13780 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 09:00:13,361 INFO 13780 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 09:00:13,567 INFO 13780 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 09:00:13,658 INFO 13780 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 09:00:13,660 INFO 13780 [egg-security] use methodnoallow middleware
+2018-06-29 09:00:13,660 INFO 13780 [egg-security] use noopen middleware
+2018-06-29 09:00:13,661 INFO 13780 [egg-security] use nosniff middleware
+2018-06-29 09:00:13,661 INFO 13780 [egg-security] use xssProtection middleware
+2018-06-29 09:00:13,662 INFO 13780 [egg-security] use xframe middleware
+2018-06-29 09:00:13,662 INFO 13780 [egg-security] use dta middleware
+2018-06-29 09:00:13,662 INFO 13780 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 09:00:13,679 INFO 13780 [egg-mongoose] starting...
+2018-06-29 09:00:13,703 INFO 13780 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 09:00:13,704 INFO 13780 [egg-mongoose] instance[0] start successfully
+2018-06-29 09:00:13,705 INFO 13780 [egg-watcher:app] watcher start success
+2018-06-29 09:00:14,774 INFO 11744 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 09:00:14,809 INFO 11744 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 09:00:14,809 INFO 11744 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 09:00:15,011 INFO 11744 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 09:00:15,101 INFO 11744 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 09:00:15,103 INFO 11744 [egg-security] use methodnoallow middleware
+2018-06-29 09:00:15,104 INFO 11744 [egg-security] use noopen middleware
+2018-06-29 09:00:15,104 INFO 11744 [egg-security] use nosniff middleware
+2018-06-29 09:00:15,104 INFO 11744 [egg-security] use xssProtection middleware
+2018-06-29 09:00:15,104 INFO 11744 [egg-security] use xframe middleware
+2018-06-29 09:00:15,105 INFO 11744 [egg-security] use dta middleware
+2018-06-29 09:00:15,105 INFO 11744 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 09:00:15,122 INFO 11744 [egg-mongoose] starting...
+2018-06-29 09:00:15,145 INFO 11744 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 09:00:15,145 INFO 11744 [egg-mongoose] instance[0] start successfully
+2018-06-29 09:00:15,147 INFO 11744 [egg-watcher:app] watcher start success
+2018-06-29 09:00:48,041 INFO 11568 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 09:00:48,080 INFO 11568 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 09:00:48,080 INFO 11568 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 09:00:48,306 INFO 11568 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 09:00:48,417 INFO 11568 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 09:00:48,419 INFO 11568 [egg-security] use methodnoallow middleware
+2018-06-29 09:00:48,420 INFO 11568 [egg-security] use noopen middleware
+2018-06-29 09:00:48,420 INFO 11568 [egg-security] use nosniff middleware
+2018-06-29 09:00:48,420 INFO 11568 [egg-security] use xssProtection middleware
+2018-06-29 09:00:48,421 INFO 11568 [egg-security] use xframe middleware
+2018-06-29 09:00:48,421 INFO 11568 [egg-security] use dta middleware
+2018-06-29 09:00:48,421 INFO 11568 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 09:00:48,437 INFO 11568 [egg-mongoose] starting...
+2018-06-29 09:00:48,460 INFO 11568 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 09:00:48,460 INFO 11568 [egg-mongoose] instance[0] start successfully
+2018-06-29 09:00:48,465 INFO 11568 [egg-watcher:app] watcher start success
+2018-06-29 09:00:49,400 INFO 3824 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 09:00:49,442 INFO 3824 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 09:00:49,442 INFO 3824 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 09:00:49,757 INFO 3824 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 09:00:49,875 INFO 3824 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 09:00:49,878 INFO 3824 [egg-security] use methodnoallow middleware
+2018-06-29 09:00:49,878 INFO 3824 [egg-security] use noopen middleware
+2018-06-29 09:00:49,879 INFO 3824 [egg-security] use nosniff middleware
+2018-06-29 09:00:49,879 INFO 3824 [egg-security] use xssProtection middleware
+2018-06-29 09:00:49,879 INFO 3824 [egg-security] use xframe middleware
+2018-06-29 09:00:49,879 INFO 3824 [egg-security] use dta middleware
+2018-06-29 09:00:49,879 INFO 3824 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 09:00:49,906 INFO 3824 [egg-mongoose] starting...
+2018-06-29 09:00:49,931 INFO 3824 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 09:00:49,932 INFO 3824 [egg-mongoose] instance[0] start successfully
+2018-06-29 09:00:49,934 INFO 3824 [egg-watcher:app] watcher start success
+2018-06-29 09:00:50,608 INFO 3824 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
+2018-06-29 09:44:57,767 INFO 17420 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 09:44:57,805 INFO 17420 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 09:44:57,805 INFO 17420 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 09:44:58,023 INFO 17420 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 09:44:58,116 INFO 17420 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 09:44:58,118 INFO 17420 [egg-security] use methodnoallow middleware
+2018-06-29 09:44:58,118 INFO 17420 [egg-security] use noopen middleware
+2018-06-29 09:44:58,118 INFO 17420 [egg-security] use nosniff middleware
+2018-06-29 09:44:58,119 INFO 17420 [egg-security] use xssProtection middleware
+2018-06-29 09:44:58,119 INFO 17420 [egg-security] use xframe middleware
+2018-06-29 09:44:58,120 INFO 17420 [egg-security] use dta middleware
+2018-06-29 09:44:58,120 INFO 17420 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 09:44:58,139 INFO 17420 [egg-mongoose] starting...
+2018-06-29 09:44:58,164 INFO 17420 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 09:44:58,165 INFO 17420 [egg-mongoose] instance[0] start successfully
+2018-06-29 09:44:58,167 INFO 17420 [egg-watcher:app] watcher start success
+2018-06-29 09:44:59,683 INFO 17420 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
+2018-06-29 09:46:07,090 INFO 8040 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 09:46:07,128 INFO 8040 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 09:46:07,128 INFO 8040 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 09:46:07,358 INFO 8040 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 09:46:07,451 INFO 8040 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 09:46:07,454 INFO 8040 [egg-security] use methodnoallow middleware
+2018-06-29 09:46:07,454 INFO 8040 [egg-security] use noopen middleware
+2018-06-29 09:46:07,455 INFO 8040 [egg-security] use nosniff middleware
+2018-06-29 09:46:07,456 INFO 8040 [egg-security] use xssProtection middleware
+2018-06-29 09:46:07,456 INFO 8040 [egg-security] use xframe middleware
+2018-06-29 09:46:07,457 INFO 8040 [egg-security] use dta middleware
+2018-06-29 09:46:07,457 INFO 8040 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 09:46:07,480 INFO 8040 [egg-mongoose] starting...
+2018-06-29 09:46:07,507 INFO 8040 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 09:46:07,507 INFO 8040 [egg-mongoose] instance[0] start successfully
+2018-06-29 09:46:07,510 INFO 8040 [egg-watcher:app] watcher start success
+2018-06-29 09:46:08,488 INFO 16156 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 09:46:08,536 INFO 16156 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 09:46:08,536 INFO 16156 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 09:46:08,762 INFO 16156 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 09:46:08,852 INFO 16156 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 09:46:08,855 INFO 16156 [egg-security] use methodnoallow middleware
+2018-06-29 09:46:08,855 INFO 16156 [egg-security] use noopen middleware
+2018-06-29 09:46:08,855 INFO 16156 [egg-security] use nosniff middleware
+2018-06-29 09:46:08,856 INFO 16156 [egg-security] use xssProtection middleware
+2018-06-29 09:46:08,856 INFO 16156 [egg-security] use xframe middleware
+2018-06-29 09:46:08,856 INFO 16156 [egg-security] use dta middleware
+2018-06-29 09:46:08,856 INFO 16156 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 09:46:08,873 INFO 16156 [egg-mongoose] starting...
+2018-06-29 09:46:08,896 INFO 16156 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 09:46:08,897 INFO 16156 [egg-mongoose] instance[0] start successfully
+2018-06-29 09:46:08,898 INFO 16156 [egg-watcher:app] watcher start success
+2018-06-29 09:46:30,739 INFO 9788 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 09:46:30,776 INFO 9788 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 09:46:30,776 INFO 9788 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 09:46:30,979 INFO 9788 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 09:46:31,078 INFO 9788 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 09:46:31,080 INFO 9788 [egg-security] use methodnoallow middleware
+2018-06-29 09:46:31,081 INFO 9788 [egg-security] use noopen middleware
+2018-06-29 09:46:31,081 INFO 9788 [egg-security] use nosniff middleware
+2018-06-29 09:46:31,082 INFO 9788 [egg-security] use xssProtection middleware
+2018-06-29 09:46:31,082 INFO 9788 [egg-security] use xframe middleware
+2018-06-29 09:46:31,082 INFO 9788 [egg-security] use dta middleware
+2018-06-29 09:46:31,082 INFO 9788 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 09:46:31,097 INFO 9788 [egg-mongoose] starting...
+2018-06-29 09:46:31,122 INFO 9788 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 09:46:31,123 INFO 9788 [egg-mongoose] instance[0] start successfully
+2018-06-29 09:46:31,124 INFO 9788 [egg-watcher:app] watcher start success
+2018-06-29 09:46:32,055 INFO 9140 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 09:46:32,093 INFO 9140 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 09:46:32,093 INFO 9140 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 09:46:32,308 INFO 9140 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 09:46:32,404 INFO 9140 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 09:46:32,406 INFO 9140 [egg-security] use methodnoallow middleware
+2018-06-29 09:46:32,407 INFO 9140 [egg-security] use noopen middleware
+2018-06-29 09:46:32,408 INFO 9140 [egg-security] use nosniff middleware
+2018-06-29 09:46:32,408 INFO 9140 [egg-security] use xssProtection middleware
+2018-06-29 09:46:32,409 INFO 9140 [egg-security] use xframe middleware
+2018-06-29 09:46:32,409 INFO 9140 [egg-security] use dta middleware
+2018-06-29 09:46:32,409 INFO 9140 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 09:46:32,426 INFO 9140 [egg-mongoose] starting...
+2018-06-29 09:46:32,450 INFO 9140 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 09:46:32,451 INFO 9140 [egg-mongoose] instance[0] start successfully
+2018-06-29 09:46:32,453 INFO 9140 [egg-watcher:app] watcher start success
+2018-06-29 09:46:34,184 INFO 9776 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 09:46:34,230 INFO 9776 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 09:46:34,230 INFO 9776 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 09:46:34,442 INFO 9776 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 09:46:34,562 INFO 9776 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 09:46:34,565 INFO 9776 [egg-security] use methodnoallow middleware
+2018-06-29 09:46:34,565 INFO 9776 [egg-security] use noopen middleware
+2018-06-29 09:46:34,565 INFO 9776 [egg-security] use nosniff middleware
+2018-06-29 09:46:34,566 INFO 9776 [egg-security] use xssProtection middleware
+2018-06-29 09:46:34,566 INFO 9776 [egg-security] use xframe middleware
+2018-06-29 09:46:34,566 INFO 9776 [egg-security] use dta middleware
+2018-06-29 09:46:34,566 INFO 9776 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 09:46:34,585 INFO 9776 [egg-mongoose] starting...
+2018-06-29 09:46:34,610 INFO 9776 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 09:46:34,610 INFO 9776 [egg-mongoose] instance[0] start successfully
+2018-06-29 09:46:34,612 INFO 9776 [egg-watcher:app] watcher start success
+2018-06-29 09:46:34,952 INFO 9776 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
+2018-06-29 09:46:35,847 INFO 17676 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 09:46:35,885 INFO 17676 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 09:46:35,885 INFO 17676 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 09:46:36,116 INFO 17676 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 09:46:36,211 INFO 17676 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 09:46:36,213 INFO 17676 [egg-security] use methodnoallow middleware
+2018-06-29 09:46:36,214 INFO 17676 [egg-security] use noopen middleware
+2018-06-29 09:46:36,214 INFO 17676 [egg-security] use nosniff middleware
+2018-06-29 09:46:36,214 INFO 17676 [egg-security] use xssProtection middleware
+2018-06-29 09:46:36,215 INFO 17676 [egg-security] use xframe middleware
+2018-06-29 09:46:36,215 INFO 17676 [egg-security] use dta middleware
+2018-06-29 09:46:36,215 INFO 17676 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 09:46:36,231 INFO 17676 [egg-mongoose] starting...
+2018-06-29 09:46:36,256 INFO 17676 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 09:46:36,257 INFO 17676 [egg-mongoose] instance[0] start successfully
+2018-06-29 09:46:36,258 INFO 17676 [egg-watcher:app] watcher start success
+2018-06-29 09:46:36,790 INFO 17676 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
+2018-06-29 09:47:18,076 INFO 12260 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 09:47:18,115 INFO 12260 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 09:47:18,115 INFO 12260 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 09:47:18,379 INFO 12260 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 09:47:18,474 INFO 12260 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 09:47:18,477 INFO 12260 [egg-security] use methodnoallow middleware
+2018-06-29 09:47:18,478 INFO 12260 [egg-security] use noopen middleware
+2018-06-29 09:47:18,478 INFO 12260 [egg-security] use nosniff middleware
+2018-06-29 09:47:18,478 INFO 12260 [egg-security] use xssProtection middleware
+2018-06-29 09:47:18,479 INFO 12260 [egg-security] use xframe middleware
+2018-06-29 09:47:18,479 INFO 12260 [egg-security] use dta middleware
+2018-06-29 09:47:18,479 INFO 12260 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 09:47:18,496 INFO 12260 [egg-mongoose] starting...
+2018-06-29 09:47:18,521 INFO 12260 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 09:47:18,522 INFO 12260 [egg-mongoose] instance[0] start successfully
+2018-06-29 09:47:18,525 INFO 12260 [egg-watcher:app] watcher start success
+2018-06-29 09:47:19,543 INFO 15372 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 09:47:19,585 INFO 15372 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 09:47:19,585 INFO 15372 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 09:47:19,815 INFO 15372 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 09:47:19,911 INFO 15372 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 09:47:19,913 INFO 15372 [egg-security] use methodnoallow middleware
+2018-06-29 09:47:19,914 INFO 15372 [egg-security] use noopen middleware
+2018-06-29 09:47:19,914 INFO 15372 [egg-security] use nosniff middleware
+2018-06-29 09:47:19,914 INFO 15372 [egg-security] use xssProtection middleware
+2018-06-29 09:47:19,915 INFO 15372 [egg-security] use xframe middleware
+2018-06-29 09:47:19,915 INFO 15372 [egg-security] use dta middleware
+2018-06-29 09:47:19,915 INFO 15372 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 09:47:19,931 INFO 15372 [egg-mongoose] starting...
+2018-06-29 09:47:19,956 INFO 15372 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 09:47:19,957 INFO 15372 [egg-mongoose] instance[0] start successfully
+2018-06-29 09:47:19,959 INFO 15372 [egg-watcher:app] watcher start success
+2018-06-29 09:47:31,298 INFO 15372 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]
+2018-06-29 10:06:29,563 INFO 376 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 10:06:29,602 INFO 376 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 10:06:29,602 INFO 376 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 10:06:29,817 INFO 376 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 10:06:29,915 INFO 376 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 10:06:29,918 INFO 376 [egg-security] use methodnoallow middleware
+2018-06-29 10:06:29,919 INFO 376 [egg-security] use noopen middleware
+2018-06-29 10:06:29,919 INFO 376 [egg-security] use nosniff middleware
+2018-06-29 10:06:29,919 INFO 376 [egg-security] use xssProtection middleware
+2018-06-29 10:06:29,919 INFO 376 [egg-security] use xframe middleware
+2018-06-29 10:06:29,920 INFO 376 [egg-security] use dta middleware
+2018-06-29 10:06:29,920 INFO 376 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 10:06:29,935 INFO 376 [egg-mongoose] starting...
+2018-06-29 10:06:29,960 INFO 376 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 10:06:29,961 INFO 376 [egg-mongoose] instance[0] start successfully
+2018-06-29 10:06:29,963 INFO 376 [egg-watcher:app] watcher start success
+2018-06-29 10:06:31,377 INFO 16156 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 10:06:31,418 INFO 16156 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 10:06:31,418 INFO 16156 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 10:06:31,639 INFO 16156 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 10:06:31,740 INFO 16156 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 10:06:31,742 INFO 16156 [egg-security] use methodnoallow middleware
+2018-06-29 10:06:31,743 INFO 16156 [egg-security] use noopen middleware
+2018-06-29 10:06:31,743 INFO 16156 [egg-security] use nosniff middleware
+2018-06-29 10:06:31,743 INFO 16156 [egg-security] use xssProtection middleware
+2018-06-29 10:06:31,744 INFO 16156 [egg-security] use xframe middleware
+2018-06-29 10:06:31,744 INFO 16156 [egg-security] use dta middleware
+2018-06-29 10:06:31,744 INFO 16156 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 10:06:31,774 INFO 16156 [egg-mongoose] starting...
+2018-06-29 10:06:31,797 INFO 16156 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 10:06:31,798 INFO 16156 [egg-mongoose] instance[0] start successfully
+2018-06-29 10:06:31,799 INFO 16156 [egg-watcher:app] watcher start success
+2018-06-29 10:06:40,740 INFO 11388 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 10:06:40,783 INFO 11388 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 10:06:40,783 INFO 11388 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 10:06:41,001 INFO 11388 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 10:06:41,090 INFO 11388 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 10:06:41,093 INFO 11388 [egg-security] use methodnoallow middleware
+2018-06-29 10:06:41,093 INFO 11388 [egg-security] use noopen middleware
+2018-06-29 10:06:41,094 INFO 11388 [egg-security] use nosniff middleware
+2018-06-29 10:06:41,094 INFO 11388 [egg-security] use xssProtection middleware
+2018-06-29 10:06:41,095 INFO 11388 [egg-security] use xframe middleware
+2018-06-29 10:06:41,095 INFO 11388 [egg-security] use dta middleware
+2018-06-29 10:06:41,095 INFO 11388 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 10:06:41,123 INFO 11388 [egg-mongoose] starting...
+2018-06-29 10:06:41,149 INFO 11388 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 10:06:41,150 INFO 11388 [egg-mongoose] instance[0] start successfully
+2018-06-29 10:06:41,152 INFO 11388 [egg-watcher:app] watcher start success
+2018-06-29 10:06:42,173 INFO 9396 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-29 10:06:42,214 INFO 9396 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-29 10:06:42,214 INFO 9396 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-29 10:06:42,429 INFO 9396 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-06-29 10:06:42,520 INFO 9396 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-06-29 10:06:42,523 INFO 9396 [egg-security] use methodnoallow middleware
+2018-06-29 10:06:42,523 INFO 9396 [egg-security] use noopen middleware
+2018-06-29 10:06:42,524 INFO 9396 [egg-security] use nosniff middleware
+2018-06-29 10:06:42,524 INFO 9396 [egg-security] use xssProtection middleware
+2018-06-29 10:06:42,524 INFO 9396 [egg-security] use xframe middleware
+2018-06-29 10:06:42,525 INFO 9396 [egg-security] use dta middleware
+2018-06-29 10:06:42,525 INFO 9396 [egg-security] compose 6 middlewares into one security middleware
+2018-06-29 10:06:42,553 INFO 9396 [egg-mongoose] starting...
+2018-06-29 10:06:42,581 INFO 9396 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-06-29 10:06:42,582 INFO 9396 [egg-mongoose] instance[0] start successfully
+2018-06-29 10:06:42,583 INFO 9396 [egg-watcher:app] watcher start success
+2018-06-29 10:06:46,117 INFO 9396 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]

@@ -7,6 +7,8 @@ module.exports = app => {
     title:String,
     author:String,
     content:String,
+    listImg:String,
+    introImg:String,
     images:[String],
     type:Number, //1.品牌 2.UI 3.网页 4.H5 5.平面
     keywords:String,

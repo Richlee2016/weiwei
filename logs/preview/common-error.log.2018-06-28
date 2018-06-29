@@ -1,0 +1,1043 @@
+2018-06-28 16:12:01,951 ERROR 4224 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4224
+hostname: DELL-PC
+
+2018-06-28 16:30:11,207 ERROR 12892 [-/127.0.0.1/-/16ms POST /setImages] nodejs.TypeError: this.service.home.setIMg is not a function
+    at HomeController.setImages (E:\AAA2018\Now\weiwei\app\controller\home.js:88:41)
+    at Object.callFn (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:43:18)
+    at errorHandler (E:\AAA2018\Now\weiwei\app\middleware\error_handler.js:4:13)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:43:18)
+
+pid: 12892
+hostname: DELL-PC
+
+2018-06-28 16:30:50,590 ERROR 13220 [-/127.0.0.1/-/14ms POST /setImages] nodejs.TypeError: Cannot match against 'undefined' or 'null'.
+    at HomeService.setImg (E:\AAA2018\Now\weiwei\app\service\home.js:104:15)
+    at HomeController.setImages (E:\AAA2018\Now\weiwei\app\controller\home.js:88:41)
+    at Object.callFn (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:43:18)
+    at errorHandler (E:\AAA2018\Now\weiwei\app\middleware\error_handler.js:4:13)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:42:32)
+
+pid: 13220
+hostname: DELL-PC
+
+2018-06-28 16:35:10,389 ERROR 14192 [-/127.0.0.1/-/18ms POST /setImages] nodejs.TypeError: Cannot match against 'undefined' or 'null'.
+    at HomeController.setImages (E:\AAA2018\Now\weiwei\app\controller\home.js:88:33)
+    at Object.callFn (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:43:18)
+    at errorHandler (E:\AAA2018\Now\weiwei\app\middleware\error_handler.js:4:13)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:43:18)
+
+pid: 14192
+hostname: DELL-PC
+
+2018-06-28 16:35:30,812 ERROR 14996 [-/127.0.0.1/-/14ms POST /setImages] nodejs.TypeError: Cannot match against 'undefined' or 'null'.
+    at HomeController.setImages (E:\AAA2018\Now\weiwei\app\controller\home.js:88:33)
+    at Object.callFn (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:43:18)
+    at errorHandler (E:\AAA2018\Now\weiwei\app\middleware\error_handler.js:4:13)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:43:18)
+
+pid: 14996
+hostname: DELL-PC
+
+2018-06-28 16:35:42,082 ERROR 14364 [-/127.0.0.1/-/14ms POST /setImages] nodejs.TypeError: Cannot match against 'undefined' or 'null'.
+    at HomeController.setImages (E:\AAA2018\Now\weiwei\app\controller\home.js:88:33)
+    at Object.callFn (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:43:18)
+    at errorHandler (E:\AAA2018\Now\weiwei\app\middleware\error_handler.js:4:13)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:43:18)
+
+pid: 14364
+hostname: DELL-PC
+
+2018-06-28 16:36:30,828 ERROR 14192 [-/127.0.0.1/-/11ms POST /setImages] nodejs.ReferenceError: ID is not defined
+    at HomeService.setImg (E:\AAA2018\Now\weiwei\app\service\home.js:106:47)
+    at HomeController.setImages (E:\AAA2018\Now\weiwei\app\controller\home.js:89:41)
+    at Object.callFn (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:43:18)
+    at errorHandler (E:\AAA2018\Now\weiwei\app\middleware\error_handler.js:4:13)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:42:32)
+
+pid: 14192
+hostname: DELL-PC
+
+2018-06-28 16:38:31,280 ERROR 14192 [-/127.0.0.1/-/1ms POST /setImages] nodejs.ReferenceError: ID is not defined
+    at HomeService.setImg (E:\AAA2018\Now\weiwei\app\service\home.js:106:47)
+    at HomeController.setImages (E:\AAA2018\Now\weiwei\app\controller\home.js:89:41)
+    at Object.callFn (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:43:18)
+    at errorHandler (E:\AAA2018\Now\weiwei\app\middleware\error_handler.js:4:13)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:42:32)
+
+pid: 14192
+hostname: DELL-PC
+
+2018-06-28 16:39:24,063 ERROR 14192 [-/127.0.0.1/-/1ms POST /setImages] nodejs.ReferenceError: ID is not defined
+    at HomeService.setImg (E:\AAA2018\Now\weiwei\app\service\home.js:106:47)
+    at HomeController.setImages (E:\AAA2018\Now\weiwei\app\controller\home.js:89:41)
+    at Object.callFn (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:43:18)
+    at errorHandler (E:\AAA2018\Now\weiwei\app\middleware\error_handler.js:4:13)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:42:32)
+
+pid: 14192
+hostname: DELL-PC
+
+2018-06-28 16:39:52,582 ERROR 12892 [-/127.0.0.1/-/11ms POST /setImages] nodejs.TypeError: _page.save is not a function
+    at HomeService.setImg (E:\AAA2018\Now\weiwei\app\service\home.js:120:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 12892
+hostname: DELL-PC
+
+2018-06-28 16:40:20,799 ERROR 12888 [-/127.0.0.1/-/15ms POST /setImages] nodejs.TypeError: _page.save is not a function
+    at HomeService.setImg (E:\AAA2018\Now\weiwei\app\service\home.js:121:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 12888
+hostname: DELL-PC
+
+2018-06-28 16:40:39,897 ERROR 4224 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4224
+hostname: DELL-PC
+
+2018-06-28 16:40:42,732 ERROR 14420 [-/127.0.0.1/-/14ms POST /setImages] nodejs.ReferenceError: object is not defined
+    at HomeController.setImages (E:\AAA2018\Now\weiwei\app\controller\home.js:89:17)
+    at Object.callFn (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\AAA2018\Now\weiwei\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:43:18)
+    at errorHandler (E:\AAA2018\Now\weiwei\app\middleware\error_handler.js:4:13)
+    at dispatch (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:42:32)
+    at next (E:\AAA2018\Now\weiwei\node_modules\koa-compose\index.js:43:18)
+
+pid: 14420
+hostname: DELL-PC
+
+2018-06-28 16:41:32,752 ERROR 8664 [-/127.0.0.1/-/11ms POST /setImages] nodejs.CastError: Cast to ObjectId failed for value "1529996219012" at path "_id" for model "t_wei_page"
+    at CastError (E:\AAA2018\Now\weiwei\node_modules\mongoose\lib\error\cast.js:27:11)
+    at ObjectId.cast (E:\AAA2018\Now\weiwei\node_modules\mongoose\lib\schema\objectid.js:158:13)
+    at ObjectId.SchemaType._castForQuery (E:\AAA2018\Now\weiwei\node_modules\mongoose\lib\schematype.js:1088:15)
+    at ObjectId.castForQuery (E:\AAA2018\Now\weiwei\node_modules\mongoose\lib\schema\objectid.js:198:15)
+    at ObjectId.SchemaType.castForQueryWrapper (E:\AAA2018\Now\weiwei\node_modules\mongoose\lib\schematype.js:1045:15)
+    at cast (E:\AAA2018\Now\weiwei\node_modules\mongoose\lib\cast.js:269:32)
+    at model.Query.Query.cast (E:\AAA2018\Now\weiwei\node_modules\mongoose\lib\query.js:3305:12)
+    at model.Query.Query._castConditions (E:\AAA2018\Now\weiwei\node_modules\mongoose\lib\query.js:1295:10)
+    at model.Query.Query._find (E:\AAA2018\Now\weiwei\node_modules\mongoose\lib\query.js:1310:8)
+    at E:\AAA2018\Now\weiwei\node_modules\kareem\index.js:250:8
+    at E:\AAA2018\Now\weiwei\node_modules\kareem\index.js:23:7
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+message: 'Cast to ObjectId failed for value "1529996219012" at path "_id" for model "t_wei_page"'
+name: 'CastError'
+stringValue: '"1529996219012"'
+kind: 'ObjectId'
+value: '1529996219012'
+path: '_id'
+reason: undefined
+model: { [Function: model]
+  hooks: Kareem { _pres: {}, _posts: {} },
+  base: 
+   Mongoose {
+     connections: [ [Object], [Object] ],
+     models: { t_wei_img: [Object], t_wei_page: [Object] },
+     modelSchemas: { t_wei_img: [Object], t_wei_page: [Object] },
+     options: { pluralization: true },
+     plugins: [ [Array], [Array], [Array] ],
+     loadModel: [Function] },
+  modelName: 't_wei_page',
+  model: [Function: model],
+  db: 
+   NativeConnection {
+     base: 
+      Mongoose {
+        connections: [Array],
+        models: [Object],
+        modelSchemas: [Object],
+        options: [Object],
+        plugins: [Array],
+        loadModel: [Function] },
+     collections: { t_wei_imgs: [Object], t_wei_pages: [Object] },
+     models: { t_wei_img: [Object], t_wei_page: [Object] },
+     config: { autoIndex: true },
+     replica: false,
+     hosts: null,
+     host: 'localhost',
+     port: 27017,
+     user: undefined,
+     pass: undefined,
+     name: 'weiwei',
+     options: 
+      { db: [Object],
+        auth: {},
+        server: [Object],
+        replset: [Object],
+        mongos: undefined },
+     otherDbs: [],
+     states: 
+      { '0': 'disconnected',
+        '1': 'connected',
+        '2': 'connecting',
+        '3': 'disconnecting',
+        '4': 'unauthorized',
+        '99': 'uninitialized',
+        disconnected: 0,
+        connected: 1,
+        connecting: 2,
+        disconnecting: 3,
+        unauthorized: 4,
+        uninitialized: 99 },
+     _readyState: 1,
+     _closeCalled: false,
+     _hasOpened: true,
+     _listening: false,
+     db: 
+      Db {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        s: [Object],
+        serverConfig: [Getter],
+        bufferMaxEntries: [Getter],
+        databaseName: [Getter],
+        _listening: true },
+     _events: 
+      { error: [Function],
+        disconnected: [Function],
+        connected: [Function],
+        reconnected: [Function] },
+     _eventsCount: 4,
+     createInstance: [Function: bound createInstance] },
+  discriminators: undefined,
+  '$appliedMethods': true,
+  addPage: [AsyncFunction: addPage],
+  '$appliedHooks': true,
+  _events: { init: [Function], save: [Function] },
+  _eventsCount: 2,
+  schema: 
+   Schema {
+     obj: 
+      { id: [Function: Number],
+        title: [Function: String],
+        author: [Function: String],
+        content: [Function: String],
+        listImg: [Function: String],
+        introImg: [Function: String],
+        images: [Array],
+        type: [Function: Number],
+        keywords: [Function: String],
+        link: [Function: String],
+        meta: [Object] },
+     paths: 
+      { id: [Object],
+        title: [Object],
+        author: [Object],
+        content: [Object],
+        listImg: [Object],
+        introImg: [Object],
+        images: [Object],
+        type: [Object],
+        keywords: [Object],
+        link: [Object],
+        'meta.createAt': [Object],
+        'meta.updateAt': [Object],
+        _id: [Object],
+        __v: [Object] },
+     aliases: {},
+     subpaths: {},
+     virtuals: {},
+     singleNestedPaths: {},
+     nested: { meta: true },
+     inherits: {},
+     callQueue: [ [Array], [Array], [Array], [Array], [Array], [Array], [Array] ],
+     _indexes: [],
+     methods: {},
+     statics: { addPage: [AsyncFunction: addPage] },
+     tree: 
+      { id: [Function: Number],
+        title: [Function: String],
+        author: [Function: String],
+        content: [Function: String],
+        listImg: [Function: String],
+        introImg: [Function: String],
+        images: [Array],
+        type: [Function: Number],
+        keywords: [Function: String],
+        link: [Function: String],
+        meta: [Object],
+        _id: [Object],
+        __v: [Function: Number] },
+     query: {},
+     childSchemas: [],
+     plugins: [ [Object], [Object], [Object], [Object] ],
+     s: { hooks: [Object], kareemHooks: [Object] },
+     _userProvidedOptions: undefined,
+     options: 
+      { retainKeyOrder: false,
+        typeKey: 'type',
+        id: true,
+        noVirtualId: false,
+        _id: true,
+        noId: false,
+        validateBeforeSave: true,
+        read: null,
+        shardKey: null,
+        autoIndex: null,
+        minimize: true,
+        discriminatorKey: '__t',
+        versionKey: '__v',
+        capped: false,
+        bufferCommands: true,
+        strict: true,
+        pluralization: true },
+     '$globalPluginsApplied': true },
+  collection: 
+   NativeCollection {
+     collection: Collection { s: [Object] },
+     opts: 
+      { bufferCommands: true,
+        capped: false,
+        '$wasForceClosed': undefined },
+     name: 't_wei_pages',
+     collectionName: 't_wei_pages',
+     conn: 
+      NativeConnection {
+        base: [Object],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        hosts: null,
+        host: 'localhost',
+        port: 27017,
+        user: undefined,
+        pass: undefined,
+        name: 'weiwei',
+        options: [Object],
+        otherDbs: [],
+        states: [Object],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        _listening: false,
+        db: [Object],
+        _events: [Object],
+        _eventsCount: 4,
+        createInstance: [Function: bound createInstance] },
+     queue: [],
+     buffer: false,
+     emitter: 
+      EventEmitter {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined } },
+  Query: 
+   { [Function]
+     base: 
+      Query {
+        toConstructor: [Function: toConstructor],
+        setOptions: [Function],
+        collection: [Function: collection],
+        '$where': [Function],
+        where: [Function],
+        equals: [Function: equals],
+        eq: [Function: eq],
+        or: [Function: or],
+        nor: [Function: nor],
+        and: [Function: and],
+        gt: [Function],
+        gte: [Function],
+        lt: [Function],
+        lte: [Function],
+        ne: [Function],
+        in: [Function],
+        nin: [Function],
+        all: [Function],
+        regex: [Function],
+        size: [Function],
+        maxDistance: [Function],
+        minDistance: [Function],
+        mod: [Function],
+        exists: [Function],
+        elemMatch: [Function],
+        within: [Function: within],
+        box: [Function],
+        polygon: [Function],
+        circle: [Function],
+        near: [Function: near],
+        intersects: [Function: intersects],
+        geometry: [Function: geometry],
+        select: [Function: select],
+        slice: [Function],
+        sort: [Function],
+        limit: [Function],
+        skip: [Function],
+        maxScan: [Function],
+        batchSize: [Function],
+        comment: [Function],
+        maxTime: [Function],
+        snapshot: [Function],
+        hint: [Function],
+        slaveOk: [Function],
+        read: [Function],
+        tailable: [Function],
+        merge: [Function],
+        find: [Function],
+        cursor: [Function: cursor],
+        findOne: [Function],
+        count: [Function],
+        distinct: [Function],
+        update: [Function: update],
+        updateMany: [Function: updateMany],
+        updateOne: [Function: updateOne],
+        replaceOne: [Function: replaceOne],
+        remove: [Function],
+        deleteOne: [Function],
+        deleteMany: [Function],
+        findOneAndUpdate: [Function],
+        findOneAndRemove: [Function],
+        _findAndModify: [Function],
+        _wrapCallback: [Function],
+        setTraceFunction: [Function],
+        exec: [Function: exec],
+        thunk: [Function],
+        then: [Function],
+        stream: [Function],
+        selected: [Function: selected],
+        selectedInclusively: [Function: selectedInclusively],
+        selectedExclusively: [Function: selectedExclusively],
+        _mergeUpdate: [Function],
+        _optionsForExec: [Function],
+        _fieldsForExec: [Function],
+        _updateForExec: [Function],
+        _ensurePath: [Function],
+        _validate: [Function] } },
+  '$__insertMany': [Function],
+  insertMany: [Function],
+  '$init': Promise { [Circular] },
+  [Symbol(EGG_LOADER_ITEM_FULLPATH)]: 'E:\\AAA2018\\Now\\weiwei\\app\\model\\page.js',
+  [Symbol(EGG_LOADER_ITEM_EXPORTS)]: true }
+pid: 8664
+hostname: DELL-PC
+
+2018-06-28 17:09:44,959 ERROR 14272 [-/127.0.0.1/-/6ms POST /setImages] nodejs.TypeError: _page.save is not a function
+    at HomeService.setImg (E:\AAA2018\Now\weiwei\app\service\home.js:121:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 14272
+hostname: DELL-PC
+
+2018-06-28 17:12:01,529 ERROR 12456 [-/127.0.0.1/-/15ms POST /setImages] nodejs.TypeError: _page.save is not a function
+    at HomeService.setImg (E:\AAA2018\Now\weiwei\app\service\home.js:121:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 12456
+hostname: DELL-PC
+
+2018-06-28 17:12:19,623 ERROR 4484 [-/127.0.0.1/-/16ms POST /setImages] nodejs.TypeError: _page.save is not a function
+    at HomeService.setImg (E:\AAA2018\Now\weiwei\app\service\home.js:121:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 4484
+hostname: DELL-PC
+
+2018-06-28 17:14:20,371 ERROR 4224 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4224
+hostname: DELL-PC
+
+2018-06-28 17:16:04,164 ERROR 4224 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4224
+hostname: DELL-PC
+
+2018-06-28 17:16:56,719 ERROR 4224 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4224
+hostname: DELL-PC
+
+2018-06-28 17:22:16,702 ERROR 4224 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4224
+hostname: DELL-PC
+
+2018-06-28 17:22:36,771 ERROR 4224 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4224
+hostname: DELL-PC
+
+2018-06-28 17:31:35,749 ERROR 13120 [-/::1/-/2ms GET /vod/weiwei_7j662ASTw3QGP_I8hhrlk] nodejs.CastError: Cast to number failed for value "weiwei_7j662ASTw3QGP_I8hhrlk" at path "id" for model "t_wei_page"
+    at CastError (E:\AAA2018\Now\weiwei\node_modules\mongoose\lib\error\cast.js:27:11)
+    at SchemaNumber.cast (E:\AAA2018\Now\weiwei\node_modules\mongoose\lib\schema\number.js:231:9)
+    at SchemaNumber.SchemaType._castForQuery (E:\AAA2018\Now\weiwei\node_modules\mongoose\lib\schematype.js:1088:15)
+    at SchemaNumber.castForQuery (E:\AAA2018\Now\weiwei\node_modules\mongoose\lib\schema\number.js:282:14)
+    at SchemaNumber.SchemaType.castForQueryWrapper (E:\AAA2018\Now\weiwei\node_modules\mongoose\lib\schematype.js:1045:15)
+    at cast (E:\AAA2018\Now\weiwei\node_modules\mongoose\lib\cast.js:269:32)
+    at model.Query.Query.cast (E:\AAA2018\Now\weiwei\node_modules\mongoose\lib\query.js:3305:12)
+    at model.Query.Query._castConditions (E:\AAA2018\Now\weiwei\node_modules\mongoose\lib\query.js:1295:10)
+    at model.Query.Query._find (E:\AAA2018\Now\weiwei\node_modules\mongoose\lib\query.js:1310:8)
+    at E:\AAA2018\Now\weiwei\node_modules\kareem\index.js:250:8
+    at E:\AAA2018\Now\weiwei\node_modules\kareem\index.js:23:7
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+message: 'Cast to number failed for value "weiwei_7j662ASTw3QGP_I8hhrlk" at path "id" for model "t_wei_page"'
+name: 'CastError'
+stringValue: '"weiwei_7j662ASTw3QGP_I8hhrlk"'
+kind: 'number'
+value: 'weiwei_7j662ASTw3QGP_I8hhrlk'
+path: 'id'
+reason: undefined
+model: { [Function: model]
+  hooks: Kareem { _pres: {}, _posts: {} },
+  base: 
+   Mongoose {
+     connections: [ [Object], [Object] ],
+     models: { t_wei_img: [Object], t_wei_page: [Object] },
+     modelSchemas: { t_wei_img: [Object], t_wei_page: [Object] },
+     options: { pluralization: true },
+     plugins: [ [Array], [Array], [Array] ],
+     loadModel: [Function] },
+  modelName: 't_wei_page',
+  model: [Function: model],
+  db: 
+   NativeConnection {
+     base: 
+      Mongoose {
+        connections: [Array],
+        models: [Object],
+        modelSchemas: [Object],
+        options: [Object],
+        plugins: [Array],
+        loadModel: [Function] },
+     collections: { t_wei_imgs: [Object], t_wei_pages: [Object] },
+     models: { t_wei_img: [Object], t_wei_page: [Object] },
+     config: { autoIndex: true },
+     replica: false,
+     hosts: null,
+     host: 'localhost',
+     port: 27017,
+     user: undefined,
+     pass: undefined,
+     name: 'weiwei',
+     options: 
+      { db: [Object],
+        auth: {},
+        server: [Object],
+        replset: [Object],
+        mongos: undefined },
+     otherDbs: [],
+     states: 
+      { '0': 'disconnected',
+        '1': 'connected',
+        '2': 'connecting',
+        '3': 'disconnecting',
+        '4': 'unauthorized',
+        '99': 'uninitialized',
+        disconnected: 0,
+        connected: 1,
+        connecting: 2,
+        disconnecting: 3,
+        unauthorized: 4,
+        uninitialized: 99 },
+     _readyState: 1,
+     _closeCalled: false,
+     _hasOpened: true,
+     _listening: false,
+     db: 
+      Db {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        s: [Object],
+        serverConfig: [Getter],
+        bufferMaxEntries: [Getter],
+        databaseName: [Getter],
+        _listening: true },
+     _events: 
+      { error: [Function],
+        disconnected: [Function],
+        connected: [Function],
+        reconnected: [Function] },
+     _eventsCount: 4,
+     createInstance: [Function: bound createInstance] },
+  discriminators: undefined,
+  '$appliedMethods': true,
+  addPage: [AsyncFunction: addPage],
+  '$appliedHooks': true,
+  _events: { init: [Function], save: [Function] },
+  _eventsCount: 2,
+  schema: 
+   Schema {
+     obj: 
+      { id: [Function: Number],
+        title: [Function: String],
+        author: [Function: String],
+        content: [Function: String],
+        listImg: [Function: String],
+        introImg: [Function: String],
+        images: [Array],
+        type: [Function: Number],
+        keywords: [Function: String],
+        link: [Function: String],
+        meta: [Object] },
+     paths: 
+      { id: [Object],
+        title: [Object],
+        author: [Object],
+        content: [Object],
+        listImg: [Object],
+        introImg: [Object],
+        images: [Object],
+        type: [Object],
+        keywords: [Object],
+        link: [Object],
+        'meta.createAt': [Object],
+        'meta.updateAt': [Object],
+        _id: [Object],
+        __v: [Object] },
+     aliases: {},
+     subpaths: {},
+     virtuals: {},
+     singleNestedPaths: {},
+     nested: { meta: true },
+     inherits: {},
+     callQueue: [ [Array], [Array], [Array], [Array], [Array], [Array], [Array] ],
+     _indexes: [],
+     methods: {},
+     statics: { addPage: [AsyncFunction: addPage] },
+     tree: 
+      { id: [Function: Number],
+        title: [Function: String],
+        author: [Function: String],
+        content: [Function: String],
+        listImg: [Function: String],
+        introImg: [Function: String],
+        images: [Array],
+        type: [Function: Number],
+        keywords: [Function: String],
+        link: [Function: String],
+        meta: [Object],
+        _id: [Object],
+        __v: [Function: Number] },
+     query: {},
+     childSchemas: [],
+     plugins: [ [Object], [Object], [Object], [Object] ],
+     s: { hooks: [Object], kareemHooks: [Object] },
+     _userProvidedOptions: undefined,
+     options: 
+      { retainKeyOrder: false,
+        typeKey: 'type',
+        id: true,
+        noVirtualId: false,
+        _id: true,
+        noId: false,
+        validateBeforeSave: true,
+        read: null,
+        shardKey: null,
+        autoIndex: null,
+        minimize: true,
+        discriminatorKey: '__t',
+        versionKey: '__v',
+        capped: false,
+        bufferCommands: true,
+        strict: true,
+        pluralization: true },
+     '$globalPluginsApplied': true,
+     _requiredpaths: [],
+     _indexedpaths: [] },
+  collection: 
+   NativeCollection {
+     collection: Collection { s: [Object] },
+     opts: 
+      { bufferCommands: true,
+        capped: false,
+        '$wasForceClosed': undefined },
+     name: 't_wei_pages',
+     collectionName: 't_wei_pages',
+     conn: 
+      NativeConnection {
+        base: [Object],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        hosts: null,
+        host: 'localhost',
+        port: 27017,
+        user: undefined,
+        pass: undefined,
+        name: 'weiwei',
+        options: [Object],
+        otherDbs: [],
+        states: [Object],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        _listening: false,
+        db: [Object],
+        _events: [Object],
+        _eventsCount: 4,
+        createInstance: [Function: bound createInstance] },
+     queue: [],
+     buffer: false,
+     emitter: 
+      EventEmitter {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined } },
+  Query: 
+   { [Function]
+     base: 
+      Query {
+        toConstructor: [Function: toConstructor],
+        setOptions: [Function],
+        collection: [Function: collection],
+        '$where': [Function],
+        where: [Function],
+        equals: [Function: equals],
+        eq: [Function: eq],
+        or: [Function: or],
+        nor: [Function: nor],
+        and: [Function: and],
+        gt: [Function],
+        gte: [Function],
+        lt: [Function],
+        lte: [Function],
+        ne: [Function],
+        in: [Function],
+        nin: [Function],
+        all: [Function],
+        regex: [Function],
+        size: [Function],
+        maxDistance: [Function],
+        minDistance: [Function],
+        mod: [Function],
+        exists: [Function],
+        elemMatch: [Function],
+        within: [Function: within],
+        box: [Function],
+        polygon: [Function],
+        circle: [Function],
+        near: [Function: near],
+        intersects: [Function: intersects],
+        geometry: [Function: geometry],
+        select: [Function: select],
+        slice: [Function],
+        sort: [Function],
+        limit: [Function],
+        skip: [Function],
+        maxScan: [Function],
+        batchSize: [Function],
+        comment: [Function],
+        maxTime: [Function],
+        snapshot: [Function],
+        hint: [Function],
+        slaveOk: [Function],
+        read: [Function],
+        tailable: [Function],
+        merge: [Function],
+        find: [Function],
+        cursor: [Function: cursor],
+        findOne: [Function],
+        count: [Function],
+        distinct: [Function],
+        update: [Function: update],
+        updateMany: [Function: updateMany],
+        updateOne: [Function: updateOne],
+        replaceOne: [Function: replaceOne],
+        remove: [Function],
+        deleteOne: [Function],
+        deleteMany: [Function],
+        findOneAndUpdate: [Function],
+        findOneAndRemove: [Function],
+        _findAndModify: [Function],
+        _wrapCallback: [Function],
+        setTraceFunction: [Function],
+        exec: [Function: exec],
+        thunk: [Function],
+        then: [Function],
+        stream: [Function],
+        selected: [Function: selected],
+        selectedInclusively: [Function: selectedInclusively],
+        selectedExclusively: [Function: selectedExclusively],
+        _mergeUpdate: [Function],
+        _optionsForExec: [Function],
+        _fieldsForExec: [Function],
+        _updateForExec: [Function],
+        _ensurePath: [Function],
+        _validate: [Function] } },
+  '$__insertMany': [Function],
+  insertMany: [Function],
+  '$init': Promise { [Circular] },
+  [Symbol(EGG_LOADER_ITEM_FULLPATH)]: 'E:\\AAA2018\\Now\\weiwei\\app\\model\\page.js',
+  [Symbol(EGG_LOADER_ITEM_EXPORTS)]: true }
+pid: 13120
+hostname: DELL-PC
+
+2018-06-28 17:46:26,216 ERROR 4224 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4224
+hostname: DELL-PC
+
+2018-06-28 17:46:27,606 ERROR 4224 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4224
+hostname: DELL-PC
+
+2018-06-28 17:46:27,765 ERROR 4224 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4224
+hostname: DELL-PC
+
+2018-06-28 17:49:12,860 ERROR 4224 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4224
+hostname: DELL-PC
+
+2018-06-28 17:49:49,355 ERROR 1864 [-/::1/-/18ms GET /vod/1529996219012] nodejs.TypeError: [].concat(...).split is not a function
+    at HomeService.fetchVod (E:\AAA2018\Now\weiwei\app\service\home.js:73:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 1864
+hostname: DELL-PC
+
+2018-06-28 17:50:06,850 ERROR 10952 [-/::1/-/16ms GET /vod/1529996219012] nodejs.TypeError: [].concat(...).split is not a function
+    at HomeService.fetchVod (E:\AAA2018\Now\weiwei\app\service\home.js:74:57)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10952
+hostname: DELL-PC
+
+2018-06-28 17:51:41,880 ERROR 4224 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 4224
+hostname: DELL-PC
+
+2018-06-28 18:16:05,709 ERROR 3096 [-/::1/-/4ms GET /vod/1529996219012] nodejs.Template render error: unexpected token: !
+    at Object._prettifyError (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\lib.js:35:11)
+    at Template.render (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:526:21)
+    at E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:350:27
+    at createTemplate (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:311:11)
+    at E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:323:9
+    at next (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\lib.js:281:7)
+    at Object.asyncIter (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\lib.js:287:3)
+    at NunjucksEnvironment.getTemplate (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:305:9)
+    at NunjucksEnvironment.render (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:344:10)
+    at Promise (E:\AAA2018\Now\weiwei\node_modules\egg-view-nunjucks\lib\view.js:13:25)
+    at Promise (<anonymous>)
+    at NunjucksView.render (E:\AAA2018\Now\weiwei\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (E:\AAA2018\Now\weiwei\node_modules\egg-view\lib\context_view.js:70:23)
+    at <anonymous>
+name: 'Template render error'
+pid: 3096
+hostname: DELL-PC
+
+2018-06-28 18:16:28,200 ERROR 3096 [-/::1/-/3ms GET /vod/1529996219012] nodejs.Template render error: unexpected token: %}
+    at Object._prettifyError (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\lib.js:35:11)
+    at Template.render (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:526:21)
+    at E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:350:27
+    at createTemplate (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:311:11)
+    at E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:323:9
+    at next (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\lib.js:281:7)
+    at Object.asyncIter (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\lib.js:287:3)
+    at NunjucksEnvironment.getTemplate (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:305:9)
+    at NunjucksEnvironment.render (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:344:10)
+    at Promise (E:\AAA2018\Now\weiwei\node_modules\egg-view-nunjucks\lib\view.js:13:25)
+    at Promise (<anonymous>)
+    at NunjucksView.render (E:\AAA2018\Now\weiwei\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (E:\AAA2018\Now\weiwei\node_modules\egg-view\lib\context_view.js:70:23)
+    at <anonymous>
+name: 'Template render error'
+pid: 3096
+hostname: DELL-PC
+
+2018-06-28 18:16:28,762 ERROR 3096 [-/::1/-/3ms GET /vod/1529996219012] nodejs.Template render error: unexpected token: %}
+    at Object._prettifyError (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\lib.js:35:11)
+    at Template.render (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:526:21)
+    at E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:350:27
+    at createTemplate (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:299:9)
+    at handle (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:311:11)
+    at E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:323:9
+    at next (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\lib.js:281:7)
+    at Object.asyncIter (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\lib.js:287:3)
+    at NunjucksEnvironment.getTemplate (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:305:9)
+    at NunjucksEnvironment.render (E:\AAA2018\Now\weiwei\node_modules\nunjucks\src\environment.js:344:10)
+    at Promise (E:\AAA2018\Now\weiwei\node_modules\egg-view-nunjucks\lib\view.js:13:25)
+    at Promise (<anonymous>)
+    at NunjucksView.render (E:\AAA2018\Now\weiwei\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (E:\AAA2018\Now\weiwei\node_modules\egg-view\lib\context_view.js:70:23)
+    at <anonymous>
+name: 'Template render error'
+pid: 3096
+hostname: DELL-PC
+

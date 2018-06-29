@@ -3111,6 +3111,9 @@ img.lazy {
   white-space: nowrap;
   color: #fff;
 }
+.submenu .sub-sort a:hover{
+  color: #e22f51;
+}
 .submenu .sub-sort a:not(:first-child) {
   margin-left: 30px;
 }

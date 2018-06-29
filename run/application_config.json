@@ -211,6 +211,7 @@
         "egg-scripts": "^2.5.0",
         "koa-formidable": "^1.1.0",
         "lodash": "^4.17.10",
+        "nanoid": "^1.0.4",
         "puppeteer": "^1.2.0",
         "qiniu": "^7.1.7",
         "request": "^2.85.0",

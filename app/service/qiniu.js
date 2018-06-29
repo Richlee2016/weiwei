@@ -1,5 +1,6 @@
 const Service = require("egg").Service;
 const qiniu = require("qiniu");
+const nanoid = require("nanoid");
 class QiniuService extends Service {
     constructor(ctx) {
         super(ctx);
@@ -55,7 +56,7 @@ class QiniuService extends Service {
             putExtra
         } = this.loader;
         return new Promise((resolve, reject) => {
-            formUploader.putFile(this.Token, `weiwei_${key}`, url, putExtra, function (respErr,
+            formUploader.putFile(this.Token, `weiwei_${nanoid()}`, url, putExtra, function (respErr,
                 respBody, respInfo) {
                 if (respErr) {
                     reject(respErr);

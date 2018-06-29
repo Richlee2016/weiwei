@@ -1,18 +1,17 @@
 const Service = require("egg").Service;
-const _ = require("lodash")
+const _ = require("lodash");
 class HomeService extends Service {
   constructor(ctx) {
     super(ctx);
     this.Page = this.ctx.model.Page;
     this.Img = this.ctx.model.Img;
+    this.proType = ["品牌","UI","网页","H5","平板"]
   }
-/**
- * 获取首页列表
- * @return {object} 列表数据
- */
-  async getIndexList(){
-    
-  };
+  /**
+   * 获取首页列表
+   * @return {object} 列表数据
+   */
+  async getIndexList() {}
   /**
    * 根据表单提交内容 添加产品
    * Cb:
@@ -35,20 +34,12 @@ class HomeService extends Service {
    */
   async uploadImage(form) {
     try {
-      const {
-        res,
-        fields
-      } = await this.service.qiniu.addImg(form);
-      // console.log(res,fields);
-      const vod = await this.Page.findOne({
-        id: Number(fields.uuid)
-      }).exec();
-      if(vod){
-        // console.log(res.key);
-        vod.images = vod.images?vod.images:[];
-        vod.images.push(res.key)
-        await vod.save();
-      };
+      const { res, fields } = await this.service.qiniu.addImg(form);
+      const _img = new this.Img({
+        src: res.key,
+        keyword: fields.keyword
+      });
+      await _img.save();
     } catch (error) {
       console.log(error);
     }
@@ -60,34 +51,95 @@ class HomeService extends Service {
    * @param {Number} type 类型
    * @return {Object} 详情
    */
-  async fetchPage({page=1,size=10,type}){
+  async fetchPage({ page = 1, size = 10, type }) {
     let skip = (page - 1) * size;
-    let query ={$where:`this.images.length > 0`};
-    if(type){
-      query ={$where:`this.images.length > 0 && this.type === ${type}`};
-    };
-    const res =await this.Page.find(query).limit(size).skip(skip).exec();
+    let query = {};
+    if (type) {
+      // query ={$where:`this.images.length > 0 && this.type === ${type}`};
+      query = { $where: `this.type === ${type}` };
+    }
+    const res = await this.Page.find(query)
+      .limit(size)
+      .skip(skip)
+      .exec();
     // console.log(res);
     return res;
   }
-  async fetchVod(id){
-    const res = await this.Page.find({id}).exec();
-    const data = res?res[0] : null;
+  async fetchVod(id) {
+    const res = await this.Page.find({ id:{$gte:id} }).limit(2).exec();
+    const data = res ? res[0] : null;
+    const next = res? res[1]:null;
     // console.log(1,data);
-    if(data){
-      data.images = _.drop(data.images);
-      data.txt = data.content.split("|").map(o => o.split("&"));
-      data.keyval = data.keywords?data.keywords.split("|") : [];
+    let txt = [],keyval = [];
+    if (data) {
+      txt = data.content.split("#").map(o => o.split("&"));
+      keyval = data.keywords ? data.keywords.split("#") : [];
     }
-    return data?data : null;
+    let nextOne = {}
+    if(next){
+      nextOne = {
+        id:next.id,
+        keyval:next.keywords ? next.keywords.split("#").join("&") : [],
+        type:this.proType[next.type],
+        title:next.title,
+        img:next.introImg || next.listImg || next.images[0]
+      }
+    };
+    return {
+      data:data,
+      next:nextOne,
+      txt,
+      keyval
+    };
   }
   /**
    * @param {Numver} id 删除id
    */
-  async delVod(id){
-    const res = await this.Page.remove({id});
+  async delVod(id) {
+    const res = await this.Page.remove({ id });
   }
+  /**
+   * @param {key} 根据key 获取图片
+   */
+  async fetchImg({ key }) {
+    try {
+      let query = {};
+      if (key) {
+        query = { keyword: key };
+      }
+      const res = await this.Img.find(query).exec();
+      return res;
+    } catch (err) {
+      console.log(err);
+    }
+  }
+  /**
+   * @param {Id} 添加的项目
+   * @param {Type} 根据type 添加图片
+   * @param {Images} 图片地址
+   */
+  async setImg({ Id, Type, Images }) {
+    const type = Number(Type);
+    try {
+      const _page = await this.Page.findOne({ id: Id }).exec();
+    switch (type) {
+      case 1:
+        _page.listImg = Images[0];
+        break;
 
+      case 2:
+        _page.introImg = Images[0];
+        break;
+
+      case 0:
+        _page.images = Images;
+        break;
+    }
+    await _page.save();
+    } catch (error) {
+      console.log(error);
+    }
+  }
 }
 
 module.exports = HomeService;

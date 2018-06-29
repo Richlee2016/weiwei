@@ -82,47 +82,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/weiwei/add",
-    "regexp": "/^\\/weiwei\\/add(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
     "path": "/weiwei/admin",
     "regexp": "/^\\/weiwei\\/admin(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/weiwei/imgbox",
-    "regexp": "/^\\/weiwei\\/imgbox(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/weiwei/addimg",
-    "regexp": "/^\\/weiwei\\/addimg(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -160,6 +121,31 @@
     "paramNames": [],
     "path": "/getPages",
     "regexp": "/^\\/getPages(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/getImg",
+    "regexp": "/^\\/getImg(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/setImages",
+    "regexp": "/^\\/setImages(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

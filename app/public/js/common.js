@@ -7,9 +7,12 @@ $.extend($, {
   navActive: function() {
     const src = location.pathname.match(/\/([a-zA-Z]+)/);
     const href = src ? src[1] : "";
-    const list = ["", "list", "exp", "power"];
-    const n = list.indexOf(href);
+    const list = ["", "list", "exp", "power","vod"];
+    let n = list.indexOf(href);
     $(".navbox li").removeClass("active");
+    if(n === 4){
+      n=1;
+    }
     $(".navbox li")
       .eq(n)
       .addClass("active");

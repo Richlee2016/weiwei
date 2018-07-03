@@ -1,305 +1,297 @@
 {
   "richCof": {
     "qiniu": {
-      "cname": "E:\\AAA2018\\Now\\weiwei\\config\\config.default.js",
-      "bucket": "E:\\AAA2018\\Now\\weiwei\\config\\config.default.js",
-      "AK": "E:\\AAA2018\\Now\\weiwei\\config\\config.default.js",
-      "SK": "E:\\AAA2018\\Now\\weiwei\\config\\config.default.js"
+      "cname": "/home/rich/project/weiwei/weiwei/config/config.default.js",
+      "bucket": "/home/rich/project/weiwei/weiwei/config/config.default.js",
+      "AK": "/home/rich/project/weiwei/weiwei/config/config.default.js",
+      "SK": "/home/rich/project/weiwei/weiwei/config/config.default.js"
     }
   },
-  "keys": "E:\\AAA2018\\Now\\weiwei\\config\\config.default.js",
-  "middleware": "E:\\AAA2018\\Now\\weiwei\\config\\config.default.js",
+  "keys": "/home/rich/project/weiwei/weiwei/config/config.default.js",
+  "middleware": "/home/rich/project/weiwei/weiwei/config/config.default.js",
   "view": {
-    "defaultViewEngine": "E:\\AAA2018\\Now\\weiwei\\config\\config.default.js",
+    "defaultViewEngine": "/home/rich/project/weiwei/weiwei/config/config.default.js",
     "mapping": {
-      ".html": "E:\\AAA2018\\Now\\weiwei\\config\\config.default.js"
+      ".html": "/home/rich/project/weiwei/weiwei/config/config.default.js"
     },
-    "root": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-view\\config\\config.default.js"
+    "root": "/home/rich/project/weiwei/weiwei/node_modules/egg-view/config/config.default.js",
+    "cache": "/home/rich/project/weiwei/weiwei/node_modules/egg-view/config/config.default.js",
+    "defaultExtension": "/home/rich/project/weiwei/weiwei/node_modules/egg-view/config/config.default.js"
   },
   "mongoose": {
-    "url": "E:\\AAA2018\\Now\\weiwei\\config\\config.default.js",
-    "options": "E:\\AAA2018\\Now\\weiwei\\config\\config.default.js",
-    "loadModel": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-mongoose\\config\\config.default.js",
-    "app": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-mongoose\\config\\config.default.js",
-    "agent": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-mongoose\\config\\config.default.js"
+    "url": "/home/rich/project/weiwei/weiwei/config/config.default.js",
+    "options": "/home/rich/project/weiwei/weiwei/config/config.default.js",
+    "loadModel": "/home/rich/project/weiwei/weiwei/node_modules/egg-mongoose/config/config.default.js",
+    "app": "/home/rich/project/weiwei/weiwei/node_modules/egg-mongoose/config/config.default.js",
+    "agent": "/home/rich/project/weiwei/weiwei/node_modules/egg-mongoose/config/config.default.js"
   },
   "security": {
     "csrf": {
-      "enable": "E:\\AAA2018\\Now\\weiwei\\config\\config.default.js",
-      "ignoreJSON": "E:\\AAA2018\\Now\\weiwei\\config\\config.default.js",
-      "useSession": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/home/rich/project/weiwei/weiwei/config/config.default.js",
+      "ignoreJSON": "/home/rich/project/weiwei/weiwei/config/config.default.js",
+      "useSession": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js",
+      "headerName": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js",
+      "queryName": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js"
     },
-    "domainWhiteList": "E:\\AAA2018\\Now\\weiwei\\config\\config.default.js",
-    "protocolWhiteList": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "/home/rich/project/weiwei/weiwei/config/config.default.js",
+    "protocolWhiteList": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js",
     "xframe": {
-      "enable": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js",
+      "value": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js",
+      "maxAge": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js"
     },
     "methodnoallow": {
-      "enable": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js"
     },
     "noopen": {
-      "enable": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js"
     },
     "nosniff": {
-      "enable": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js"
     },
     "referrerPolicy": {
-      "enable": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js",
+      "value": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js"
     },
     "xssProtection": {
-      "enable": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js",
+      "value": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js"
     },
     "csp": {
-      "enable": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js",
+      "policy": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js"
     }
   },
   "cors": {
-    "allowMethods": "E:\\AAA2018\\Now\\weiwei\\config\\config.default.js"
+    "allowMethods": "/home/rich/project/weiwei/weiwei/config/config.default.js"
   },
   "session": {
-    "maxAge": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "/home/rich/project/weiwei/weiwei/node_modules/egg-session/config/config.default.js",
+    "key": "/home/rich/project/weiwei/weiwei/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/home/rich/project/weiwei/weiwei/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/home/rich/project/weiwei/weiwei/node_modules/egg-session/config/config.default.js"
   },
   "helper": {
-    "shtml": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "/home/rich/project/weiwei/weiwei/node_modules/egg-security/config/config.default.js"
   },
   "jsonp": {
-    "limit": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "/home/rich/project/weiwei/weiwei/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/home/rich/project/weiwei/weiwei/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/home/rich/project/weiwei/weiwei/node_modules/egg-jsonp/config/config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "/home/rich/project/weiwei/weiwei/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/home/rich/project/weiwei/weiwei/node_modules/egg-onerror/config/config.default.js"
   },
   "i18n": {
-    "defaultLocale": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "/home/rich/project/weiwei/weiwei/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/home/rich/project/weiwei/weiwei/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/home/rich/project/weiwei/weiwei/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/home/rich/project/weiwei/weiwei/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/home/rich/project/weiwei/weiwei/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "/home/rich/project/weiwei/weiwei/node_modules/egg-watcher/config/config.default.js",
     "eventSources": {
-      "default": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "/home/rich/project/weiwei/weiwei/node_modules/egg-watcher/config/config.default.js",
+      "development": "/home/rich/project/weiwei/weiwei/node_modules/egg-watcher/config/config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-multipart\\config\\config.default.js"
-  },
-  "development": {
-    "watchDirs": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideDefault": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-development\\config\\config.default.js"
+    "autoFields": "/home/rich/project/weiwei/weiwei/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/home/rich/project/weiwei/weiwei/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/home/rich/project/weiwei/weiwei/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/home/rich/project/weiwei/weiwei/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/home/rich/project/weiwei/weiwei/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/home/rich/project/weiwei/weiwei/node_modules/egg-multipart/config/config.default.js",
+    "files": "/home/rich/project/weiwei/weiwei/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/home/rich/project/weiwei/weiwei/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/home/rich/project/weiwei/weiwei/node_modules/egg-multipart/config/config.default.js"
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-schedule\\config\\config.default.js",
-      "file": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-schedule\\config\\config.default.js"
+      "consoleLevel": "/home/rich/project/weiwei/weiwei/node_modules/egg-schedule/config/config.default.js",
+      "file": "/home/rich/project/weiwei/weiwei/node_modules/egg-schedule/config/config.default.js"
     }
   },
   "logrotator": {
-    "filesRotateByHour": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "/home/rich/project/weiwei/weiwei/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/home/rich/project/weiwei/weiwei/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/home/rich/project/weiwei/weiwei/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/home/rich/project/weiwei/weiwei/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/home/rich/project/weiwei/weiwei/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/home/rich/project/weiwei/weiwei/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/home/rich/project/weiwei/weiwei/node_modules/egg-logrotator/config/config.default.js"
   },
   "static": {
-    "prefix": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-static\\config\\config.default.js",
-    "dir": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "/home/rich/project/weiwei/weiwei/node_modules/egg-static/config/config.default.js",
+    "dir": "/home/rich/project/weiwei/weiwei/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/home/rich/project/weiwei/weiwei/node_modules/egg-static/config/config.default.js",
+    "preload": "/home/rich/project/weiwei/weiwei/node_modules/egg-static/config/config.default.js",
+    "buffer": "/home/rich/project/weiwei/weiwei/node_modules/egg-static/config/config.prod.js",
+    "maxFiles": "/home/rich/project/weiwei/weiwei/node_modules/egg-static/config/config.default.js",
+    "maxAge": "/home/rich/project/weiwei/weiwei/node_modules/egg-static/config/config.prod.js"
   },
   "nunjucks": {
-    "autoescape": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "throwOnUndefined": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "trimBlocks": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "lstripBlocks": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "cache": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+    "autoescape": "/home/rich/project/weiwei/weiwei/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/home/rich/project/weiwei/weiwei/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/home/rich/project/weiwei/weiwei/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/home/rich/project/weiwei/weiwei/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/home/rich/project/weiwei/weiwei/node_modules/egg-view-nunjucks/config/config.default.js"
   },
-  "env": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-  "name": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
+  "env": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+  "name": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+  "proxy": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
   "pkg": {
-    "name": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "version": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "description": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "private": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
+    "name": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "version": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "description": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "private": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
     "dependencies": {
-      "cheerio": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "egg": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "egg-cors": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "egg-scripts": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "koa-formidable": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "lodash": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "nanoid": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "puppeteer": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "qiniu": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "request": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "request-promise-native": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js"
+      "cheerio": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "egg": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "egg-cors": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "koa-formidable": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "lodash": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "nanoid": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "puppeteer": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "qiniu": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "request": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "request-promise-native": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
-      "autod": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "autod-egg": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "egg-bin": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "egg-ci": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "egg-mock": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "egg-mongoose": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "egg-view-nunjucks": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "eslint": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "eslint-config-egg": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "webstorm-disable-index": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js"
+      "autod": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "autod-egg": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "egg-bin": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "egg-ci": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "egg-mock": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "egg-mongoose": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "eslint": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js"
     },
     "engines": {
-      "node": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js"
+      "node": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js"
     },
     "scripts": {
-      "start": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "stop": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "dev": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "debug": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "test": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "test-local": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "cov": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "lint": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "ci": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "autod": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js"
+      "start": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "stop": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "dev": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "debug": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "test": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "test-local": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "cov": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "lint": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "ci": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "autod": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js"
     },
     "ci": {
-      "version": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js"
+      "version": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js"
     },
     "repository": {
-      "type": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "url": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js"
+      "type": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "url": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js"
     },
-    "author": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "license": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js"
+    "author": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "license": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js"
   },
-  "baseDir": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+  "HOME": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+  "rundir": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
   "dump": {
-    "ignore": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "notFound": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "sitefile": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "middlewares": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "httpClient": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "strict": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
+    "enable": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "encoding": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "formLimit": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "strict": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "depth": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "depth": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js"
     }
   },
   "logger": {
-    "dir": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "env": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "level": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "coreLogger": {
-      "consoleLevel": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.local.js"
-    },
-    "allowDebugAtProd": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js"
+    "dir": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "encoding": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "env": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "level": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "outputJSON": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "buffer": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "appLogName": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "coreLogName": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "agentLogName": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "errorLogName": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "coreLogger": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "allowDebugAtProd": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxAge": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
     "request": {
-      "timeout": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "maxSockets": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "maxSockets": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js"
     }
   },
   "meta": {
-    "enable": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-    "logging": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js"
+    "enable": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+    "logging": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js"
   },
-  "coreMiddleware": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
   "cluster": {
     "listen": {
-      "path": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "port": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js"
+      "path": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "port": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js",
+      "hostname": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js"
     }
   },
   "clusterClient": {
-    "responseTimeout": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\config.default.js"
+    "responseTimeout": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/config.default.js"
   }
 }

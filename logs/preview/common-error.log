@@ -105,3 +105,51 @@ headerSent: true
 pid: 9396
 hostname: DELL-PC
 
+2018-07-02 15:34:15,088 ERROR 10120 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-07-02 15:34:15,089 ERROR 10120 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-07-02 15:34:15,091 ERROR 10120 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-07-02 15:36:32,354 ERROR 10120 A client (undefined:NaN) error [ECONNRESET] occurred: write ECONNRESET
+2018-07-02 15:36:54,656 ERROR 10120 A client (undefined:NaN) error [ECONNRESET] occurred: write ECONNRESET
+2018-07-02 15:36:54,658 ERROR 10120 [-/undefined/-/4295ms GET /public/images/power.jpg] nodejs.Error: write after end
+    at writeAfterEnd (_stream_writable.js:236:12)
+    at Socket.Writable.write (_stream_writable.js:287:5)
+    at Socket.write (net.js:695:40)
+    at Socket.Writable.end (_stream_writable.js:552:10)
+    at Socket.end (net.js:487:31)
+    at Application.onClientError (E:\AAA2018\Now\weiwei\node_modules\egg\lib\application.js:85:12)
+    at Server.server.on (E:\AAA2018\Now\weiwei\node_modules\egg\lib\application.js:103:52)
+    at emitTwo (events.js:125:13)
+    at Server.emit (events.js:213:7)
+    at Socket.socketOnError (_http_server.js:456:20)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at onwriteError (_stream_writable.js:408:12)
+    at onwrite (_stream_writable.js:430:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at Socket._destroy (net.js:552:3)
+headerSent: true
+pid: 10120
+hostname: DELL-PC
+
+2018-07-02 16:40:49,841 ERROR 10120 A client (undefined:NaN) error [ECONNRESET] occurred: write ECONNRESET
+2018-07-02 16:40:49,845 ERROR 10120 [-/undefined/-/380ms GET /public/images/about_page1bg2.jpg] nodejs.Error: write after end
+    at writeAfterEnd (_stream_writable.js:236:12)
+    at Socket.Writable.write (_stream_writable.js:287:5)
+    at Socket.write (net.js:695:40)
+    at Socket.Writable.end (_stream_writable.js:552:10)
+    at Socket.end (net.js:487:31)
+    at Application.onClientError (E:\AAA2018\Now\weiwei\node_modules\egg\lib\application.js:85:12)
+    at Server.server.on (E:\AAA2018\Now\weiwei\node_modules\egg\lib\application.js:103:52)
+    at emitTwo (events.js:125:13)
+    at Server.emit (events.js:213:7)
+    at Socket.socketOnError (_http_server.js:456:20)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at onwriteError (_stream_writable.js:408:12)
+    at onwrite (_stream_writable.js:430:5)
+    at _destroy (internal/streams/destroy.js:39:7)
+    at Socket._destroy (net.js:552:3)
+headerSent: true
+pid: 10120
+hostname: DELL-PC
+

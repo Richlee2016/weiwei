@@ -149,5 +149,17 @@
     "stack": [
       "wrappedController"
     ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/delVod",
+    "regexp": "/^\\/delVod(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
   }
 ]

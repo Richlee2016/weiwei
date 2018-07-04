@@ -101,14 +101,24 @@ class HomeService extends Service {
   /**
    * @param {key} 根据key 获取图片
    */
-  async fetchImg({ key }) {
+  async fetchImg({ page = 1, size = 12, key }) {
+    let skip = (page - 1) * size;
     try {
       let query = {};
       if (key) {
         query = { keyword: key };
       }
-      const res = await this.Img.find(query).exec();
-      return res;
+      const res = await this.Img.find(query)
+      .limit(size)
+      .skip(skip)
+      .exec();
+      const count = await this.Img.find(query)
+      .count()
+      .exec();
+      return {
+        list:res,
+        count
+      };
     } catch (err) {
       console.log(err);
     }
@@ -139,6 +149,13 @@ class HomeService extends Service {
     } catch (error) {
       console.log(error);
     }
+  }
+  /**
+ * @param {Id} 删除的项目
+   */
+  async delPage(Id){
+    const res = this.Page.deleteOne({id:Id}).exec();
+    return res;
   }
 }
 

@@ -153,3 +153,53 @@ headerSent: true
 pid: 10120
 hostname: DELL-PC
 
+2018-07-04 10:09:31,143 ERROR 6712 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 6712
+hostname: DELL-PC
+
+2018-07-04 10:09:32,445 ERROR 6712 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 6712
+hostname: DELL-PC
+
+2018-07-04 10:09:33,694 ERROR 6712 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 6712
+hostname: DELL-PC
+
+2018-07-04 10:09:34,054 ERROR 6712 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 6712
+hostname: DELL-PC
+
+2018-07-04 10:23:58,989 ERROR 6712 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 6712
+hostname: DELL-PC
+

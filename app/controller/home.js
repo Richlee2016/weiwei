@@ -77,9 +77,9 @@ class HomeController extends Controller {
   }
   //请求图片列表
   async fetchImages(ctx) {
-    const { key } = ctx.query;
-    console.log(key);
-    let send = !!key ? { key } : {};
+    const { key,page } = ctx.query;
+    let pageNum = Number(page)
+    let send = !!key ? { key,page:pageNum } : {page:pageNum};
     const res = await this.service.home.fetchImg(send);
     ctx.body = res;
     ctx.status = 200;
@@ -90,6 +90,13 @@ class HomeController extends Controller {
     const res = await this.service.home.setImg({ Id, Type, Images });
     ctx.body = "OK";
     ctx.status = 201;
+  }
+  //删除产品
+  async delVod(ctx){
+    const {Id} = ctx.request.body;
+    const res = ctx.service.home.delPage(Id);
+    ctx.status = 201;
+    ctx.body = res;
   }
 }
 

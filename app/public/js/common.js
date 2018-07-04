@@ -1,6 +1,7 @@
 $(function() {
   $.navActive();
   $.listNav();
+  $.wiDirect();
 });
 
 $.extend($, {
@@ -35,6 +36,13 @@ $.extend($, {
         };
       });
     });
-
+  },
+  wiDirect:function(){
+    const src = location.pathname.match(/\/([a-zA-Z]+)/);
+    const href = src ? src[1] : "";
+    var wi = $(document).width();
+    if(wi<780 & href !== 'list'){
+      location.href = '/list'
+    };
   }
 });

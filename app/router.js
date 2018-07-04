@@ -22,4 +22,5 @@ module.exports = app => {
   router.get('/getPages',controller.home.fetchPage);
   router.get('/getImg',controller.home.fetchImages);
   router.post('/setImages',controller.home.setImages);
+  router.post('/delVod',controller.home.delVod);
 };

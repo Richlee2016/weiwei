@@ -41,7 +41,8 @@ $.extend($, {
     const src = location.pathname.match(/\/([a-zA-Z]+)/);
     const href = src ? src[1] : "";
     var wi = $(document).width();
-    if(wi<780 & href !== 'list'){
+    console.log(href);
+    if(wi<780 && href !== 'list' && href !== 'vod'){
       location.href = '/list'
     };
   }

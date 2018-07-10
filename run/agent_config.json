@@ -81,10 +81,10 @@
       "cookieMaxAge": "1y"
     },
     "watcher": {
-      "type": "development",
+      "type": "default",
       "eventSources": {
-        "default": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "/home/rich/project/weiwei/weiwei/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/home/rich/project/weiwei/weiwei/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "multipart": {
@@ -98,17 +98,10 @@
       "fileExtensions": [],
       "whitelist": null
     },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": false,
-      "reloadOnDebug": true,
-      "overrideDefault": false
-    },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "E:\\AAA2018\\Now\\weiwei\\logs\\preview\\egg-schedule.log"
+        "file": "/home/rich/logs/preview/egg-schedule.log"
       }
     },
     "logrotator": {
@@ -122,15 +115,16 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "E:\\AAA2018\\Now\\weiwei\\app\\public",
+      "dir": "/home/rich/project/weiwei/weiwei/app/public",
       "dynamic": true,
       "preload": false,
-      "buffer": false,
-      "maxFiles": 1000
+      "buffer": true,
+      "maxFiles": 1000,
+      "maxAge": 31536000
     },
     "view": {
-      "root": "E:\\AAA2018\\Now\\weiwei\\app\\view",
-      "cache": false,
+      "root": "/home/rich/project/weiwei/weiwei/app/view",
+      "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
       "mapping": {
@@ -142,7 +136,7 @@
       "throwOnUndefined": false,
       "trimBlocks": false,
       "lstripBlocks": false,
-      "cache": false
+      "cache": true
     },
     "mongoose": {
       "url": "mongodb://localhost:27017/weiwei",
@@ -154,7 +148,7 @@
     "cors": {
       "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS"
     },
-    "env": "local",
+    "env": "prod",
     "name": "preview",
     "keys": "<String len: 26>",
     "proxy": false,
@@ -216,9 +210,9 @@
       "author": "rich",
       "license": "MIT"
     },
-    "baseDir": "E:\\AAA2018\\Now\\weiwei",
-    "HOME": "C:\\Users\\dell",
-    "rundir": "E:\\AAA2018\\Now\\weiwei\\run",
+    "baseDir": "/home/rich/project/weiwei/weiwei",
+    "HOME": "/home/rich",
+    "rundir": "/home/rich/project/weiwei/weiwei/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -248,21 +242,19 @@
       }
     },
     "logger": {
-      "dir": "E:\\AAA2018\\Now\\weiwei\\logs\\preview",
+      "dir": "/home/rich/logs/preview",
       "encoding": "utf8",
-      "env": "local",
+      "env": "prod",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": false,
+      "disableConsoleAfterReady": true,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "preview-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {
-        "consoleLevel": "WARN"
-      },
+      "coreLogger": {},
       "allowDebugAtProd": true,
       "type": "agent"
     },
@@ -341,8 +333,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-session",
+      "from": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/plugin.js",
+      "path": "/home/rich/project/weiwei/weiwei/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -354,8 +346,8 @@
         "session"
       ],
       "env": [],
-      "from": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-security",
+      "from": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/plugin.js",
+      "path": "/home/rich/project/weiwei/weiwei/node_modules/egg-security",
       "version": "2.1.0"
     },
     "jsonp": {
@@ -367,8 +359,8 @@
         "security"
       ],
       "env": [],
-      "from": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-jsonp",
+      "from": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/plugin.js",
+      "path": "/home/rich/project/weiwei/weiwei/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -380,8 +372,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-onerror",
+      "from": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/plugin.js",
+      "path": "/home/rich/project/weiwei/weiwei/node_modules/egg-onerror",
       "version": "2.0.0"
     },
     "i18n": {
@@ -391,8 +383,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-i18n",
+      "from": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/plugin.js",
+      "path": "/home/rich/project/weiwei/weiwei/node_modules/egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -402,8 +394,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-watcher",
+      "from": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/plugin.js",
+      "path": "/home/rich/project/weiwei/weiwei/node_modules/egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -413,24 +405,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-multipart",
+      "from": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/plugin.js",
+      "path": "/home/rich/project/weiwei/weiwei/node_modules/egg-multipart",
       "version": "2.0.0"
-    },
-    "development": {
-      "enable": true,
-      "package": "egg-development",
-      "name": "development",
-      "dependencies": [
-        "watcher"
-      ],
-      "optionalDependencies": [],
-      "env": [
-        "local"
-      ],
-      "from": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-development",
-      "version": "2.2.0"
     },
     "schedule": {
       "enable": true,
@@ -439,8 +416,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-schedule",
+      "from": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/plugin.js",
+      "path": "/home/rich/project/weiwei/weiwei/node_modules/egg-schedule",
       "version": "3.3.0"
     },
     "logrotator": {
@@ -452,8 +429,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-logrotator",
+      "from": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/plugin.js",
+      "path": "/home/rich/project/weiwei/weiwei/node_modules/egg-logrotator",
       "version": "3.0.2"
     },
     "static": {
@@ -463,8 +440,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-static",
+      "from": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/plugin.js",
+      "path": "/home/rich/project/weiwei/weiwei/node_modules/egg-static",
       "version": "2.1.0"
     },
     "view": {
@@ -474,8 +451,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-view",
+      "from": "/home/rich/project/weiwei/weiwei/node_modules/egg/config/plugin.js",
+      "path": "/home/rich/project/weiwei/weiwei/node_modules/egg-view",
       "version": "2.1.0"
     },
     "nunjucks": {
@@ -488,8 +465,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\AAA2018\\Now\\weiwei\\config\\plugin.js",
-      "path": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-view-nunjucks",
+      "from": "/home/rich/project/weiwei/weiwei/config/plugin.js",
+      "path": "/home/rich/project/weiwei/weiwei/node_modules/egg-view-nunjucks",
       "version": "2.1.6"
     },
     "mongoose": {
@@ -499,8 +476,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\AAA2018\\Now\\weiwei\\config\\plugin.js",
-      "path": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-mongoose",
+      "from": "/home/rich/project/weiwei/weiwei/config/plugin.js",
+      "path": "/home/rich/project/weiwei/weiwei/node_modules/egg-mongoose",
       "version": "2.2.0"
     },
     "cors": {
@@ -510,8 +487,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\AAA2018\\Now\\weiwei\\config\\plugin.js",
-      "path": "E:\\AAA2018\\Now\\weiwei\\node_modules\\egg-cors",
+      "from": "/home/rich/project/weiwei/weiwei/config/plugin.js",
+      "path": "/home/rich/project/weiwei/weiwei/node_modules/egg-cors",
       "version": "2.0.0"
     }
   }

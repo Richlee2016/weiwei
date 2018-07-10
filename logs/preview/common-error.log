@@ -203,3 +203,296 @@ name: 'unhandledExceptionError'
 pid: 6712
 hostname: DELL-PC
 
+2018-07-09 08:54:30,565 ERROR 9412 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-07-09 08:54:30,567 ERROR 9412 [-/undefined/-/2240ms GET /public/images/about_page1bg2.jpg] nodejs.ECONNRESETError: read ECONNRESET
+    at _errnoException (util.js:1026:11)
+    at TCP.onread (net.js:606:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+headerSent: true
+name: 'ECONNRESETError'
+pid: 9412
+hostname: DELL-PC
+
+2018-07-09 08:54:30,681 ERROR 9412 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-07-09 09:17:00,610 ERROR 9412 A client (undefined:NaN) error [ECONNRESET] occurred: write ECONNRESET
+2018-07-09 09:25:51,301 ERROR 9412 A client (undefined:NaN) error [ECONNRESET] occurred: write ECONNRESET
+2018-07-09 09:31:23,573 ERROR 9412 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-07-09 11:00:07,586 ERROR 7436 [egg-mongoose] mongodb://localhost:27017/weiwei disconnected
+2018-07-09 11:00:07,587 ERROR 7436 nodejs.MongoError: [egg-mongoose]failed to connect to server [localhost:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\mongodb-core\lib\topologies\server.js:336:35)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\mongodb-core\lib\connection\pool.js:280:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\mongodb-core\lib\connection\connection.js:189:49)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [localhost:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 7436
+hostname: DELL-PC
+
+2018-07-09 12:57:27,604 ERROR 7568 A client (::ffff:192.168.20.28:16114) error [HPE_INVALID_EOF_STATE] occurred: Parse Error
+2018-07-09 12:57:27,611 ERROR 7568 nodejs.TypeError: Cannot read property 'fields' of undefined
+    at form (E:\AAA2018\Now\weiwei\app\service\qiniu.js:79:35)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-formidable\index.js:25:23
+    at IncomingForm.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:104:9)
+    at emitOne (events.js:115:13)
+    at IncomingForm.emit (events.js:210:7)
+    at IncomingForm._error (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:298:8)
+    at IncomingMessage.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:122:12)
+    at emitNone (events.js:105:13)
+    at IncomingMessage.emit (events.js:207:7)
+    at abortIncoming (_http_server.js:410:9)
+    at socketOnClose (_http_server.js:404:3)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at TCP._handle.close [as _onclose] (net.js:545:12)
+
+pid: 7568
+hostname: DELL-PC
+
+2018-07-09 12:57:27,664 ERROR 7568 A client (::ffff:192.168.20.28:16107) error [HPE_INVALID_EOF_STATE] occurred: Parse Error
+2018-07-09 12:57:27,664 ERROR 7568 nodejs.TypeError: Cannot read property 'fields' of undefined
+    at form (E:\AAA2018\Now\weiwei\app\service\qiniu.js:79:35)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-formidable\index.js:25:23
+    at IncomingForm.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:104:9)
+    at emitOne (events.js:115:13)
+    at IncomingForm.emit (events.js:210:7)
+    at IncomingForm._error (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:298:8)
+    at IncomingMessage.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:122:12)
+    at emitNone (events.js:105:13)
+    at IncomingMessage.emit (events.js:207:7)
+    at abortIncoming (_http_server.js:410:9)
+    at socketOnClose (_http_server.js:404:3)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at TCP._handle.close [as _onclose] (net.js:545:12)
+
+pid: 7568
+hostname: DELL-PC
+
+2018-07-09 12:57:29,627 ERROR 7568 A client (::ffff:192.168.20.28:16068) error [HPE_INVALID_EOF_STATE] occurred: Parse Error
+2018-07-09 12:57:29,629 ERROR 7568 nodejs.TypeError: Cannot read property 'fields' of undefined
+    at form (E:\AAA2018\Now\weiwei\app\service\qiniu.js:79:35)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-formidable\index.js:25:23
+    at IncomingForm.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:104:9)
+    at emitOne (events.js:115:13)
+    at IncomingForm.emit (events.js:210:7)
+    at IncomingForm._error (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:298:8)
+    at IncomingMessage.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:122:12)
+    at emitNone (events.js:105:13)
+    at IncomingMessage.emit (events.js:207:7)
+    at abortIncoming (_http_server.js:410:9)
+    at socketOnClose (_http_server.js:404:3)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at TCP._handle.close [as _onclose] (net.js:545:12)
+
+pid: 7568
+hostname: DELL-PC
+
+2018-07-09 12:58:50,798 ERROR 7568 A client (::ffff:192.168.20.28:16321) error [HPE_INVALID_EOF_STATE] occurred: Parse Error
+2018-07-09 12:58:50,799 ERROR 7568 nodejs.TypeError: Cannot read property 'fields' of undefined
+    at form (E:\AAA2018\Now\weiwei\app\service\qiniu.js:79:35)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-formidable\index.js:25:23
+    at IncomingForm.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:104:9)
+    at emitOne (events.js:115:13)
+    at IncomingForm.emit (events.js:210:7)
+    at IncomingForm._error (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:298:8)
+    at IncomingMessage.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:122:12)
+    at emitNone (events.js:105:13)
+    at IncomingMessage.emit (events.js:207:7)
+    at abortIncoming (_http_server.js:410:9)
+    at socketOnClose (_http_server.js:404:3)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at TCP._handle.close [as _onclose] (net.js:545:12)
+
+pid: 7568
+hostname: DELL-PC
+
+2018-07-09 12:58:53,667 ERROR 7568 A client (::ffff:192.168.20.28:16280) error [HPE_INVALID_EOF_STATE] occurred: Parse Error
+2018-07-09 12:58:53,670 ERROR 7568 nodejs.TypeError: Cannot read property 'fields' of undefined
+    at form (E:\AAA2018\Now\weiwei\app\service\qiniu.js:79:35)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-formidable\index.js:25:23
+    at IncomingForm.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:104:9)
+    at emitOne (events.js:115:13)
+    at IncomingForm.emit (events.js:210:7)
+    at IncomingForm._error (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:298:8)
+    at IncomingMessage.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:122:12)
+    at emitNone (events.js:105:13)
+    at IncomingMessage.emit (events.js:207:7)
+    at abortIncoming (_http_server.js:410:9)
+    at socketOnClose (_http_server.js:404:3)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at TCP._handle.close [as _onclose] (net.js:545:12)
+
+pid: 7568
+hostname: DELL-PC
+
+2018-07-09 12:58:54,125 ERROR 7568 A client (::ffff:192.168.20.28:16294) error [HPE_INVALID_EOF_STATE] occurred: Parse Error
+2018-07-09 12:58:54,127 ERROR 7568 nodejs.TypeError: Cannot read property 'fields' of undefined
+    at form (E:\AAA2018\Now\weiwei\app\service\qiniu.js:79:35)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-formidable\index.js:25:23
+    at IncomingForm.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:104:9)
+    at emitOne (events.js:115:13)
+    at IncomingForm.emit (events.js:210:7)
+    at IncomingForm._error (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:298:8)
+    at IncomingMessage.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:122:12)
+    at emitNone (events.js:105:13)
+    at IncomingMessage.emit (events.js:207:7)
+    at abortIncoming (_http_server.js:410:9)
+    at socketOnClose (_http_server.js:404:3)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at TCP._handle.close [as _onclose] (net.js:545:12)
+
+pid: 7568
+hostname: DELL-PC
+
+2018-07-09 13:12:22,977 ERROR 7568 A client (::ffff:192.168.20.28:17917) error [HPE_INVALID_EOF_STATE] occurred: Parse Error
+2018-07-09 13:12:22,980 ERROR 7568 nodejs.TypeError: Cannot read property 'fields' of undefined
+    at form (E:\AAA2018\Now\weiwei\app\service\qiniu.js:79:35)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-formidable\index.js:25:23
+    at IncomingForm.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:104:9)
+    at emitOne (events.js:115:13)
+    at IncomingForm.emit (events.js:210:7)
+    at IncomingForm._error (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:298:8)
+    at IncomingMessage.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:122:12)
+    at emitNone (events.js:105:13)
+    at IncomingMessage.emit (events.js:207:7)
+    at abortIncoming (_http_server.js:410:9)
+    at socketOnClose (_http_server.js:404:3)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at TCP._handle.close [as _onclose] (net.js:545:12)
+
+pid: 7568
+hostname: DELL-PC
+
+2018-07-09 13:13:16,623 ERROR 7568 A client (::ffff:192.168.20.28:18030) error [HPE_INVALID_EOF_STATE] occurred: Parse Error
+2018-07-09 13:13:16,625 ERROR 7568 nodejs.TypeError: Cannot read property 'fields' of undefined
+    at form (E:\AAA2018\Now\weiwei\app\service\qiniu.js:79:35)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-formidable\index.js:25:23
+    at IncomingForm.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:104:9)
+    at emitOne (events.js:115:13)
+    at IncomingForm.emit (events.js:210:7)
+    at IncomingForm._error (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:298:8)
+    at IncomingMessage.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:122:12)
+    at emitNone (events.js:105:13)
+    at IncomingMessage.emit (events.js:207:7)
+    at abortIncoming (_http_server.js:410:9)
+    at socketOnClose (_http_server.js:404:3)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at TCP._handle.close [as _onclose] (net.js:545:12)
+
+pid: 7568
+hostname: DELL-PC
+
+2018-07-09 14:19:29,787 ERROR 7568 nodejs.RequestError: connect ETIMEDOUT 183.236.51.12:80 (req "error"), POST http://upload-z2.qiniup.com -1 (connected: false, keepalive socket: false)
+headers: {} (uncaughtException throw 1 times on pid:7568)
+    at Object._errnoException (util.js:1026:11)
+    at _exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1174:14)
+code: 'ETIMEDOUT'
+errno: 'ETIMEDOUT'
+syscall: 'connect'
+address: '183.236.51.12'
+port: 80
+name: 'RequestError'
+data: undefined
+path: '/'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 21005, keepAliveSocket: false, data: undefined, requestUrls: [ 'http://upload-z2.qiniup.com' ], timing: null, remoteAddress: '183.236.51.12', remotePort: '' }
+pid: 7568
+hostname: DELL-PC
+
+2018-07-09 14:19:29,795 ERROR 7568 nodejs.RequestError: connect ETIMEDOUT 183.236.51.12:80 (req "error"), POST http://upload-z2.qiniup.com -1 (connected: false, keepalive socket: false)
+headers: {} (uncaughtException throw 1 times on pid:7568)
+    at Object._errnoException (util.js:1026:11)
+    at _exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1174:14)
+code: 'ETIMEDOUT'
+errno: 'ETIMEDOUT'
+syscall: 'connect'
+address: '183.236.51.12'
+port: 80
+name: 'RequestError'
+data: undefined
+path: '/'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 21005, keepAliveSocket: false, data: undefined, requestUrls: [ 'http://upload-z2.qiniup.com' ], timing: null, remoteAddress: '183.236.51.12', remotePort: '' }
+pid: 7568
+hostname: DELL-PC
+
+2018-07-09 14:52:13,856 ERROR 15752 A client (::ffff:192.168.20.28:29430) error [HPE_INVALID_EOF_STATE] occurred: Parse Error
+2018-07-09 14:52:13,860 ERROR 15752 nodejs.TypeError: Cannot read property 'fields' of undefined
+    at form (E:\AAA2018\Now\weiwei\app\service\qiniu.js:79:35)
+    at E:\AAA2018\Now\weiwei\node_modules\koa-formidable\index.js:25:23
+    at IncomingForm.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:104:9)
+    at emitOne (events.js:115:13)
+    at IncomingForm.emit (events.js:210:7)
+    at IncomingForm._error (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:298:8)
+    at IncomingMessage.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\formidable\lib\incoming_form.js:122:12)
+    at emitNone (events.js:105:13)
+    at IncomingMessage.emit (events.js:207:7)
+    at abortIncoming (_http_server.js:410:9)
+    at socketOnClose (_http_server.js:404:3)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at TCP._handle.close [as _onclose] (net.js:545:12)
+
+pid: 15752
+hostname: DELL-PC
+
+2018-07-09 15:11:45,502 ERROR 15752 nodejs.RequestError: connect ETIMEDOUT 123.59.184.103:80 (req "error"), POST http://upload-z2.qiniup.com -1 (connected: false, keepalive socket: false)
+headers: {} (uncaughtException throw 1 times on pid:15752)
+    at Object._errnoException (util.js:1026:11)
+    at _exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1174:14)
+code: 'ETIMEDOUT'
+errno: 'ETIMEDOUT'
+syscall: 'connect'
+address: '123.59.184.103'
+port: 80
+name: 'RequestError'
+data: undefined
+path: '/'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 21003, keepAliveSocket: false, data: undefined, requestUrls: [ 'http://upload-z2.qiniup.com' ], timing: null, remoteAddress: '123.59.184.103', remotePort: '' }
+pid: 15752
+hostname: DELL-PC
+
+2018-07-09 15:11:45,524 ERROR 15752 nodejs.RequestError: connect ETIMEDOUT 123.59.184.103:80 (req "error"), POST http://upload-z2.qiniup.com -1 (connected: false, keepalive socket: false)
+headers: {} (uncaughtException throw 1 times on pid:15752)
+    at Object._errnoException (util.js:1026:11)
+    at _exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1174:14)
+code: 'ETIMEDOUT'
+errno: 'ETIMEDOUT'
+syscall: 'connect'
+address: '123.59.184.103'
+port: 80
+name: 'RequestError'
+data: undefined
+path: '/'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 21003, keepAliveSocket: false, data: undefined, requestUrls: [ 'http://upload-z2.qiniup.com' ], timing: null, remoteAddress: '123.59.184.103', remotePort: '' }
+pid: 15752
+hostname: DELL-PC
+

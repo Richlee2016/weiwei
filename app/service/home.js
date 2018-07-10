@@ -101,7 +101,7 @@ class HomeService extends Service {
   /**
    * @param {key} 根据key 获取图片
    */
-  async fetchImg({ page = 1, size = 12, key }) {
+  async fetchImg({ page = 1, size = 24, key }) {
     let skip = (page - 1) * size;
     try {
       let query = {};

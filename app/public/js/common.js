@@ -1,7 +1,7 @@
 $(function() {
   $.navActive();
   $.listNav();
-  $.wiDirect();
+  // $.wiDirect();
 });
 
 $.extend($, {

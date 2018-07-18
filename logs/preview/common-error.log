@@ -496,3 +496,24 @@ res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 210
 pid: 15752
 hostname: DELL-PC
 
+2018-07-18 13:31:56,170 ERROR 3512 [egg-mongoose] mongodb://localhost:27017/weiwei disconnected
+2018-07-18 13:31:56,173 ERROR 3512 nodejs.MongoError: [egg-mongoose]failed to connect to server [localhost:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\mongodb-core\lib\topologies\server.js:336:35)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\mongodb-core\lib\connection\pool.js:280:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (E:\AAA2018\Now\weiwei\node_modules\mongodb-core\lib\connection\connection.js:189:49)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [localhost:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 3512
+hostname: DELL-PC
+

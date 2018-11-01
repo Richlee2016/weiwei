@@ -1351,3 +1351,20 @@
 2018-07-18 13:31:55,104 INFO 3512 [egg-security] compose 6 middlewares into one security middleware
 2018-07-18 13:31:55,139 INFO 3512 [egg-mongoose] starting...
 2018-07-18 13:31:55,185 INFO 3512 [egg-watcher:app] watcher start success
+2018-07-18 13:32:34,906 INFO 8952 [egg:logger] init all loggers with options: {"dir":"E:\\AAA2018\\Now\\weiwei\\logs\\preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-18 13:32:34,945 INFO 8952 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-18 13:32:34,946 INFO 8952 [egg-schedule]: register schedule E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-18 13:32:35,172 INFO 8952 [egg-mongoose] connecting mongodb://localhost:27017/weiwei
+2018-07-18 13:32:35,267 INFO 8952 [egg-static] starting static serve /public/ -> E:\AAA2018\Now\weiwei\app\public
+2018-07-18 13:32:35,271 INFO 8952 [egg-security] use methodnoallow middleware
+2018-07-18 13:32:35,271 INFO 8952 [egg-security] use noopen middleware
+2018-07-18 13:32:35,272 INFO 8952 [egg-security] use nosniff middleware
+2018-07-18 13:32:35,272 INFO 8952 [egg-security] use xssProtection middleware
+2018-07-18 13:32:35,273 INFO 8952 [egg-security] use xframe middleware
+2018-07-18 13:32:35,273 INFO 8952 [egg-security] use dta middleware
+2018-07-18 13:32:35,273 INFO 8952 [egg-security] compose 6 middlewares into one security middleware
+2018-07-18 13:32:35,307 INFO 8952 [egg-mongoose] starting...
+2018-07-18 13:32:35,356 INFO 8952 [egg-mongoose] mongodb://localhost:27017/weiwei connected successfully
+2018-07-18 13:32:35,356 INFO 8952 [egg-mongoose] instance[0] start successfully
+2018-07-18 13:32:35,358 INFO 8952 [egg-watcher:app] watcher start success
+2018-07-18 13:32:38,614 INFO 8952 [egg-view-nunjucks] loading templates from ["E:\\AAA2018\\Now\\weiwei\\app\\view"]

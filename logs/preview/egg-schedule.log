@@ -22,3 +22,5 @@
 2018-07-09 15:30:43,466 INFO 6940 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-10 00:00:01.000
 2018-07-10 16:49:35,180 INFO 15184 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-11 00:00:00.000
 2018-07-10 16:49:35,181 INFO 15184 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-11 00:00:01.000
+2018-07-18 13:32:35,381 INFO 3004 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-19 00:00:00.000
+2018-07-18 13:32:35,381 INFO 3004 [Timer] E:\AAA2018\Now\weiwei\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-19 00:00:01.000

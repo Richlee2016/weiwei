@@ -1,0 +1,11 @@
+version: '3'
+services:
+  weiwei:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    port:
+      - 7001:7001  
+    volumes:
+      - /home/rich/www/weiwei:/app
+    name: weiwei

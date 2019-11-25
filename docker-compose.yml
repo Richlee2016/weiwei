@@ -8,4 +8,4 @@ services:
       - 7001:7001  
     volumes:
       - /home/rich/www/weiwei:/app
-    name: weiwei
+    container_name: weiwei

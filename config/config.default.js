@@ -20,7 +20,7 @@ module.exports = appInfo => {
       },
     },
     mongoose: {
-      url: "mongodb://localhost:27017/weiwei",
+      url: "mongodb://120.79.228.82:27017/weiwei",
       options: {}
     },
     security: {

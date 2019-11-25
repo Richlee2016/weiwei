@@ -4,6 +4,6 @@ RUN mkdir -p /app
 
 WORKDIR /app
 
-EXPOSE 7001
+EXPOSE 3002
 
 CMD yarn && npm start

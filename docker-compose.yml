@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 7001:7001  
+      - 3002:3002  
     volumes:
       - /home/rich/www/weiwei:/app
     container_name: weiwei

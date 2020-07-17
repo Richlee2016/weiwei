@@ -9,7 +9,7 @@
     "egg-cors": "^2.0.0",
     "egg-scripts": "^2.5.0",
     "koa-formidable": "^1.1.0",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.19",
     "nanoid": "^1.0.4",
     "qiniu": "^7.1.7",
     "request": "^2.85.0",

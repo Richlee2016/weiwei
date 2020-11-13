@@ -1494,3 +1494,23 @@
 2018-07-18 13:37:39,104 INFO 3004 Recieved a change event from eventSource: {"event":"change","path":"E:\\AAA2018\\Now\\weiwei\\app\\view\\Layout\\Layout.html","stat":{"dev":2633307412,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":25614222883271210,"size":8761,"atimeMs":1529629937777,"mtimeMs":1531892259100,"ctimeMs":1531892259100,"birthtimeMs":1529629937777,"atime":"2018-06-22T01:12:17.777Z","mtime":"2018-07-18T05:37:39.100Z","ctime":"2018-07-18T05:37:39.100Z","birthtime":"2018-06-22T01:12:17.777Z"},"remove":false,"isDirectory":false,"isFile":true}
 2019-11-25 09:53:29,367 INFO 3099 [egg:logger] init all loggers with options: {"dir":"/Users/rich/2019/weiwei/weiwei/logs/preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"agent"}
 2019-11-25 09:53:29,433 INFO 3099 [egg-watcher:agent] watcher start success
+2020-11-13 13:59:23,794 INFO 38753 [egg:logger] init all loggers with options: {"dir":"/Users/rich/2020/rproject/weiwei/logs/preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-13 13:59:23,802 INFO 38753 [egg:core] dump config after load, 4ms
+2020-11-13 13:59:23,840 INFO 38753 [egg-watcher] Start watching: ["/Users/rich/2020/rproject/weiwei/app","/Users/rich/2020/rproject/weiwei/config","/Users/rich/2020/rproject/weiwei/mocks","/Users/rich/2020/rproject/weiwei/mocks_proxy","/Users/rich/2020/rproject/weiwei/app.js"]
+2020-11-13 13:59:23,840 INFO 38753 [egg-watcher] Start watching: "/Users/rich/2020/rproject/weiwei/app"
+2020-11-13 13:59:23,841 INFO 38753 [egg-watcher] Start watching: "/Users/rich/2020/rproject/weiwei/config"
+2020-11-13 13:59:23,841 INFO 38753 [egg-watcher] Start watching: "/Users/rich/2020/rproject/weiwei/mocks"
+2020-11-13 13:59:23,841 INFO 38753 [egg-watcher] Start watching: "/Users/rich/2020/rproject/weiwei/mocks_proxy"
+2020-11-13 13:59:23,841 INFO 38753 [egg-watcher] Start watching: "/Users/rich/2020/rproject/weiwei/app.js"
+2020-11-13 13:59:23,842 INFO 38753 [egg-watcher:agent] watcher start success
+2020-11-13 13:59:23,849 INFO 38753 [egg:core] dump config after ready, 4ms
+2020-11-13 14:01:22,237 INFO 39209 [egg:logger] init all loggers with options: {"dir":"/Users/rich/2020/rproject/weiwei/logs/preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-13 14:01:22,245 INFO 39209 [egg:core] dump config after load, 4ms
+2020-11-13 14:01:22,284 INFO 39209 [egg-watcher] Start watching: ["/Users/rich/2020/rproject/weiwei/app","/Users/rich/2020/rproject/weiwei/config","/Users/rich/2020/rproject/weiwei/mocks","/Users/rich/2020/rproject/weiwei/mocks_proxy","/Users/rich/2020/rproject/weiwei/app.js"]
+2020-11-13 14:01:22,284 INFO 39209 [egg-watcher] Start watching: "/Users/rich/2020/rproject/weiwei/app"
+2020-11-13 14:01:22,284 INFO 39209 [egg-watcher] Start watching: "/Users/rich/2020/rproject/weiwei/config"
+2020-11-13 14:01:22,284 INFO 39209 [egg-watcher] Start watching: "/Users/rich/2020/rproject/weiwei/mocks"
+2020-11-13 14:01:22,284 INFO 39209 [egg-watcher] Start watching: "/Users/rich/2020/rproject/weiwei/mocks_proxy"
+2020-11-13 14:01:22,284 INFO 39209 [egg-watcher] Start watching: "/Users/rich/2020/rproject/weiwei/app.js"
+2020-11-13 14:01:22,286 INFO 39209 [egg-watcher:agent] watcher start success
+2020-11-13 14:01:22,296 INFO 39209 [egg:core] dump config after ready, 4ms

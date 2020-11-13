@@ -517,3 +517,96 @@ message: '[egg-mongoose]failed to connect to server [localhost:27017] on first c
 pid: 3512
 hostname: DELL-PC
 
+2020-11-13 13:59:24,760 ERROR 38754 [egg-mongoose] mongodb://120.79.228.82:27017/weiwei disconnected
+2020-11-13 13:59:24,763 ERROR 38754 nodejs.MongoError: [egg-mongoose]failed to connect to server [120.79.228.82:27017] on first connect [Error: connect ECONNREFUSED 120.79.228.82:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14) {
+  name: 'MongoError',
+  message: 'connect ECONNREFUSED 120.79.228.82:27017'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14) {
+  name: 'MongoError',
+  message: 'connect ECONNREFUSED 120.79.228.82:27017'
+}]
+    at Pool.<anonymous> (/Users/rich/2020/rproject/weiwei/node_modules/mongodb-core/lib/topologies/server.js:336:35)
+    at Pool.emit (events.js:203:13)
+    at Connection.<anonymous> (/Users/rich/2020/rproject/weiwei/node_modules/mongodb-core/lib/connection/pool.js:280:12)
+    at Object.onceWrapper (events.js:291:20)
+    at Connection.emit (events.js:203:13)
+    at Socket.<anonymous> (/Users/rich/2020/rproject/weiwei/node_modules/mongodb-core/lib/connection/connection.js:189:49)
+    at Object.onceWrapper (events.js:291:20)
+    at Socket.emit (events.js:203:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+name: "MongoError"
+message: "[egg-mongoose]failed to connect to server [120.79.228.82:27017] on first connect [Error: connect ECONNREFUSED 120.79.228.82:27017\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14) {\n  name: 'MongoError',\n  message: 'connect ECONNREFUSED 120.79.228.82:27017'\n}]"
+pid: 38754
+hostname: P_TTFU-MB0
+
+2020-11-13 13:59:24,765 ERROR 38754 [-/127.0.0.1/-/0ms GET /] nodejs.MongoError: [egg-mongoose]failed to connect to server [120.79.228.82:27017] on first connect [Error: connect ECONNREFUSED 120.79.228.82:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14) {
+  name: 'MongoError',
+  message: 'connect ECONNREFUSED 120.79.228.82:27017'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14) {
+  name: 'MongoError',
+  message: 'connect ECONNREFUSED 120.79.228.82:27017'
+}]
+    at Pool.<anonymous> (/Users/rich/2020/rproject/weiwei/node_modules/mongodb-core/lib/topologies/server.js:336:35)
+    at Pool.emit (events.js:203:13)
+    at Connection.<anonymous> (/Users/rich/2020/rproject/weiwei/node_modules/mongodb-core/lib/connection/pool.js:280:12)
+    at Object.onceWrapper (events.js:291:20)
+    at Connection.emit (events.js:203:13)
+    at Socket.<anonymous> (/Users/rich/2020/rproject/weiwei/node_modules/mongodb-core/lib/connection/connection.js:189:49)
+    at Object.onceWrapper (events.js:291:20)
+    at Socket.emit (events.js:203:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+name: "MongoError"
+message: "[egg-mongoose]failed to connect to server [120.79.228.82:27017] on first connect [Error: connect ECONNREFUSED 120.79.228.82:27017\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14) {\n  name: 'MongoError',\n  message: 'connect ECONNREFUSED 120.79.228.82:27017'\n}]"
+pid: 38754
+hostname: P_TTFU-MB0
+
+2020-11-13 14:01:59,210 ERROR 39211 [-/127.0.0.1/-/16ms GET /list] nodejs.MongoError: command find requires authentication
+    at Function.MongoError.create (/Users/rich/2020/rproject/weiwei/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/rich/2020/rproject/weiwei/node_modules/mongodb-core/lib/cursor.js:212:36)
+    at /Users/rich/2020/rproject/weiwei/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "MongoError"
+message: "command find requires authentication"
+ok: 0
+errmsg: "command find requires authentication"
+code: 13
+codeName: "Unauthorized"
+pid: 39211
+hostname: P_TTFU-MB0
+
+2020-11-13 14:02:25,258 ERROR 39211 [-/127.0.0.1/-/9ms GET /list] nodejs.MongoError: command find requires authentication
+    at Function.MongoError.create (/Users/rich/2020/rproject/weiwei/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/rich/2020/rproject/weiwei/node_modules/mongodb-core/lib/cursor.js:212:36)
+    at /Users/rich/2020/rproject/weiwei/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "MongoError"
+message: "command find requires authentication"
+ok: 0
+errmsg: "command find requires authentication"
+code: 13
+codeName: "Unauthorized"
+pid: 39211
+hostname: P_TTFU-MB0
+
+2020-11-13 14:02:31,382 ERROR 39211 [-/127.0.0.1/-/10ms GET /list] nodejs.MongoError: command find requires authentication
+    at Function.MongoError.create (/Users/rich/2020/rproject/weiwei/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/rich/2020/rproject/weiwei/node_modules/mongodb-core/lib/cursor.js:212:36)
+    at /Users/rich/2020/rproject/weiwei/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "MongoError"
+message: "command find requires authentication"
+ok: 0
+errmsg: "command find requires authentication"
+code: 13
+codeName: "Unauthorized"
+pid: 39211
+hostname: P_TTFU-MB0
+

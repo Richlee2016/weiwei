@@ -1385,3 +1385,62 @@
 2019-11-25 09:53:30,215 INFO 3100 [egg-mongoose] mongodb://120.79.228.82:27017/weiwei connected successfully
 2019-11-25 09:53:30,216 INFO 3100 [egg-mongoose] instance[0] start successfully
 2019-11-25 09:53:44,853 INFO 3100 [egg-view-nunjucks] loading templates from ["/Users/rich/2019/weiwei/weiwei/app/view"]
+2020-11-13 13:59:24,357 INFO 38754 [egg:logger] init all loggers with options: {"dir":"/Users/rich/2020/rproject/weiwei/logs/preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-11-13 13:59:24,378 INFO 38754 [egg-multipart] stream mode enable
+2020-11-13 13:59:24,587 INFO 38754 [egg-mongoose] connecting mongodb://120.79.228.82:27017/weiwei
+2020-11-13 13:59:24,721 INFO 38754 [egg-static] starting static serve /public/ -> /Users/rich/2020/rproject/weiwei/app/public
+2020-11-13 13:59:24,724 INFO 38754 [egg-security] use methodnoallow middleware
+2020-11-13 13:59:24,725 INFO 38754 [egg-security] use noopen middleware
+2020-11-13 13:59:24,727 INFO 38754 [egg-security] use nosniff middleware
+2020-11-13 13:59:24,728 INFO 38754 [egg-security] use xssProtection middleware
+2020-11-13 13:59:24,728 INFO 38754 [egg-security] use xframe middleware
+2020-11-13 13:59:24,729 INFO 38754 [egg-security] use dta middleware
+2020-11-13 13:59:24,730 INFO 38754 [egg-security] compose 6 middlewares into one security middleware
+2020-11-13 13:59:24,744 INFO 38754 [egg:core] dump config after load, 5ms
+2020-11-13 13:59:24,746 INFO 38754 [egg-mongoose] starting...
+2020-11-13 13:59:24,761 ERROR 38754 [egg-mongoose] mongodb://120.79.228.82:27017/weiwei disconnected
+2020-11-13 13:59:24,763 ERROR 38754 nodejs.MongoError: [egg-mongoose]failed to connect to server [120.79.228.82:27017] on first connect [Error: connect ECONNREFUSED 120.79.228.82:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14) {
+  name: 'MongoError',
+  message: 'connect ECONNREFUSED 120.79.228.82:27017'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14) {
+  name: 'MongoError',
+  message: 'connect ECONNREFUSED 120.79.228.82:27017'
+}]
+    at Pool.<anonymous> (/Users/rich/2020/rproject/weiwei/node_modules/mongodb-core/lib/topologies/server.js:336:35)
+    at Pool.emit (events.js:203:13)
+    at Connection.<anonymous> (/Users/rich/2020/rproject/weiwei/node_modules/mongodb-core/lib/connection/pool.js:280:12)
+    at Object.onceWrapper (events.js:291:20)
+    at Connection.emit (events.js:203:13)
+    at Socket.<anonymous> (/Users/rich/2020/rproject/weiwei/node_modules/mongodb-core/lib/connection/connection.js:189:49)
+    at Object.onceWrapper (events.js:291:20)
+    at Socket.emit (events.js:203:13)
+    at emitErrorNT (internal/streams/destroy.js:91:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+name: "MongoError"
+message: "[egg-mongoose]failed to connect to server [120.79.228.82:27017] on first connect [Error: connect ECONNREFUSED 120.79.228.82:27017\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14) {\n  name: 'MongoError',\n  message: 'connect ECONNREFUSED 120.79.228.82:27017'\n}]"
+pid: 38754
+hostname: P_TTFU-MB0
+
+2020-11-13 13:59:24,770 INFO 38754 [egg:core] dump config after ready, 4ms
+2020-11-13 13:59:24,773 INFO 38754 [egg-watcher:application] watcher start success
+2020-11-13 14:01:22,842 INFO 39211 [egg:logger] init all loggers with options: {"dir":"/Users/rich/2020/rproject/weiwei/logs/preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-11-13 14:01:22,864 INFO 39211 [egg-multipart] stream mode enable
+2020-11-13 14:01:23,087 INFO 39211 [egg-mongoose] connecting mongodb://120.79.228.82:27017/weiwei
+2020-11-13 14:01:23,282 INFO 39211 [egg-static] starting static serve /public/ -> /Users/rich/2020/rproject/weiwei/app/public
+2020-11-13 14:01:23,285 INFO 39211 [egg-security] use methodnoallow middleware
+2020-11-13 14:01:23,285 INFO 39211 [egg-security] use noopen middleware
+2020-11-13 14:01:23,286 INFO 39211 [egg-security] use nosniff middleware
+2020-11-13 14:01:23,286 INFO 39211 [egg-security] use xssProtection middleware
+2020-11-13 14:01:23,287 INFO 39211 [egg-security] use xframe middleware
+2020-11-13 14:01:23,287 INFO 39211 [egg-security] use dta middleware
+2020-11-13 14:01:23,287 INFO 39211 [egg-security] compose 6 middlewares into one security middleware
+2020-11-13 14:01:23,334 INFO 39211 [egg:core] dump config after load, 5ms
+2020-11-13 14:01:23,336 INFO 39211 [egg-mongoose] starting...
+2020-11-13 14:01:23,359 INFO 39211 [egg-watcher:application] watcher start success
+2020-11-13 14:01:23,363 INFO 39211 [egg-mongoose] mongodb://120.79.228.82:27017/weiwei connected successfully
+2020-11-13 14:01:23,364 INFO 39211 [egg-mongoose] instance[0] start successfully
+2020-11-13 14:01:23,370 INFO 39211 [egg:core] dump config after ready, 4ms
+2020-11-13 14:01:49,797 INFO 39211 [egg-view-nunjucks] loading templates from ["/Users/rich/2020/rproject/weiwei/app/view"]

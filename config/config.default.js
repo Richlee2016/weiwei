@@ -1,37 +1,41 @@
-'use strict';
+"use strict";
 
-module.exports = appInfo => {
+module.exports = (appInfo) => {
   let config = (exports = {});
   config = {
     richCof: {
       qiniu: {
-        cname: "http://go.richfly.cn/",
+        cname: "http://go.limingyi666.com/",
         bucket: "eggapi",
         AK: "OBDA2gN9-FJfAzWExCHGNNG9QW5FqNtUrD57IwIi",
-        SK: "lkrOjtgXY4WmN7NcJNSKNXb7aLue13_CPg_0X0NH"
-      }
+        SK: "lkrOjtgXY4WmN7NcJNSKNXb7aLue13_CPg_0X0NH",
+      },
     },
     keys: appInfo.name + "_1522116013667_2328",
     middleware: ["errorHandler"],
     view: {
-      defaultViewEngine: 'nunjucks',
+      defaultViewEngine: "nunjucks",
       mapping: {
-        '.html': 'nunjucks',
+        ".html": "nunjucks",
       },
     },
     mongoose: {
-      url: "mongodb://120.79.228.82:27017/weiwei",
-      options: {}
+      url: "mongodb://wei:rich2020@120.79.228.82:27017/weiwei",
+      options: {},
     },
     security: {
       csrf: {
         enable: false,
-        ignoreJSON: true
+        ignoreJSON: true,
       },
-      domainWhiteList: ['http://localhost:8087', 'http://192.168.2.120:8087', 'http://book.richfly.cn'],
+      domainWhiteList: [
+        "http://localhost:8087",
+        "http://192.168.2.120:8087",
+        "http://book.richfly.cn",
+      ],
     },
     cors: {
-      allowMethods: "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS"
+      allowMethods: "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS",
     },
   };
 

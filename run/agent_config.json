@@ -163,7 +163,7 @@
       "cache": false
     },
     "mongoose": {
-      "url": "mongodb://120.79.228.82:27017/weiwei",
+      "url": "mongodb://wei:rich2020@120.79.228.82:27017/weiwei",
       "options": {},
       "loadModel": true,
       "app": true,

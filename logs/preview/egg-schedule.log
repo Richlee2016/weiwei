@@ -35,3 +35,21 @@
 2020-11-13 14:01:23,376 INFO 39209 [Timer] /Users/rich/2020/rproject/weiwei/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 52116626ms at 2020-11-14 04:30:00.002
 2020-11-13 14:01:23,376 INFO 39209 [Timer] /Users/rich/2020/rproject/weiwei/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 35916624ms at 2020-11-14 00:00:00.000
 2020-11-13 14:01:23,377 INFO 39209 [Timer] /Users/rich/2020/rproject/weiwei/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 35917623ms at 2020-11-14 00:00:01.000
+2020-11-15 22:18:44,990 INFO 57859 [egg-schedule]: register schedule /Users/rich/2020/rproject/weiwei/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-11-15 22:18:44,990 INFO 57859 [egg-schedule]: register schedule /Users/rich/2020/rproject/weiwei/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-11-15 22:18:44,990 INFO 57859 [egg-schedule]: register schedule /Users/rich/2020/rproject/weiwei/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-11-15 22:18:45,442 INFO 57858 [Timer] /Users/rich/2020/rproject/weiwei/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 22274560ms at 2020-11-16 04:30:00.002
+2020-11-15 22:18:45,442 INFO 57858 [Timer] /Users/rich/2020/rproject/weiwei/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 6074558ms at 2020-11-16 00:00:00.000
+2020-11-15 22:18:45,443 INFO 57858 [Timer] /Users/rich/2020/rproject/weiwei/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 6075558ms at 2020-11-16 00:00:01.001
+2020-12-11 11:55:50,399 INFO 8667 [egg-schedule]: register schedule /Users/rich/2020/rproject/weiwei/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-12-11 11:55:50,399 INFO 8667 [egg-schedule]: register schedule /Users/rich/2020/rproject/weiwei/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-12-11 11:55:50,399 INFO 8667 [egg-schedule]: register schedule /Users/rich/2020/rproject/weiwei/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-12-11 11:55:50,914 INFO 8666 [Timer] /Users/rich/2020/rproject/weiwei/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 59649088ms at 2020-12-12 04:30:00.002
+2020-12-11 11:55:50,915 INFO 8666 [Timer] /Users/rich/2020/rproject/weiwei/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 43449086ms at 2020-12-12 00:00:00.001
+2020-12-11 11:55:50,915 INFO 8666 [Timer] /Users/rich/2020/rproject/weiwei/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 43450085ms at 2020-12-12 00:00:01.000
+2020-12-11 11:56:30,060 INFO 8744 [egg-schedule]: register schedule /Users/rich/2020/rproject/weiwei/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-12-11 11:56:30,060 INFO 8744 [egg-schedule]: register schedule /Users/rich/2020/rproject/weiwei/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-12-11 11:56:30,060 INFO 8744 [egg-schedule]: register schedule /Users/rich/2020/rproject/weiwei/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-12-11 11:56:59,212 INFO 8772 [egg-schedule]: register schedule /Users/rich/2020/rproject/weiwei/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-12-11 11:56:59,212 INFO 8772 [egg-schedule]: register schedule /Users/rich/2020/rproject/weiwei/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-12-11 11:56:59,212 INFO 8772 [egg-schedule]: register schedule /Users/rich/2020/rproject/weiwei/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

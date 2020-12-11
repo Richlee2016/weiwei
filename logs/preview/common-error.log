@@ -610,3 +610,83 @@ codeName: "Unauthorized"
 pid: 39211
 hostname: P_TTFU-MB0
 
+2020-11-16 06:39:01,297 ERROR 57858 nodejs.ClusterClientNoResponseError: client no response in 29895862ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rich/2020/rproject/weiwei/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 57858
+hostname: P_TTFU-MB0
+
+2020-11-16 06:59:17,697 ERROR 57858 nodejs.ClusterClientNoResponseError: client no response in 1216393ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rich/2020/rproject/weiwei/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 57858
+hostname: P_TTFU-MB0
+
+2020-11-16 07:20:14,198 ERROR 57858 nodejs.ClusterClientNoResponseError: client no response in 1216494ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rich/2020/rproject/weiwei/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 57858
+hostname: P_TTFU-MB0
+
+2020-11-16 07:35:48,101 ERROR 57858 nodejs.ClusterClientNoResponseError: client no response in 913896ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rich/2020/rproject/weiwei/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 57858
+hostname: P_TTFU-MB0
+
+2020-11-16 07:47:56,653 ERROR 57858 nodejs.ClusterClientNoResponseError: client no response in 708546ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rich/2020/rproject/weiwei/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 57858
+hostname: P_TTFU-MB0
+
+2020-11-16 07:58:14,473 ERROR 57858 nodejs.ClusterClientNoResponseError: client no response in 577816ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rich/2020/rproject/weiwei/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 57858
+hostname: P_TTFU-MB0
+
+2020-11-16 08:08:10,745 ERROR 57858 nodejs.ClusterClientNoResponseError: client no response in 576264ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rich/2020/rproject/weiwei/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 57858
+hostname: P_TTFU-MB0
+
+2020-11-16 08:18:06,787 ERROR 57858 nodejs.ClusterClientNoResponseError: client no response in 576030ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rich/2020/rproject/weiwei/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 57858
+hostname: P_TTFU-MB0
+
+2020-11-16 09:24:47,300 ERROR 57858 nodejs.ClusterClientNoResponseError: client no response in 3960493ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rich/2020/rproject/weiwei/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 57858
+hostname: P_TTFU-MB0
+
+2020-11-16 09:25:57,006 ERROR 57858 nodejs.ClusterClientNoResponseError: client no response in 69698ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/rich/2020/rproject/weiwei/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 57858
+hostname: P_TTFU-MB0
+

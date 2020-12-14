@@ -1537,3 +1537,21 @@ hostname: P_TTFU-MB0
 2020-12-11 11:56:59,728 INFO 8772 [egg-mongoose] instance[0] start successfully
 2020-12-11 11:56:59,736 INFO 8772 [egg:core] dump config after ready, 5ms
 2020-12-11 11:57:51,040 INFO 8772 [egg-view-nunjucks] loading templates from ["/Users/rich/2020/rproject/weiwei/app/view"]
+2020-12-14 11:31:27,902 INFO 4896 [egg:logger] init all loggers with options: {"dir":"/Users/rich/2020/rproject/weiwei/logs/preview","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"preview-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-14 11:31:27,925 INFO 4896 [egg-multipart] stream mode enable
+2020-12-14 11:31:28,158 INFO 4896 [egg-mongoose] connecting mongodb://wei:rich2020@120.79.228.82:27017/weiwei
+2020-12-14 11:31:28,314 INFO 4896 [egg-static] starting static serve /public/ -> /Users/rich/2020/rproject/weiwei/app/public
+2020-12-14 11:31:28,316 INFO 4896 [egg-security] use methodnoallow middleware
+2020-12-14 11:31:28,316 INFO 4896 [egg-security] use noopen middleware
+2020-12-14 11:31:28,319 INFO 4896 [egg-security] use nosniff middleware
+2020-12-14 11:31:28,319 INFO 4896 [egg-security] use xssProtection middleware
+2020-12-14 11:31:28,320 INFO 4896 [egg-security] use xframe middleware
+2020-12-14 11:31:28,320 INFO 4896 [egg-security] use dta middleware
+2020-12-14 11:31:28,320 INFO 4896 [egg-security] compose 6 middlewares into one security middleware
+2020-12-14 11:31:28,335 INFO 4896 [egg:core] dump config after load, 5ms
+2020-12-14 11:31:28,337 INFO 4896 [egg-mongoose] starting...
+2020-12-14 11:31:28,360 INFO 4896 [egg-watcher:application] watcher start success
+2020-12-14 11:31:28,419 INFO 4896 [egg-mongoose] mongodb://wei:rich2020@120.79.228.82:27017/weiwei connected successfully
+2020-12-14 11:31:28,421 INFO 4896 [egg-mongoose] instance[0] start successfully
+2020-12-14 11:31:28,429 INFO 4896 [egg:core] dump config after ready, 5ms
+2020-12-14 11:31:30,184 INFO 4896 [egg-view-nunjucks] loading templates from ["/Users/rich/2020/rproject/weiwei/app/view"]

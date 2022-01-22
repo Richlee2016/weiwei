@@ -10,7 +10,7 @@
     "egg-scripts": "^2.5.0",
     "koa-formidable": "^1.1.0",
     "lodash": "^4.17.10",
-    "nanoid": "^1.0.4",
+    "nanoid": "^3.1.31",
     "qiniu": "^7.1.7",
     "request": "^2.85.0",
     "request-promise-native": "^1.0.5"
